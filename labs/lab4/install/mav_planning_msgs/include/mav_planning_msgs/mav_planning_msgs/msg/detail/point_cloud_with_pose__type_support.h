@@ -1,0 +1,1 @@
+/home/aimane/vnav23/labs/lab4/build/mav_planning_msgs/rosidl_generator_c/mav_planning_msgs/msg/detail/point_cloud_with_pose__type_support.h

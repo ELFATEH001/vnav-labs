@@ -1,0 +1,14 @@
+{
+    "spawnPoints": [
+        {
+            "name": "tesse_aero_quadrotor_agent",
+            "points": [
+                {
+                    "x": 0.4,
+                    "y": 2,
+                    "z": 8
+                }
+            ]
+        }
+    ]
+}

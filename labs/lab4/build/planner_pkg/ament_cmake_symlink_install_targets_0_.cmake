@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/aimane/vnav23/labs/lab4/build/planner_pkg/traj_vertices_publisher" "/home/aimane/vnav23/labs/lab4/build/planner_pkg/simple_traj_planner" "TARGETS" "traj_vertices_publisher" "simple_traj_planner" "DESTINATION" "lib/planner_pkg")

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmav_visualization.a CMakeFiles/mav_visualization.dir/src/marker_group.cpp.o CMakeFiles/mav_visualization.dir/src/leica_marker.cpp.o CMakeFiles/mav_visualization.dir/src/hexacopter_marker.cpp.o
+/usr/bin/ranlib libmav_visualization.a

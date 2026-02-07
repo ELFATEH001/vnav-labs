@@ -1,0 +1,1 @@
+/home/aimane/vnav23/labs/lab4/build/mav_planning_msgs/rosidl_typesupport_fastrtps_cpp/mav_planning_msgs/msg/detail/point_cloud_with_pose__rosidl_typesupport_fastrtps_cpp.hpp

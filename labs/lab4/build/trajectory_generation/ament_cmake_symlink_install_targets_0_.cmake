@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/aimane/vnav23/labs/lab4/build/trajectory_generation/trajectory_generation_node" "TARGETS" "trajectory_generation_node" "DESTINATION" "lib/trajectory_generation")

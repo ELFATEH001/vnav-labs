@@ -1,0 +1,1 @@
+/home/aimane/vnav23/labs/lab4/build/mav_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

@@ -1,0 +1,1 @@
+/home/aimane/vnav23/labs/lab4/build/mav_trajectory_generation/ament_cmake_environment_hooks/local_setup.bash

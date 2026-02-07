@@ -1,0 +1,68 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Found mav_msgs: 3.3.3 (/home/aimane/vnav23/labs/lab4/install/mav_msgs/share/mav_msgs/cmake)
+-- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+-- Found mav_planning_msgs: 3.3.3 (/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake)
+-- Found mav_trajectory_generation: 0.0.0 (/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake)
+-- Found mav_visualization: 0.0.0 (/home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/cmake)
+-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aimane/vnav23/labs/lab4/build/trajectory_generation
+[ 50%] [32mBuilding CXX object CMakeFiles/trajectory_generation_node.dir/src/trajectory_generation_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/spiral_pose_publisher_node.dir/src/spiral_pose_publisher.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable spiral_pose_publisher_node[0m
+[ 75%] Built target spiral_pose_publisher_node
+[100%] [32m[1mLinking CXX executable trajectory_generation_node[0m
+[100%] Built target trajectory_generation_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/aimane/vnav23/labs/lab4/install/trajectory_generation/share/trajectory_generation/launch/traj_following.launch.py
+-- Symlinking: /home/aimane/vnav23/labs/lab4/install/trajectory_generation/lib/trajectory_generation/trajectory_generation_node
+-- Symlinking: /home/aimane/vnav23/labs/lab4/install/trajectory_generation/share/ament_index/resource_index/package_run_dependencies/trajectory_generation
+-- Symlinking: /home/aimane/vnav23/labs/lab4/install/trajectory_generation/share/ament_index/resource_index/parent_prefix_path/trajectory_generation
+-- Symlinking: /home/aimane/vnav23/labs/lab4/install/trajectory_generation/share/trajectory_generation/environment/ament_prefix_path.sh
+-- Symlinking: /home/aimane/vnav23/labs/lab4/install/trajectory_generation/share/trajectory_generation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/aimane/vnav23/labs/lab4/install/trajectory_generation/share/trajectory_generation/environment/path.sh
+-- Symlinking: /home/aimane/vnav23/labs/lab4/install/trajectory_generation/share/trajectory_generation/environment/path.dsv
+-- Symlinking: /home/aimane/vnav23/labs/lab4/install/trajectory_generation/share/trajectory_generation/local_setup.bash
+-- Symlinking: /home/aimane/vnav23/labs/lab4/install/trajectory_generation/share/trajectory_generation/local_setup.sh
+-- Symlinking: /home/aimane/vnav23/labs/lab4/install/trajectory_generation/share/trajectory_generation/local_setup.zsh
+-- Symlinking: /home/aimane/vnav23/labs/lab4/install/trajectory_generation/share/trajectory_generation/local_setup.dsv
+-- Symlinking: /home/aimane/vnav23/labs/lab4/install/trajectory_generation/share/trajectory_generation/package.dsv
+-- Symlinking: /home/aimane/vnav23/labs/lab4/install/trajectory_generation/share/ament_index/resource_index/packages/trajectory_generation
+-- Symlinking: /home/aimane/vnav23/labs/lab4/install/trajectory_generation/share/trajectory_generation/cmake/trajectory_generationConfig.cmake
+-- Symlinking: /home/aimane/vnav23/labs/lab4/install/trajectory_generation/share/trajectory_generation/cmake/trajectory_generationConfig-version.cmake
+-- Symlinking: /home/aimane/vnav23/labs/lab4/install/trajectory_generation/share/trajectory_generation/package.xml

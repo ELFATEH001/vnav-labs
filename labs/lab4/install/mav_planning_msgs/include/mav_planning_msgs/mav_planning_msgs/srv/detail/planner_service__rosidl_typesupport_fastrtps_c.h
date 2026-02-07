@@ -1,0 +1,1 @@
+/home/aimane/vnav23/labs/lab4/build/mav_planning_msgs/rosidl_typesupport_fastrtps_c/mav_planning_msgs/srv/detail/planner_service__rosidl_typesupport_fastrtps_c.h

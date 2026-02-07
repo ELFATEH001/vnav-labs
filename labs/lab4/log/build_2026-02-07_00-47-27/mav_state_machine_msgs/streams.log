@@ -1,0 +1,164 @@
+[0.034s] Invoking command in '/home/aimane/vnav23/labs/lab4/build/mav_state_machine_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble /usr/bin/cmake /home/aimane/vnav23/labs/lab4/src/mav_comm/mav_state_machine_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs
+[0.121s] -- The C compiler identification is GNU 11.4.0
+[0.505s] -- The CXX compiler identification is GNU 11.4.0
+[0.517s] -- Detecting C compiler ABI info
+[0.636s] -- Detecting C compiler ABI info - done
+[0.652s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.652s] -- Detecting C compile features
+[0.653s] -- Detecting C compile features - done
+[0.658s] -- Detecting CXX compiler ABI info
+[0.805s] -- Detecting CXX compiler ABI info - done
+[0.824s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.824s] -- Detecting CXX compile features
+[0.826s] -- Detecting CXX compile features - done
+[0.831s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.109s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.214s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.262s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.327s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.337s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.355s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.382s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.419s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.881s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.349s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.618s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.641s] -- Configuring done
+[2.697s] -- Generating done
+[2.714s] -- Build files have been written to: /home/aimane/vnav23/labs/lab4/build/mav_state_machine_msgs
+[2.727s] Invoked command in '/home/aimane/vnav23/labs/lab4/build/mav_state_machine_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble /usr/bin/cmake /home/aimane/vnav23/labs/lab4/src/mav_comm/mav_state_machine_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs
+[2.728s] Invoking command in '/home/aimane/vnav23/labs/lab4/build/mav_state_machine_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble /usr/bin/cmake --build /home/aimane/vnav23/labs/lab4/build/mav_state_machine_msgs -- -j8 -l8
+[2.827s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.834s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.718s] [  6%] Built target mav_state_machine_msgs__cpp
+[3.756s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.758s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.766s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.821s] [ 20%] [32mBuilding C object CMakeFiles/mav_state_machine_msgs__rosidl_generator_c.dir/rosidl_generator_c/mav_state_machine_msgs/msg/detail/start_stop_task__functions.c.o[0m
+[3.828s] [ 24%] [32mBuilding C object CMakeFiles/mav_state_machine_msgs__rosidl_generator_c.dir/rosidl_generator_c/mav_state_machine_msgs/srv/detail/run_task_service__functions.c.o[0m
+[4.067s] [ 27%] [32m[1mLinking C shared library libmav_state_machine_msgs__rosidl_generator_c.so[0m
+[4.289s] [ 27%] Built target mav_state_machine_msgs__rosidl_generator_c
+[4.358s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.377s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.378s] [ 37%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.986s] [ 41%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mav_state_machine_msgs/srv/run_task_service__type_support.cpp.o[0m
+[5.017s] [ 44%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mav_state_machine_msgs/msg/start_stop_task__type_support.cpp.o[0m
+[5.577s] [ 48%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mav_state_machine_msgs/msg/detail/dds_fastrtps/start_stop_task__type_support.cpp.o[0m
+[5.599s] [ 51%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mav_state_machine_msgs/srv/detail/dds_fastrtps/run_task_service__type_support.cpp.o[0m
+[6.610s] [ 55%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mav_state_machine_msgs/msg/detail/start_stop_task__type_support.cpp.o[0m
+[7.209s] [ 58%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mav_state_machine_msgs/srv/detail/run_task_service__type_support.cpp.o[0m
+[7.590s] [ 62%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mav_state_machine_msgs/msg/start_stop_task__type_support.cpp.o[0m
+[8.004s] [ 65%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mav_state_machine_msgs/srv/run_task_service__type_support.cpp.o[0m
+[8.195s] [ 68%] [32m[1mLinking CXX shared library libmav_state_machine_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.255s] [ 72%] [32m[1mLinking CXX shared library libmav_state_machine_msgs__rosidl_typesupport_c.so[0m
+[8.368s] [ 75%] [32mBuilding C object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mav_state_machine_msgs/srv/detail/run_task_service__type_support.c.o[0m
+[8.408s] [ 79%] [32mBuilding C object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mav_state_machine_msgs/msg/detail/start_stop_task__type_support.c.o[0m
+[8.453s] [ 82%] [32m[1mLinking CXX shared library libmav_state_machine_msgs__rosidl_typesupport_cpp.so[0m
+[8.493s] [ 82%] Built target mav_state_machine_msgs__rosidl_typesupport_c
+[8.682s] [ 82%] Built target mav_state_machine_msgs__rosidl_typesupport_cpp
+[8.788s] [ 86%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mav_state_machine_msgs/msg/detail/start_stop_task__type_support_c.cpp.o[0m
+[8.801s] [ 89%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mav_state_machine_msgs/srv/detail/run_task_service__type_support_c.cpp.o[0m
+[8.809s] [ 93%] [32m[1mLinking C shared library libmav_state_machine_msgs__rosidl_typesupport_introspection_c.so[0m
+[8.916s] [ 93%] Built target mav_state_machine_msgs__rosidl_typesupport_fastrtps_cpp
+[9.042s] [ 93%] Built target mav_state_machine_msgs__rosidl_typesupport_introspection_c
+[10.256s] [ 96%] [32m[1mLinking CXX shared library libmav_state_machine_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.599s] [ 96%] Built target mav_state_machine_msgs__rosidl_typesupport_introspection_cpp
+[10.733s] [100%] [32m[1mLinking CXX shared library libmav_state_machine_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.084s] [100%] Built target mav_state_machine_msgs__rosidl_typesupport_fastrtps_c
+[11.206s] [100%] Built target mav_state_machine_msgs
+[11.255s] Invoked command in '/home/aimane/vnav23/labs/lab4/build/mav_state_machine_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble /usr/bin/cmake --build /home/aimane/vnav23/labs/lab4/build/mav_state_machine_msgs -- -j8 -l8
+[11.297s] Invoking command in '/home/aimane/vnav23/labs/lab4/build/mav_state_machine_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble /usr/bin/cmake --install /home/aimane/vnav23/labs/lab4/build/mav_state_machine_msgs
+[11.315s] -- Install configuration: ""
+[11.316s] -- Execute custom install script
+[11.317s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/ament_index/resource_index/rosidl_interfaces/mav_state_machine_msgs
+[11.365s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__functions.h
+[11.416s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__struct.h
+[11.462s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__type_support.h
+[11.508s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/rosidl_generator_c__visibility_control.h
+[11.577s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/start_stop_task.h
+[11.613s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__functions.h
+[11.639s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__struct.h
+[11.675s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__type_support.h
+[11.742s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/run_task_service.h
+[11.778s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/environment/library_path.sh
+[11.817s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/environment/library_path.dsv
+[11.854s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__rosidl_typesupport_fastrtps_c.h
+[11.899s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.950s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__rosidl_typesupport_fastrtps_c.h
+[12.000s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__builder.hpp
+[12.046s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__struct.hpp
+[12.093s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__traits.hpp
+[12.139s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__type_support.hpp
+[12.181s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.236s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/start_stop_task.hpp
+[12.280s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__builder.hpp
+[12.348s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__struct.hpp
+[12.415s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__traits.hpp
+[12.462s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__type_support.hpp
+[12.502s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/run_task_service.hpp
+[12.550s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__rosidl_typesupport_fastrtps_cpp.hpp
+[12.597s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.641s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__rosidl_typesupport_fastrtps_cpp.hpp
+[12.684s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__rosidl_typesupport_introspection_c.h
+[12.723s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.766s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__rosidl_typesupport_introspection_c.h
+[12.815s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__rosidl_typesupport_introspection_cpp.hpp
+[12.888s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__rosidl_typesupport_introspection_cpp.hpp
+[12.930s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/msg/StartStopTask.idl
+[12.974s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/srv/RunTaskService.idl
+[13.035s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/msg/StartStopTask.msg
+[13.096s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/srv/RunTaskService.srv
+[13.124s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/srv/RunTaskService_Request.msg
+[13.164s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/srv/RunTaskService_Response.msg
+[13.203s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/ament_index/resource_index/package_run_dependencies/mav_state_machine_msgs
+[13.282s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/ament_index/resource_index/parent_prefix_path/mav_state_machine_msgs
+[13.349s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/environment/ament_prefix_path.sh
+[13.413s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/environment/ament_prefix_path.dsv
+[13.458s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/environment/path.sh
+[13.504s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/environment/path.dsv
+[13.554s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/local_setup.bash
+[13.595s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/local_setup.sh
+[13.643s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/local_setup.zsh
+[13.709s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/local_setup.dsv
+[13.757s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/package.dsv
+[13.802s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/ament_index/resource_index/packages/mav_state_machine_msgs
+[13.844s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/rosidl_cmake-extras.cmake
+[13.897s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.942s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.023s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.074s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.122s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.167s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.215s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgsConfig.cmake
+[14.270s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgsConfig-version.cmake
+[14.310s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/package.xml
+[14.353s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_generator_c.so
+[14.361s] -- Set runtime path of "/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_generator_c.so" to ""
+[14.362s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_fastrtps_c.so
+[14.369s] -- Set runtime path of "/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[14.370s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_fastrtps_cpp.so
+[14.370s] -- Set runtime path of "/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.379s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_introspection_c.so
+[14.379s] -- Set runtime path of "/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_introspection_c.so" to ""
+[14.379s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_c.so
+[14.381s] -- Set runtime path of "/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_c.so" to ""
+[14.382s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_introspection_cpp.so
+[14.389s] -- Set runtime path of "/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[14.389s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_cpp.so
+[14.390s] -- Set runtime path of "/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_cpp.so" to ""
+[14.391s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/export_mav_state_machine_msgs__rosidl_generator_cExport.cmake
+[14.391s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/export_mav_state_machine_msgs__rosidl_generator_cExport-noconfig.cmake
+[14.397s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/export_mav_state_machine_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[14.398s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/export_mav_state_machine_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.398s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/export_mav_state_machine_msgs__rosidl_generator_cppExport.cmake
+[14.402s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/export_mav_state_machine_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.402s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/export_mav_state_machine_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.403s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.404s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.405s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgs__rosidl_typesupport_cExport.cmake
+[14.405s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[14.406s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.412s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.413s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgs__rosidl_typesupport_cppExport.cmake
+[14.413s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[14.444s] Invoked command in '/home/aimane/vnav23/labs/lab4/build/mav_state_machine_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble /usr/bin/cmake --install /home/aimane/vnav23/labs/lab4/build/mav_state_machine_msgs

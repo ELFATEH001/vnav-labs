@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mav_msgs__py",
+		"source" : "/home/aimane/vnav23/labs/lab4/build/mav_msgs/mav_msgs__py"
+	}
+}

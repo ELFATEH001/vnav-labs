@@ -1,0 +1,1 @@
+/home/aimane/vnav23/labs/lab4/build/mav_planning_msgs/rosidl_generator_cpp/mav_planning_msgs/msg/detail/polynomial_trajectory__type_support.hpp

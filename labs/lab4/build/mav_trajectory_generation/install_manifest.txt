@@ -1,0 +1,3 @@
+/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/lib/mav_trajectory_generation/libmav_trajectory_generation.a
+/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/mav_trajectory_generationTargetsExport.cmake
+/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/mav_trajectory_generationTargetsExport-noconfig.cmake

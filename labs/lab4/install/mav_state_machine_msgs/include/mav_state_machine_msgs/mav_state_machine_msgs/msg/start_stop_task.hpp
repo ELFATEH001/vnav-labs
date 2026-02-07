@@ -1,0 +1,1 @@
+/home/aimane/vnav23/labs/lab4/build/mav_state_machine_msgs/rosidl_generator_cpp/mav_state_machine_msgs/msg/start_stop_task.hpp

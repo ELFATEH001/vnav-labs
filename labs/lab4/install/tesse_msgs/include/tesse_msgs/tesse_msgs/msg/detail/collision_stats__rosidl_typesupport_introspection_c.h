@@ -1,0 +1,1 @@
+/home/aimane/vnav23/labs/lab4/build/tesse_msgs/rosidl_typesupport_introspection_c/tesse_msgs/msg/detail/collision_stats__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,1 @@
+/home/aimane/vnav23/labs/lab4/build/trajectory_generation/ament_cmake_core/trajectory_generationConfig-version.cmake

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>mav_visualization</name>
+  <version>0.0.0</version>
+  <description>Visualization helpers for MAVs (with meshes).</description>
+
+  <author email="markus.achtelik_devel@mavt.ethz.ch">Markus Achtelik</author>
+  <author email="michael.burri@mavt.ethz.ch">Michael Burri</author>
+  <author email="helen.oleynikova@mavt.ethz.ch">Helen Oleynikova</author>
+  <author email="brik@ethz.ch">Rik Bähnemann</author>
+  <author email="mpopovic@ethz.ch">Marija Popovic</author>
+
+  <maintainer email="brik@ethz.ch">Rik Bähnemann</maintainer>
+
+  <license>ASL 2.0</license>
+
+
+  <depend>cmake_modules</depend>
+
+  <depend>eigen_conversions</depend>
+  <depend>visualization_msgs</depend>
+</package>
