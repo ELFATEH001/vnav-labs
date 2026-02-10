@@ -1,0 +1,184 @@
+[0.062s] Invoking command in '/home/aimane/vnav23/labs/lab4/src/build/mav_system_msgs': CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs /usr/bin/cmake /home/aimane/vnav23/labs/lab4/src/mav_comm/mav_system_msgs -DCMAKE_INSTALL_PREFIX=/home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs
+[2.140s] -- The C compiler identification is GNU 11.4.0
+[2.238s] -- The CXX compiler identification is GNU 11.4.0
+[2.252s] -- Detecting C compiler ABI info
+[2.350s] -- Detecting C compiler ABI info - done
+[2.367s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.367s] -- Detecting C compile features
+[2.376s] -- Detecting C compile features - done
+[2.382s] -- Detecting CXX compiler ABI info
+[2.525s] -- Detecting CXX compiler ABI info - done
+[2.539s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.540s] -- Detecting CXX compile features
+[2.541s] -- Detecting CXX compile features - done
+[2.544s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[2.812s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.043s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.254s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.312s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.383s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.417s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.806s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.398s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.611s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.626s] -- Configuring done
+[4.669s] -- Generating done
+[4.683s] -- Build files have been written to: /home/aimane/vnav23/labs/lab4/src/build/mav_system_msgs
+[4.693s] Invoked command in '/home/aimane/vnav23/labs/lab4/src/build/mav_system_msgs' returned '0': CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs /usr/bin/cmake /home/aimane/vnav23/labs/lab4/src/mav_comm/mav_system_msgs -DCMAKE_INSTALL_PREFIX=/home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs
+[4.694s] Invoking command in '/home/aimane/vnav23/labs/lab4/src/build/mav_system_msgs': CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs /usr/bin/cmake --build /home/aimane/vnav23/labs/lab4/src/build/mav_system_msgs -- -j8 -l8
+[4.749s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.770s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.870s] [  6%] Built target mav_system_msgs__cpp
+[5.923s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.931s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.943s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.977s] [ 20%] [32mBuilding C object CMakeFiles/mav_system_msgs__rosidl_generator_c.dir/rosidl_generator_c/mav_system_msgs/msg/detail/cpu_info__functions.c.o[0m
+[5.994s] [ 24%] [32mBuilding C object CMakeFiles/mav_system_msgs__rosidl_generator_c.dir/rosidl_generator_c/mav_system_msgs/msg/detail/process_info__functions.c.o[0m
+[6.252s] [ 27%] [32m[1mLinking C shared library libmav_system_msgs__rosidl_generator_c.so[0m
+[6.397s] [ 27%] Built target mav_system_msgs__rosidl_generator_c
+[6.439s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.440s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.446s] [ 37%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.486s] [ 41%] [32mBuilding CXX object CMakeFiles/mav_system_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mav_system_msgs/msg/detail/cpu_info__type_support.cpp.o[0m
+[7.520s] [ 44%] [32mBuilding CXX object CMakeFiles/mav_system_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mav_system_msgs/msg/detail/process_info__type_support.cpp.o[0m
+[7.661s] [ 48%] [32mBuilding CXX object CMakeFiles/mav_system_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mav_system_msgs/msg/cpu_info__type_support.cpp.o[0m
+[7.685s] [ 51%] [32mBuilding CXX object CMakeFiles/mav_system_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mav_system_msgs/msg/process_info__type_support.cpp.o[0m
+[8.023s] [ 55%] [32mBuilding CXX object CMakeFiles/mav_system_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mav_system_msgs/msg/cpu_info__type_support.cpp.o[0m
+[8.116s] [ 58%] [32mBuilding CXX object CMakeFiles/mav_system_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mav_system_msgs/msg/process_info__type_support.cpp.o[0m
+[8.177s] [ 62%] [32m[1mLinking CXX shared library libmav_system_msgs__rosidl_typesupport_c.so[0m
+[8.277s] [ 62%] Built target mav_system_msgs__rosidl_typesupport_c
+[8.529s] [ 65%] [32mBuilding CXX object CMakeFiles/mav_system_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mav_system_msgs/msg/detail/cpu_info__type_support_c.cpp.o[0m
+[8.634s] [ 68%] [32mBuilding CXX object CMakeFiles/mav_system_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mav_system_msgs/msg/detail/process_info__type_support_c.cpp.o[0m
+[8.743s] [ 72%] [32mBuilding CXX object CMakeFiles/mav_system_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mav_system_msgs/msg/detail/dds_fastrtps/cpu_info__type_support.cpp.o[0m
+[9.044s] [ 75%] [32mBuilding C object CMakeFiles/mav_system_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mav_system_msgs/msg/detail/cpu_info__type_support.c.o[0m
+[9.250s] [ 79%] [32mBuilding C object CMakeFiles/mav_system_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mav_system_msgs/msg/detail/process_info__type_support.c.o[0m
+[9.426s] [ 82%] [32m[1mLinking C shared library libmav_system_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.521s] [ 86%] [32mBuilding CXX object CMakeFiles/mav_system_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mav_system_msgs/msg/detail/dds_fastrtps/process_info__type_support.cpp.o[0m
+[9.552s] [ 86%] Built target mav_system_msgs__rosidl_typesupport_introspection_c
+[9.889s] [ 89%] [32m[1mLinking CXX shared library libmav_system_msgs__rosidl_typesupport_cpp.so[0m
+[10.128s] [ 89%] Built target mav_system_msgs__rosidl_typesupport_cpp
+[10.893s] [ 93%] [32m[1mLinking CXX shared library libmav_system_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.045s] [ 96%] [32m[1mLinking CXX shared library libmav_system_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.203s] [ 96%] Built target mav_system_msgs__rosidl_typesupport_introspection_cpp
+[11.331s] [ 96%] Built target mav_system_msgs__rosidl_typesupport_fastrtps_c
+[11.625s] [100%] [32m[1mLinking CXX shared library libmav_system_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.953s] [100%] Built target mav_system_msgs__rosidl_typesupport_fastrtps_cpp
+[12.066s] [100%] Built target mav_system_msgs
+[12.135s] Invoked command in '/home/aimane/vnav23/labs/lab4/src/build/mav_system_msgs' returned '0': CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs /usr/bin/cmake --build /home/aimane/vnav23/labs/lab4/src/build/mav_system_msgs -- -j8 -l8
+[12.135s] Invoking command in '/home/aimane/vnav23/labs/lab4/src/build/mav_system_msgs': CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs /usr/bin/cmake --install /home/aimane/vnav23/labs/lab4/src/build/mav_system_msgs
+[12.181s] -- Install configuration: ""
+[12.188s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/ament_index/resource_index/rosidl_interfaces/mav_system_msgs
+[12.189s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs
+[12.189s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg
+[12.189s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/process_info.h
+[12.189s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail
+[12.189s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__functions.h
+[12.189s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__functions.c
+[12.189s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__functions.c
+[12.193s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__struct.h
+[12.194s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__type_support.h
+[12.195s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__struct.h
+[12.203s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__type_support.h
+[12.203s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__functions.h
+[12.203s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/cpu_info.h
+[12.203s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.204s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/environment/library_path.sh
+[12.204s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/environment/library_path.dsv
+[12.204s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_generator_c.so
+[12.205s] -- Set runtime path of "/home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_generator_c.so" to ""
+[12.213s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs
+[12.213s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg
+[12.214s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail
+[12.214s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__rosidl_typesupport_fastrtps_c.h
+[12.214s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__rosidl_typesupport_fastrtps_c.h
+[12.214s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.214s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_typesupport_fastrtps_c.so
+[12.214s] -- Set runtime path of "/home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[12.214s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs
+[12.216s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg
+[12.216s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/process_info.hpp
+[12.216s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail
+[12.220s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__traits.hpp
+[12.223s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__traits.hpp
+[12.223s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__builder.hpp
+[12.223s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__struct.hpp
+[12.223s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__builder.hpp
+[12.223s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__type_support.hpp
+[12.223s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__type_support.hpp
+[12.224s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__struct.hpp
+[12.224s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/cpu_info.hpp
+[12.225s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.227s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs
+[12.228s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg
+[12.228s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail
+[12.231s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/dds_fastrtps
+[12.231s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__rosidl_typesupport_fastrtps_cpp.hpp
+[12.232s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[12.232s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.239s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.239s] -- Set runtime path of "/home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.239s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs
+[12.239s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg
+[12.239s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.239s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail
+[12.240s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__type_support.c
+[12.242s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__rosidl_typesupport_introspection_c.h
+[12.242s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__type_support.c
+[12.252s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__rosidl_typesupport_introspection_c.h
+[12.252s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_typesupport_introspection_c.so
+[12.252s] -- Set runtime path of "/home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_typesupport_introspection_c.so" to ""
+[12.252s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_typesupport_c.so
+[12.252s] -- Set runtime path of "/home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_typesupport_c.so" to ""
+[12.253s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs
+[12.253s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg
+[12.253s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail
+[12.253s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__rosidl_typesupport_introspection_cpp.hpp
+[12.253s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__rosidl_typesupport_introspection_cpp.hpp
+[12.260s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__type_support.cpp
+[12.260s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__type_support.cpp
+[12.260s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_typesupport_introspection_cpp.so
+[12.261s] -- Set runtime path of "/home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[12.262s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_typesupport_cpp.so
+[12.265s] -- Set runtime path of "/home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_typesupport_cpp.so" to ""
+[12.269s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/msg/CpuInfo.idl
+[12.272s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/msg/ProcessInfo.idl
+[12.272s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/msg/CpuInfo.msg
+[12.279s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/msg/ProcessInfo.msg
+[12.279s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/ament_index/resource_index/package_run_dependencies/mav_system_msgs
+[12.279s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/ament_index/resource_index/parent_prefix_path/mav_system_msgs
+[12.279s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/environment/ament_prefix_path.sh
+[12.280s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/environment/ament_prefix_path.dsv
+[12.280s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/environment/path.sh
+[12.281s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/environment/path.dsv
+[12.289s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/local_setup.bash
+[12.289s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/local_setup.sh
+[12.289s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/local_setup.zsh
+[12.289s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/local_setup.dsv
+[12.289s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/package.dsv
+[12.289s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/ament_index/resource_index/packages/mav_system_msgs
+[12.290s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/export_mav_system_msgs__rosidl_generator_cExport.cmake
+[12.297s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/export_mav_system_msgs__rosidl_generator_cExport-noconfig.cmake
+[12.297s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/export_mav_system_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[12.297s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/export_mav_system_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.298s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/export_mav_system_msgs__rosidl_generator_cppExport.cmake
+[12.298s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/export_mav_system_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.298s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/export_mav_system_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.298s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgs__rosidl_typesupport_introspection_cExport.cmake
+[12.311s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.311s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgs__rosidl_typesupport_cExport.cmake
+[12.311s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[12.312s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[12.312s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.312s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgs__rosidl_typesupport_cppExport.cmake
+[12.313s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[12.318s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/rosidl_cmake-extras.cmake
+[12.318s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.323s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.323s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.324s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.325s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.325s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.330s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgsConfig.cmake
+[12.331s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgsConfig-version.cmake
+[12.335s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_system_msgs/share/mav_system_msgs/package.xml
+[12.351s] Invoked command in '/home/aimane/vnav23/labs/lab4/src/build/mav_system_msgs' returned '0': CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs /usr/bin/cmake --install /home/aimane/vnav23/labs/lab4/src/build/mav_system_msgs

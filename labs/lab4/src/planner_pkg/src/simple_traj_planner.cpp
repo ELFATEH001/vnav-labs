@@ -55,16 +55,65 @@ private:
     //   3. Publish the desired MultiDOFJointTrajectoryPoint
     //   4. Create and publish TF transform of the desired pose
     // ~~~~ begin solution
-
+    const auto&
     geometry_msgs::msg::Transform transform;
+    geometry_msgs::msg::TransformStamped transformStamped;
+    geometry_msgs::msg::Twist accelerations;
+    geometry_msgs::msg::Twist velocities;
     geometry_msgs::msg::Pose desired_pose;
+    trajectory_msgs::msg::MultiDOFJointTrajectoryPoint desired_MDOF;
+
+    // 0. stamped transform
+    transformStamped.header.stamp = this->get_clock()->now();
+    transformStamped.header.frame_id = "world";
+    transformStamped.child_frame_id = "desired_pose";
     
-    geometry_msgs::msg::Point desired_Point;
-    geometry_msgs::msg::quat desired_quat;
+
+    // 1. get desired pose
+    desired_pose.position.x = traj_msg->poses[0].position.x;
+    desired_pose.position.y = traj_msg->poses[0].position.y;
+    desired_pose.position.z = traj_msg->poses[0].position.z;
+
+    desired_pose.orientation.x = traj_msg->poses[0].orientation.x;
+    desired_pose.orientation.y = traj_msg->poses[0].orientation.y;
+    desired_pose.orientation.z = traj_msg->poses[0].orientation.z;
+    desired_pose.orientation.w = traj_msg->poses[0].orientation.w;
+
+    transform.translation.x = desired_pose.position.x;
+    transform.translation.y = desired_pose.position.y;
+    transform.translation.z = desired_pose.position.z;
+
+    transform.rotation.w = desired_pose.orientation.w;
+    transform.rotation.x = desired_pose.orientation.x;
+    transform.rotation.y = desired_pose.orientation.y;
+    transform.rotation.z = desired_pose.orientation.z;
+  
+    // 2. set acc and vel to zero
+    velocities.linear.x = 0;
+    velocities.linear.y = 0;
+    velocities.linear.z = 0;
+    velocities.angular.x = 0;
+    velocities.angular.y = 0;
+    velocities.angular.z = 0;
     
-    // getting data from recieved command
+    accelerations.linear.x = 0;
+    accelerations.linear.y = 0;
+    accelerations.linear.z = 0;
+    accelerations.angular.x = 0;
+    accelerations.angular.y = 0;
+    accelerations.angular.z = 0;
+
+    // Desired MDOF
+    desired_MDOF.time_from_start = rclcpp::Duration(0, 0);
+    desired_MDOF.transforms.push_back(transform);
+    desired_MDOF.velocities.push_back(velocities);
+    desired_MDOF.accelerations.push_back(accelerations);
+
     
-    desired_pose = traj_msg->poses[0];
+    desired_state_pub_->publish(desired_MDOF);
+
+    transformStamped.transform = transform;
+    br_->sendTransform(transformStamped);
 
     // ~~~~ end solution
     // ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~

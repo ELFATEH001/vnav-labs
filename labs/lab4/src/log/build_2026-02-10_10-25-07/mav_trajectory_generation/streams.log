@@ -1,0 +1,104 @@
+[0.029s] Invoking command in '/home/aimane/vnav23/labs/lab4/src/build/mav_trajectory_generation': AMENT_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs LD_LIBRARY_PATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aimane/vnav23/labs/lab4/src/mav_trajectory_generation/mav_trajectory_generation -DCMAKE_INSTALL_PREFIX=/home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation
+[0.107s] -- The C compiler identification is GNU 11.4.0
+[0.199s] -- The CXX compiler identification is GNU 11.4.0
+[0.217s] -- Detecting C compiler ABI info
+[0.353s] -- Detecting C compiler ABI info - done
+[0.367s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.367s] -- Detecting C compile features
+[0.368s] -- Detecting C compile features - done
+[0.372s] -- Detecting CXX compiler ABI info
+[0.496s] -- Detecting CXX compiler ABI info - done
+[0.513s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.514s] -- Detecting CXX compile features
+[0.516s] -- Detecting CXX compile features - done
+[0.521s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.784s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.973s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.075s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.087s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.103s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.126s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.248s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.256s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.460s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.514s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.597s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.617s] -- Looking for pthread.h
+[1.746s] -- Looking for pthread.h - found
+[1.748s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.882s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.885s] -- Found Threads: TRUE  
+[2.026s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.051s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.067s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.068s] -- Found mav_msgs: 3.3.3 (/home/aimane/vnav23/labs/lab4/src/install/mav_msgs/share/mav_msgs/cmake)
+[2.151s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.156s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.157s] -- Checking for module 'yaml-cpp>=0.5'
+[2.368s] --   Found yaml-cpp, version 0.7.0
+[2.527s] -- Configuring done
+[2.568s] -- Generating done
+[2.580s] -- Build files have been written to: /home/aimane/vnav23/labs/lab4/src/build/mav_trajectory_generation
+[2.596s] Invoked command in '/home/aimane/vnav23/labs/lab4/src/build/mav_trajectory_generation' returned '0': AMENT_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs LD_LIBRARY_PATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aimane/vnav23/labs/lab4/src/mav_trajectory_generation/mav_trajectory_generation -DCMAKE_INSTALL_PREFIX=/home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation
+[2.599s] Invoking command in '/home/aimane/vnav23/labs/lab4/src/build/mav_trajectory_generation': AMENT_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs LD_LIBRARY_PATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aimane/vnav23/labs/lab4/src/build/mav_trajectory_generation -- -j8 -l8
+[2.693s] [ 16%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/segment.cpp.o[0m
+[2.693s] [ 16%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/timing.cpp.o[0m
+[2.699s] [ 25%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/trajectory_sampling.cpp.o[0m
+[2.699s] [ 33%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/motion_defines.cpp.o[0m
+[2.699s] [ 41%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/polynomial.cpp.o[0m
+[2.709s] [ 50%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/vertex.cpp.o[0m
+[2.709s] [ 58%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/trajectory.cpp.o[0m
+[2.709s] [ 66%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/io.cpp.o[0m
+[3.926s] [ 75%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/rpoly/rpoly_ak1.cpp.o[0m
+[23.085s] [ 83%] [32m[1mLinking CXX static library libmav_trajectory_generation.a[0m
+[23.498s] [ 83%] Built target mav_trajectory_generation
+[23.563s] [ 91%] [32mBuilding CXX object CMakeFiles/polynomial_timing_evaluation.dir/src/polynomial_timing_evaluation.cpp.o[0m
+[38.406s] [100%] [32m[1mLinking CXX executable polynomial_timing_evaluation[0m
+[39.414s] [100%] Built target polynomial_timing_evaluation
+[39.429s] Invoked command in '/home/aimane/vnav23/labs/lab4/src/build/mav_trajectory_generation' returned '0': AMENT_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs LD_LIBRARY_PATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aimane/vnav23/labs/lab4/src/build/mav_trajectory_generation -- -j8 -l8
+[39.430s] Invoking command in '/home/aimane/vnav23/labs/lab4/src/build/mav_trajectory_generation': AMENT_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs LD_LIBRARY_PATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aimane/vnav23/labs/lab4/src/build/mav_trajectory_generation
+[39.440s] -- Install configuration: ""
+[39.440s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/lib/mav_trajectory_generation/libmav_trajectory_generation.a
+[39.446s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include/
+[39.446s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation
+[39.447s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/motion_defines.h
+[39.447s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/trajectory_sampling.h
+[39.447s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/polynomial_optimization_linear.h
+[39.447s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/rpoly
+[39.447s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/rpoly/rpoly_ak1.h
+[39.447s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/convolution.h
+[39.448s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/trajectory.h
+[39.448s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/impl
+[39.448s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/impl/polynomial_optimization_linear_impl.h
+[39.448s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/impl/polynomial_optimization_nonlinear_impl.h
+[39.486s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/io.h
+[39.487s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/test_utils.h
+[39.487s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/polynomial.h
+[39.488s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/extremum.h
+[39.488s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/timing.h
+[39.488s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/polynomial_optimization_nonlinear.h
+[39.490s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/segment.h
+[39.491s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/vertex.h
+[39.491s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/environment/library_path.sh
+[39.492s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/environment/library_path.dsv
+[39.492s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/ament_index/resource_index/package_run_dependencies/mav_trajectory_generation
+[39.492s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/ament_index/resource_index/parent_prefix_path/mav_trajectory_generation
+[39.493s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/environment/ament_prefix_path.sh
+[39.493s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/environment/ament_prefix_path.dsv
+[39.493s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/environment/path.sh
+[39.494s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/environment/path.dsv
+[39.494s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/local_setup.bash
+[39.494s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/local_setup.sh
+[39.494s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/local_setup.zsh
+[39.495s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/local_setup.dsv
+[39.495s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/package.dsv
+[39.495s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/ament_index/resource_index/packages/mav_trajectory_generation
+[39.496s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/mav_trajectory_generationTargetsExport.cmake
+[39.496s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/mav_trajectory_generationTargetsExport-noconfig.cmake
+[39.496s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.497s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/ament_cmake_export_targets-extras.cmake
+[39.497s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/mav_trajectory_generationConfig.cmake
+[39.497s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/mav_trajectory_generationConfig-version.cmake
+[39.497s] -- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/package.xml
+[39.500s] Invoked command in '/home/aimane/vnav23/labs/lab4/src/build/mav_trajectory_generation' returned '0': AMENT_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs LD_LIBRARY_PATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/vnav23/labs/lab4/src/install/mav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aimane/vnav23/labs/lab4/src/build/mav_trajectory_generation

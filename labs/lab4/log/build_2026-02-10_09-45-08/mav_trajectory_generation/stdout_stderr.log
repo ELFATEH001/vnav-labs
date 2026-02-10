@@ -1,0 +1,62 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found mav_msgs: 3.3.3 (/home/aimane/vnav23/labs/lab4/install/mav_msgs/share/mav_msgs/cmake)
+-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aimane/vnav23/labs/lab4/build/mav_trajectory_generation
+[35m[1mConsolidate compiler generated dependencies of target mav_trajectory_generation[0m
+[ 83%] Built target mav_trajectory_generation
+[35m[1mConsolidate compiler generated dependencies of target polynomial_timing_evaluation[0m
+[100%] Built target polynomial_timing_evaluation
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include//mav_trajectory_generation/convolution.h
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include//mav_trajectory_generation/extremum.h
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include//mav_trajectory_generation/impl/polynomial_optimization_linear_impl.h
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include//mav_trajectory_generation/impl/polynomial_optimization_nonlinear_impl.h
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include//mav_trajectory_generation/io.h
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include//mav_trajectory_generation/motion_defines.h
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include//mav_trajectory_generation/polynomial.h
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include//mav_trajectory_generation/polynomial_optimization_linear.h
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include//mav_trajectory_generation/polynomial_optimization_nonlinear.h
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include//mav_trajectory_generation/rpoly/rpoly_ak1.h
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include//mav_trajectory_generation/segment.h
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include//mav_trajectory_generation/test_utils.h
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include//mav_trajectory_generation/timing.h
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include//mav_trajectory_generation/trajectory.h
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include//mav_trajectory_generation/trajectory_sampling.h
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include//mav_trajectory_generation/vertex.h
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/environment/library_path.sh
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/environment/library_path.dsv
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/ament_index/resource_index/package_run_dependencies/mav_trajectory_generation
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/ament_index/resource_index/parent_prefix_path/mav_trajectory_generation
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/environment/path.sh
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/environment/path.dsv
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/local_setup.bash
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/local_setup.sh
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/local_setup.zsh
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/local_setup.dsv
+-- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/package.dsv
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/ament_index/resource_index/packages/mav_trajectory_generation
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/mav_trajectory_generationConfig.cmake
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/mav_trajectory_generationConfig-version.cmake
+-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/package.xml
+-- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/lib/mav_trajectory_generation/libmav_trajectory_generation.a
+-- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/mav_trajectory_generationTargetsExport.cmake
+-- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/mav_trajectory_generationTargetsExport-noconfig.cmake

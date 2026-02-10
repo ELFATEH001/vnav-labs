@@ -1,0 +1,98 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Found mav_msgs: 3.3.3 (/home/aimane/vnav23/labs/lab4/src/install/mav_msgs/share/mav_msgs/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Checking for module 'yaml-cpp>=0.5'
+--   Found yaml-cpp, version 0.7.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aimane/vnav23/labs/lab4/src/build/mav_trajectory_generation
+[ 16%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/segment.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/timing.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/trajectory_sampling.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/motion_defines.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/polynomial.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/vertex.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/trajectory.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/io.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/rpoly/rpoly_ak1.cpp.o[0m
+[ 83%] [32m[1mLinking CXX static library libmav_trajectory_generation.a[0m
+[ 83%] Built target mav_trajectory_generation
+[ 91%] [32mBuilding CXX object CMakeFiles/polynomial_timing_evaluation.dir/src/polynomial_timing_evaluation.cpp.o[0m
+[100%] [32m[1mLinking CXX executable polynomial_timing_evaluation[0m
+[100%] Built target polynomial_timing_evaluation
+-- Install configuration: ""
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/lib/mav_trajectory_generation/libmav_trajectory_generation.a
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include/
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/motion_defines.h
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/trajectory_sampling.h
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/polynomial_optimization_linear.h
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/rpoly
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/rpoly/rpoly_ak1.h
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/convolution.h
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/trajectory.h
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/impl
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/impl/polynomial_optimization_linear_impl.h
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/impl/polynomial_optimization_nonlinear_impl.h
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/io.h
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/test_utils.h
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/polynomial.h
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/extremum.h
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/timing.h
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/polynomial_optimization_nonlinear.h
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/segment.h
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/include//mav_trajectory_generation/vertex.h
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/environment/library_path.sh
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/environment/library_path.dsv
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/ament_index/resource_index/package_run_dependencies/mav_trajectory_generation
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/ament_index/resource_index/parent_prefix_path/mav_trajectory_generation
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/environment/ament_prefix_path.sh
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/environment/ament_prefix_path.dsv
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/environment/path.sh
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/environment/path.dsv
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/local_setup.bash
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/local_setup.sh
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/local_setup.zsh
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/local_setup.dsv
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/package.dsv
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/ament_index/resource_index/packages/mav_trajectory_generation
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/mav_trajectory_generationTargetsExport.cmake
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/mav_trajectory_generationTargetsExport-noconfig.cmake
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/mav_trajectory_generationConfig.cmake
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/cmake/mav_trajectory_generationConfig-version.cmake
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/mav_trajectory_generation/share/mav_trajectory_generation/package.xml

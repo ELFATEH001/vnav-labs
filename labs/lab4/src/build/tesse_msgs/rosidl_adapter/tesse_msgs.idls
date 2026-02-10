@@ -1,0 +1,4 @@
+/home/aimane/vnav23/labs/lab4/src/build/tesse_msgs/rosidl_adapter/tesse_msgs:msg/CollisionStats.idl
+/home/aimane/vnav23/labs/lab4/src/build/tesse_msgs/rosidl_adapter/tesse_msgs:srv/ObjectSpawnRequestService.idl
+/home/aimane/vnav23/labs/lab4/src/build/tesse_msgs/rosidl_adapter/tesse_msgs:srv/RepositionRequestService.idl
+/home/aimane/vnav23/labs/lab4/src/build/tesse_msgs/rosidl_adapter/tesse_msgs:srv/SceneRequestService.idl

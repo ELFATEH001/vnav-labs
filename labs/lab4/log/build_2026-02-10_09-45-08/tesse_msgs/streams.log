@@ -1,0 +1,215 @@
+[0.197s] Invoking command in '/home/aimane/vnav23/labs/lab4/build/tesse_msgs': CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs /usr/bin/cmake /home/aimane/vnav23/labs/lab4/src/tesse_msgs -DCMAKE_INSTALL_PREFIX=/home/aimane/vnav23/labs/lab4/install/tesse_msgs
+[0.979s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.678s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.878s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.165s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.182s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.243s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.312s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.351s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.575s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.884s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.592s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.187s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.284s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.412s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.416s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.416s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.723s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.846s] -- Added test 'lint_cmake' to check CMake code style
+[6.857s] -- Added test 'xmllint' to check XML markup files
+[6.879s] -- Configuring done
+[7.172s] -- Generating done
+[7.294s] -- Build files have been written to: /home/aimane/vnav23/labs/lab4/build/tesse_msgs
+[7.347s] Invoked command in '/home/aimane/vnav23/labs/lab4/build/tesse_msgs' returned '0': CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs /usr/bin/cmake /home/aimane/vnav23/labs/lab4/src/tesse_msgs -DCMAKE_INSTALL_PREFIX=/home/aimane/vnav23/labs/lab4/install/tesse_msgs
+[7.349s] Invoking command in '/home/aimane/vnav23/labs/lab4/build/tesse_msgs': CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs /usr/bin/cmake --build /home/aimane/vnav23/labs/lab4/build/tesse_msgs -- -j8 -l8
+[7.524s] [  1%] Built target tesse_msgs__cpp
+[7.614s] [  1%] Built target ament_cmake_python_symlink_tesse_msgs
+[7.663s] [35m[1mConsolidate compiler generated dependencies of target tesse_msgs__rosidl_typesupport_introspection_cpp[0m
+[7.722s] [ 12%] Built target tesse_msgs__rosidl_typesupport_introspection_cpp
+[8.495s] running egg_info
+[8.497s] writing tesse_msgs.egg-info/PKG-INFO
+[8.500s] writing dependency_links to tesse_msgs.egg-info/dependency_links.txt
+[8.501s] writing top-level names to tesse_msgs.egg-info/top_level.txt
+[8.504s] reading manifest file 'tesse_msgs.egg-info/SOURCES.txt'
+[8.515s] writing manifest file 'tesse_msgs.egg-info/SOURCES.txt'
+[8.586s] [ 12%] Built target ament_cmake_python_build_tesse_msgs_egg
+[8.622s] [35m[1mConsolidate compiler generated dependencies of target tesse_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[8.720s] [ 23%] Built target tesse_msgs__rosidl_typesupport_fastrtps_cpp
+[8.778s] [35m[1mConsolidate compiler generated dependencies of target tesse_msgs__rosidl_typesupport_cpp[0m
+[8.865s] [ 34%] Built target tesse_msgs__rosidl_typesupport_cpp
+[8.946s] [35m[1mConsolidate compiler generated dependencies of target tesse_msgs__rosidl_generator_c[0m
+[8.988s] [ 45%] Built target tesse_msgs__rosidl_generator_c
+[9.050s] [35m[1mConsolidate compiler generated dependencies of target tesse_msgs__rosidl_typesupport_fastrtps_c[0m
+[9.087s] [ 56%] Built target tesse_msgs__rosidl_typesupport_fastrtps_c
+[9.113s] [35m[1mConsolidate compiler generated dependencies of target tesse_msgs__rosidl_typesupport_c[0m
+[9.148s] [ 67%] Built target tesse_msgs__rosidl_typesupport_c
+[9.176s] [35m[1mConsolidate compiler generated dependencies of target tesse_msgs__rosidl_typesupport_introspection_c[0m
+[9.209s] [ 78%] Built target tesse_msgs__rosidl_typesupport_introspection_c
+[9.276s] [ 78%] Built target tesse_msgs
+[9.361s] [ 80%] Built target tesse_msgs__py
+[9.436s] [35m[1mConsolidate compiler generated dependencies of target tesse_msgs__rosidl_generator_py[0m
+[9.534s] [ 89%] Built target tesse_msgs__rosidl_generator_py
+[9.585s] [35m[1mConsolidate compiler generated dependencies of target tesse_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.658s] [ 92%] Built target tesse_msgs__rosidl_typesupport_fastrtps_c__pyext
+[9.710s] [35m[1mConsolidate compiler generated dependencies of target tesse_msgs__rosidl_typesupport_c__pyext[0m
+[9.740s] [ 96%] Built target tesse_msgs__rosidl_typesupport_c__pyext
+[9.772s] [35m[1mConsolidate compiler generated dependencies of target tesse_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[9.805s] [100%] Built target tesse_msgs__rosidl_typesupport_introspection_c__pyext
+[9.833s] Invoked command in '/home/aimane/vnav23/labs/lab4/build/tesse_msgs' returned '0': CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs /usr/bin/cmake --build /home/aimane/vnav23/labs/lab4/build/tesse_msgs -- -j8 -l8
+[9.840s] Invoking command in '/home/aimane/vnav23/labs/lab4/build/tesse_msgs': CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs /usr/bin/cmake --install /home/aimane/vnav23/labs/lab4/build/tesse_msgs
+[9.860s] -- Install configuration: ""
+[9.860s] -- Execute custom install script
+[9.860s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/ament_index/resource_index/rosidl_interfaces/tesse_msgs
+[9.861s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/collision_stats.h
+[9.862s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__functions.h
+[9.862s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__struct.h
+[9.863s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__type_support.h
+[9.863s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.863s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__functions.h
+[9.864s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__struct.h
+[9.864s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__type_support.h
+[9.865s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__functions.h
+[9.865s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__struct.h
+[9.866s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__type_support.h
+[9.866s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__functions.h
+[9.867s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__struct.h
+[9.867s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__type_support.h
+[9.868s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/object_spawn_request_service.h
+[9.868s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/reposition_request_service.h
+[9.869s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/scene_request_service.h
+[9.869s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/environment/library_path.sh
+[9.870s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/environment/library_path.dsv
+[9.872s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__rosidl_typesupport_fastrtps_c.h
+[9.872s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.874s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__rosidl_typesupport_fastrtps_c.h
+[9.874s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__rosidl_typesupport_fastrtps_c.h
+[9.874s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__rosidl_typesupport_fastrtps_c.h
+[9.878s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/collision_stats.hpp
+[9.878s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__builder.hpp
+[9.878s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__struct.hpp
+[9.878s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__traits.hpp
+[9.878s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__type_support.hpp
+[9.880s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.880s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__builder.hpp
+[9.881s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__struct.hpp
+[9.881s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__traits.hpp
+[9.882s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__type_support.hpp
+[9.882s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__builder.hpp
+[9.883s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__struct.hpp
+[9.884s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__traits.hpp
+[9.885s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__type_support.hpp
+[9.885s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__builder.hpp
+[9.886s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__struct.hpp
+[9.887s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__traits.hpp
+[9.887s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__type_support.hpp
+[9.888s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/object_spawn_request_service.hpp
+[9.888s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/reposition_request_service.hpp
+[9.889s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/scene_request_service.hpp
+[9.891s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__rosidl_typesupport_fastrtps_cpp.hpp
+[9.891s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.892s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__rosidl_typesupport_fastrtps_cpp.hpp
+[9.892s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__rosidl_typesupport_fastrtps_cpp.hpp
+[9.892s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__rosidl_typesupport_fastrtps_cpp.hpp
+[9.896s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__rosidl_typesupport_introspection_c.h
+[9.896s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.896s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__rosidl_typesupport_introspection_c.h
+[9.896s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__rosidl_typesupport_introspection_c.h
+[9.896s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__rosidl_typesupport_introspection_c.h
+[9.897s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__rosidl_typesupport_introspection_cpp.hpp
+[9.897s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__rosidl_typesupport_introspection_cpp.hpp
+[9.898s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__rosidl_typesupport_introspection_cpp.hpp
+[9.898s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__rosidl_typesupport_introspection_cpp.hpp
+[9.899s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/environment/pythonpath.sh
+[9.899s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/environment/pythonpath.dsv
+[9.900s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[9.901s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.901s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.905s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[9.905s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/__init__.py
+[9.905s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/_tesse_msgs_s.ep.rosidl_typesupport_c.c
+[9.906s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/_tesse_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.906s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/_tesse_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.907s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/libtesse_msgs__rosidl_generator_py.so
+[9.907s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/msg/__init__.py
+[9.908s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/msg/_collision_stats.py
+[9.908s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/msg/_collision_stats_s.c
+[9.909s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv/__init__.py
+[9.910s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv/_object_spawn_request_service.py
+[9.910s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv/_object_spawn_request_service_s.c
+[9.911s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv/_reposition_request_service.py
+[9.911s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv/_reposition_request_service_s.c
+[9.912s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv/_scene_request_service.py
+[9.914s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv/_scene_request_service_s.c
+[9.914s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/tesse_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.914s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/tesse_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.914s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/tesse_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.915s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/tesse_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.916s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/tesse_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.917s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/tesse_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.917s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/msg/CollisionStats.idl
+[9.918s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/srv/ObjectSpawnRequestService.idl
+[9.918s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/srv/RepositionRequestService.idl
+[9.919s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/srv/SceneRequestService.idl
+[9.919s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/msg/CollisionStats.msg
+[9.920s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/srv/ObjectSpawnRequestService.srv
+[9.920s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/srv/ObjectSpawnRequestService_Request.msg
+[9.921s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/srv/ObjectSpawnRequestService_Response.msg
+[9.922s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/srv/RepositionRequestService.srv
+[9.922s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/srv/RepositionRequestService_Request.msg
+[9.923s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/srv/RepositionRequestService_Response.msg
+[9.923s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/srv/SceneRequestService.srv
+[9.924s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/srv/SceneRequestService_Request.msg
+[9.928s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/srv/SceneRequestService_Response.msg
+[9.928s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/ament_index/resource_index/package_run_dependencies/tesse_msgs
+[9.928s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/ament_index/resource_index/parent_prefix_path/tesse_msgs
+[9.928s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/environment/ament_prefix_path.sh
+[9.928s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/environment/ament_prefix_path.dsv
+[9.929s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/environment/path.sh
+[9.929s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/environment/path.dsv
+[9.929s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/local_setup.bash
+[9.930s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/local_setup.sh
+[9.930s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/local_setup.zsh
+[9.931s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/local_setup.dsv
+[9.931s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/package.dsv
+[9.951s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/ament_index/resource_index/packages/tesse_msgs
+[9.952s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/rosidl_cmake-extras.cmake
+[9.952s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.952s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.953s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.954s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.954s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.954s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.955s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgsConfig.cmake
+[9.955s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgsConfig-version.cmake
+[9.956s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/package.xml
+[9.957s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib/libtesse_msgs__rosidl_generator_c.so
+[9.958s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib/libtesse_msgs__rosidl_typesupport_fastrtps_c.so
+[9.976s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib/libtesse_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.976s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib/libtesse_msgs__rosidl_typesupport_introspection_c.so
+[9.980s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib/libtesse_msgs__rosidl_typesupport_c.so
+[9.991s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib/libtesse_msgs__rosidl_typesupport_introspection_cpp.so
+[9.994s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib/libtesse_msgs__rosidl_typesupport_cpp.so
+[10.177s] Listing '/home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs'...
+[10.177s] Compiling '/home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/__init__.py'...
+[10.178s] Listing '/home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/msg'...
+[10.178s] Listing '/home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv'...
+[10.203s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib/libtesse_msgs__rosidl_generator_py.so
+[10.204s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/export_tesse_msgs__rosidl_generator_cExport.cmake
+[10.204s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/export_tesse_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.204s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/export_tesse_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.208s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/export_tesse_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.208s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/export_tesse_msgs__rosidl_generator_cppExport.cmake
+[10.209s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/export_tesse_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.209s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/export_tesse_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.212s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.212s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.212s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgs__rosidl_typesupport_cExport.cmake
+[10.212s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.223s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.223s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.223s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgs__rosidl_typesupport_cppExport.cmake
+[10.223s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.223s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/export_tesse_msgs__rosidl_generator_pyExport.cmake
+[10.224s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/tesse_msgs/share/tesse_msgs/cmake/export_tesse_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.228s] Invoked command in '/home/aimane/vnav23/labs/lab4/build/tesse_msgs' returned '0': CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs /usr/bin/cmake --install /home/aimane/vnav23/labs/lab4/build/tesse_msgs

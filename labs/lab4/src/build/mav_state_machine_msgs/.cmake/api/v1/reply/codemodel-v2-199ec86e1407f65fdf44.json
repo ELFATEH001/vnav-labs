@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3be421b86e7ad24e43de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mav_state_machine_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_state_machine_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_state_machine_msgs-e9f44789b60dee3927f7.json",
+					"name" : "mav_state_machine_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_state_machine_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_state_machine_msgs__cpp-590664f01ea2c64410da.json",
+					"name" : "mav_state_machine_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_state_machine_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_state_machine_msgs__rosidl_generator_c-192a97281f852edbb6ab.json",
+					"name" : "mav_state_machine_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_state_machine_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_state_machine_msgs__rosidl_typesupport_c-67bae0b33271cc5ad80c.json",
+					"name" : "mav_state_machine_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_state_machine_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_state_machine_msgs__rosidl_typesupport_cpp-c195862c39b2ab20eaea.json",
+					"name" : "mav_state_machine_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_state_machine_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_state_machine_msgs__rosidl_typesupport_fastrtps_c-1d764277cb5551e23a00.json",
+					"name" : "mav_state_machine_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_state_machine_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_state_machine_msgs__rosidl_typesupport_fastrtps_cpp-0017e61473b013affbc6.json",
+					"name" : "mav_state_machine_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_state_machine_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_state_machine_msgs__rosidl_typesupport_introspection_c-b431ffc39c8cbf62a7ee.json",
+					"name" : "mav_state_machine_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_state_machine_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_state_machine_msgs__rosidl_typesupport_introspection_cpp-c65e5b988c365c22b018.json",
+					"name" : "mav_state_machine_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_state_machine_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_state_machine_msgs_uninstall-b3286cd95945d9b014c6.json",
+					"name" : "mav_state_machine_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9d39876578637d1a76c5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aimane/vnav23/labs/lab4/src/build/mav_state_machine_msgs",
+		"source" : "/home/aimane/vnav23/labs/lab4/src/mav_comm/mav_state_machine_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

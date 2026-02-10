@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fc5a652397848eabc923.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mav_trajectory_generation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_trajectory_generation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_trajectory_generation-b59b682da847799851bd.json",
+					"name" : "mav_trajectory_generation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_trajectory_generation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_trajectory_generation_uninstall-f9ace77ae7be52451f44.json",
+					"name" : "mav_trajectory_generation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "polynomial_timing_evaluation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-polynomial_timing_evaluation-dbc5d1c357394dca90bd.json",
+					"name" : "polynomial_timing_evaluation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1b5970b9c5b964c73fd6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aimane/vnav23/labs/lab4/src/build/mav_trajectory_generation",
+		"source" : "/home/aimane/vnav23/labs/lab4/src/mav_trajectory_generation/mav_trajectory_generation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

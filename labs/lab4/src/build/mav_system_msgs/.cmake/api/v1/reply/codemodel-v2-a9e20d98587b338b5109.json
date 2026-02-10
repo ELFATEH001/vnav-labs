@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d743756b6f6ae0b1e8f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mav_system_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_system_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_system_msgs-973e006b26dc17f8f651.json",
+					"name" : "mav_system_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_system_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_system_msgs__cpp-a02bc92649f4d42ffccb.json",
+					"name" : "mav_system_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_system_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_system_msgs__rosidl_generator_c-d82e111bfd942dc0a89f.json",
+					"name" : "mav_system_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_system_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_system_msgs__rosidl_typesupport_c-5c46f57ae55d010e74bf.json",
+					"name" : "mav_system_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_system_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_system_msgs__rosidl_typesupport_cpp-e6c5b344de4fb2bf4cf1.json",
+					"name" : "mav_system_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_system_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_system_msgs__rosidl_typesupport_fastrtps_c-fb4d232f9042071bb172.json",
+					"name" : "mav_system_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_system_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_system_msgs__rosidl_typesupport_fastrtps_cpp-09ecc30c8217151c309f.json",
+					"name" : "mav_system_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_system_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_system_msgs__rosidl_typesupport_introspection_c-27204cdeb0b5e2dd7801.json",
+					"name" : "mav_system_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_system_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_system_msgs__rosidl_typesupport_introspection_cpp-e335c4484a9557dc28ec.json",
+					"name" : "mav_system_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_system_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_system_msgs_uninstall-2ca524f9d1cbe740de27.json",
+					"name" : "mav_system_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5d75a15972a85ea7e9e3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aimane/vnav23/labs/lab4/src/build/mav_system_msgs",
+		"source" : "/home/aimane/vnav23/labs/lab4/src/mav_comm/mav_system_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

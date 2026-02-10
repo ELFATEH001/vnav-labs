@@ -1,0 +1,6 @@
+Invoking command in '/home/aimane/vnav23/labs/lab4/build/mav_visualization': /usr/bin/cmake /home/aimane/vnav23/labs/lab4/src/mav_trajectory_generation/mav_visualization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/aimane/vnav23/labs/lab4/install/mav_visualization
+Invoked command in '/home/aimane/vnav23/labs/lab4/build/mav_visualization' returned '0': /usr/bin/cmake /home/aimane/vnav23/labs/lab4/src/mav_trajectory_generation/mav_visualization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/aimane/vnav23/labs/lab4/install/mav_visualization
+Invoking command in '/home/aimane/vnav23/labs/lab4/build/mav_visualization': /usr/bin/cmake --build /home/aimane/vnav23/labs/lab4/build/mav_visualization -- -j8 -l8
+Invoked command in '/home/aimane/vnav23/labs/lab4/build/mav_visualization' returned '0': /usr/bin/cmake --build /home/aimane/vnav23/labs/lab4/build/mav_visualization -- -j8 -l8
+Invoking command in '/home/aimane/vnav23/labs/lab4/build/mav_visualization': /usr/bin/cmake --install /home/aimane/vnav23/labs/lab4/build/mav_visualization
+Invoked command in '/home/aimane/vnav23/labs/lab4/build/mav_visualization' returned '0': /usr/bin/cmake --install /home/aimane/vnav23/labs/lab4/build/mav_visualization

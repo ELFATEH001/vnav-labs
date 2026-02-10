@@ -1,0 +1,65 @@
+running develop
+Removing /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse-ros-bridge.egg-link (link to .)
+running egg_info
+writing ../../lab4/build/tesse_ros_bridge/tesse_ros_bridge.egg-info/PKG-INFO
+writing dependency_links to ../../lab4/build/tesse_ros_bridge/tesse_ros_bridge.egg-info/dependency_links.txt
+writing entry points to ../../lab4/build/tesse_ros_bridge/tesse_ros_bridge.egg-info/entry_points.txt
+writing requirements to ../../lab4/build/tesse_ros_bridge/tesse_ros_bridge.egg-info/requires.txt
+writing top-level names to ../../lab4/build/tesse_ros_bridge/tesse_ros_bridge.egg-info/top_level.txt
+reading manifest file '../../lab4/build/tesse_ros_bridge/tesse_ros_bridge.egg-info/SOURCES.txt'
+writing manifest file '../../lab4/build/tesse_ros_bridge/tesse_ros_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build
+creating /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib
+creating /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge
+copying tesse_ros_bridge/tesse_ros_node.py -> /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge
+copying tesse_ros_bridge/quadrotor_control_interface.py -> /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge
+copying tesse_ros_bridge/__init__.py -> /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge
+copying tesse_ros_bridge/noise_simulator.py -> /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge
+copying tesse_ros_bridge/utils.py -> /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge
+copying tesse_ros_bridge/consts.py -> /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge
+creating /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/key_teleop
+copying key_teleop/__init__.py -> /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/key_teleop
+copying key_teleop/key_teleop.py -> /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/key_teleop
+copying key_teleop/alternative_key_teleop.py -> /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/key_teleop
+running install
+running install_lib
+creating /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse_ros_bridge
+copying /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge/tesse_ros_node.py -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse_ros_bridge
+copying /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge/quadrotor_control_interface.py -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse_ros_bridge
+copying /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge/__init__.py -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse_ros_bridge
+copying /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge/noise_simulator.py -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse_ros_bridge
+copying /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge/utils.py -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse_ros_bridge
+copying /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge/consts.py -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse_ros_bridge
+creating /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/key_teleop
+copying /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/key_teleop/__init__.py -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/key_teleop
+copying /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/key_teleop/key_teleop.py -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/key_teleop
+copying /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/key_teleop/alternative_key_teleop.py -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/key_teleop
+byte-compiling /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse_ros_bridge/tesse_ros_node.py to tesse_ros_node.cpython-310.pyc
+byte-compiling /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse_ros_bridge/quadrotor_control_interface.py to quadrotor_control_interface.cpython-310.pyc
+byte-compiling /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse_ros_bridge/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse_ros_bridge/noise_simulator.py to noise_simulator.cpython-310.pyc
+byte-compiling /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse_ros_bridge/utils.py to utils.cpython-310.pyc
+byte-compiling /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse_ros_bridge/consts.py to consts.cpython-310.pyc
+byte-compiling /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/key_teleop/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/key_teleop/key_teleop.py to key_teleop.cpython-310.pyc
+byte-compiling /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/key_teleop/alternative_key_teleop.py to alternative_key_teleop.cpython-310.pyc
+running install_data
+copying resource/tesse_ros_bridge -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/ament_index/resource_index/packages
+copying package.xml -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/tesse_ros_bridge
+copying launch/tesse_quadrotor_bridge.launch.yaml -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/tesse_ros_bridge/launch
+copying config/tesse_agent_params.yaml -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/tesse_ros_bridge/config
+copying config/lidar_params.yaml -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/tesse_ros_bridge/config
+copying config/camera_params.yaml -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/tesse_ros_bridge/config
+copying config/params.yaml -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/tesse_ros_bridge/config
+copying config/object_spawn_params.yaml -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/tesse_ros_bridge/config
+copying config/map_tfs.yaml -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/tesse_ros_bridge/config
+copying config/noise_model.yaml -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/tesse_ros_bridge/config
+running install_egg_info
+Copying ../../lab4/build/tesse_ros_bridge/tesse_ros_bridge.egg-info to /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse_ros_bridge-0.0.0-py3.10.egg-info
+running install_scripts
+Installing key_teleop script to /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/tesse_ros_bridge
+Installing quadrotor_control_interface script to /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/tesse_ros_bridge
+Installing tesse_ros_node script to /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/tesse_ros_bridge
+writing list of installed files to '/home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/install.log'

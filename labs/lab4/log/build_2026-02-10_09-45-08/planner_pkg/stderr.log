@@ -1,0 +1,40 @@
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:[m[K In member function ‘[01m[Kvoid SimpleTrajPlanner::trajCB(geometry_msgs::msg::PoseArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:66:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpostion[m[K’; did you mean ‘[01m[Kposition[m[K’?
+   66 |     desired_pose.[01;31m[Kpostion[m[K.x = traj_msg->poses[0].position.x;
+      |                  [01;31m[K^~~~~~~[m[K
+      |                  [32m[Kposition[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:67:50:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >, geometry_msgs::msg::Pose_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpostion[m[K’; did you mean ‘[01m[Kposition[m[K’?
+   67 |     desired_pose.position.y = traj_msg->poses[0].[01;31m[Kpostion[m[K.y;
+      |                                                  [01;31m[K^~~~~~~[m[K
+      |                                                  [32m[Kposition[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:68:50:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >, geometry_msgs::msg::Pose_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpostion[m[K’; did you mean ‘[01m[Kposition[m[K’?
+   68 |     desired_pose.position.z = traj_msg->poses[0].[01;31m[Kpostion[m[K.z;
+      |                                                  [01;31m[K^~~~~~~[m[K
+      |                                                  [32m[Kposition[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:75:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   75 |     transform.translation.x = desired_pose.[01;31m[Kpose[m[K.position.x;
+      |                                            [01;31m[K^~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:76:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   76 |     transform.translation.y = desired_pose.[01;31m[Kpose[m[K.position.y;
+      |                                            [01;31m[K^~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:77:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   77 |     transform.translation.z = desired_pose.[01;31m[Kpose[m[K.position.z;
+      |                                            [01;31m[K^~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:79:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   79 |     transform.rotation.w = desired_pose.[01;31m[Kpose[m[K.orientation.w;
+      |                                         [01;31m[K^~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:80:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   80 |     transform.rotation.x = desired_pose.[01;31m[Kpose[m[K.orientation.x;
+      |                                         [01;31m[K^~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:81:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   81 |     transform.rotation.y = desired_pose.[01;31m[Kpose[m[K.orientation.y;
+      |                                         [01;31m[K^~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:82:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   82 |     transform.rotation.z = desired_pose.[01;31m[Kpose[m[K.orientation.z;
+      |                                         [01;31m[K^~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:101:17:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ktrajectory_msgs::msg::MultiDOFJointTrajectoryPoint[m[K’ {aka ‘[01m[Ktrajectory_msgs::msg::MultiDOFJointTrajectoryPoint_<std::allocator<void> >[m[K’}
+  101 |     desired_MDOF[01;31m[K->[m[Ktransforms.push_back(transform)
+      |                 [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/simple_traj_planner.dir/build.make:76: CMakeFiles/simple_traj_planner.dir/src/simple_traj_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_traj_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

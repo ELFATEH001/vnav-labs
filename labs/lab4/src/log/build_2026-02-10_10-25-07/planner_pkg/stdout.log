@@ -1,0 +1,66 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found mav_msgs: 3.3.3 (/home/aimane/vnav23/labs/lab4/src/install/mav_msgs/share/mav_msgs/cmake)
+-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aimane/vnav23/labs/lab4/src/build/planner_pkg
+[ 25%] [32mBuilding CXX object CMakeFiles/traj_vertices_publisher.dir/src/traj_vertices_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_traj_planner.dir/src/simple_traj_planner.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable traj_vertices_publisher[0m
+[ 75%] Built target traj_vertices_publisher
+[100%] [32m[1mLinking CXX executable simple_traj_planner[0m
+[100%] Built target simple_traj_planner
+-- Install configuration: ""
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/share/planner_pkg/launch
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/share/planner_pkg/launch/static_point_test.launch.py
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/share/planner_pkg/launch/traj_gen.launch.py
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/lib/planner_pkg/traj_vertices_publisher
+-- Set runtime path of "/home/aimane/vnav23/labs/lab4/src/install/planner_pkg/lib/planner_pkg/traj_vertices_publisher" to ""
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/lib/planner_pkg/simple_traj_planner
+-- Set runtime path of "/home/aimane/vnav23/labs/lab4/src/install/planner_pkg/lib/planner_pkg/simple_traj_planner" to ""
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/share/ament_index/resource_index/package_run_dependencies/planner_pkg
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/share/ament_index/resource_index/parent_prefix_path/planner_pkg
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/share/planner_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/share/planner_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/share/planner_pkg/environment/path.sh
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/share/planner_pkg/environment/path.dsv
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/share/planner_pkg/local_setup.bash
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/share/planner_pkg/local_setup.sh
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/share/planner_pkg/local_setup.zsh
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/share/planner_pkg/local_setup.dsv
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/share/planner_pkg/package.dsv
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/share/ament_index/resource_index/packages/planner_pkg
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/share/planner_pkg/cmake/planner_pkgConfig.cmake
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/share/planner_pkg/cmake/planner_pkgConfig-version.cmake
+-- Installing: /home/aimane/vnav23/labs/lab4/src/install/planner_pkg/share/planner_pkg/package.xml
