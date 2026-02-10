@@ -1,0 +1,20 @@
+# Python virtual environments
+venvs/
+*.pyc
+__pycache__/
+
+# ROS build artifacts
+lab4/build/
+lab4/install/
+lab4/log/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

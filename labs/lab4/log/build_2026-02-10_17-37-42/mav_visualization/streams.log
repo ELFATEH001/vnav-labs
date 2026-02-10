@@ -1,0 +1,21 @@
+[0.197s] Invoking command in '/home/aimane/vnav23/labs/lab4/build/mav_visualization': PS1=(lab4_venv) \[[01;32m\]\u@\h\[[00m\]:\[[01;34m\]\w\[[00m\]$ VIRTUAL_ENV_PROMPT=(lab4_venv) /usr/bin/cmake --build /home/aimane/vnav23/labs/lab4/build/mav_visualization -- -j8 -l8
+[1.248s] [100%] Built target mav_visualization
+[1.253s] Invoked command in '/home/aimane/vnav23/labs/lab4/build/mav_visualization' returned '0': PS1=(lab4_venv) \[[01;32m\]\u@\h\[[00m\]:\[[01;34m\]\w\[[00m\]$ VIRTUAL_ENV_PROMPT=(lab4_venv) /usr/bin/cmake --build /home/aimane/vnav23/labs/lab4/build/mav_visualization -- -j8 -l8
+[1.294s] Invoking command in '/home/aimane/vnav23/labs/lab4/build/mav_visualization': PS1=(lab4_venv) \[[01;32m\]\u@\h\[[00m\]:\[[01;34m\]\w\[[00m\]$ VIRTUAL_ENV_PROMPT=(lab4_venv) /usr/bin/cmake --install /home/aimane/vnav23/labs/lab4/build/mav_visualization
+[2.066s] -- Install configuration: ""
+[2.067s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/ament_index/resource_index/package_run_dependencies/mav_visualization
+[2.067s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/ament_index/resource_index/parent_prefix_path/mav_visualization
+[2.067s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/environment/ament_prefix_path.sh
+[2.067s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/environment/ament_prefix_path.dsv
+[2.067s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/environment/path.sh
+[2.068s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/environment/path.dsv
+[2.068s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/local_setup.bash
+[2.070s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/local_setup.sh
+[2.070s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/local_setup.zsh
+[2.070s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/local_setup.dsv
+[2.070s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/package.dsv
+[2.070s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/ament_index/resource_index/packages/mav_visualization
+[2.071s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/cmake/mav_visualizationConfig.cmake
+[2.071s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/cmake/mav_visualizationConfig-version.cmake
+[2.079s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/package.xml
+[2.093s] Invoked command in '/home/aimane/vnav23/labs/lab4/build/mav_visualization' returned '0': PS1=(lab4_venv) \[[01;32m\]\u@\h\[[00m\]:\[[01;34m\]\w\[[00m\]$ VIRTUAL_ENV_PROMPT=(lab4_venv) /usr/bin/cmake --install /home/aimane/vnav23/labs/lab4/build/mav_visualization

@@ -11,3 +11,4 @@ src/tesse/__init__.py
 src/tesse/env.py
 src/tesse/msgs.py
 src/tesse/utils.py
+tests/test_import.py

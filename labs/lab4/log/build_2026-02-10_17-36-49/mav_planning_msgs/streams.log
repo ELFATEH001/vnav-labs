@@ -1,0 +1,319 @@
+[0.222s] Invoking command in '/home/aimane/vnav23/labs/lab4/build/mav_planning_msgs': CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/install/mav_msgs:/home/aimane/mavros_ws/install/mavros_extras:/home/aimane/mavros_ws/install/mavros_examples:/home/aimane/mavros_ws/install/mavros:/home/aimane/mavros_ws/install/mavros_msgs:/home/aimane/mavros_ws/install/libmavconn:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg LD_LIBRARY_PATH=/home/aimane/vnav23/labs/lab4/install/mav_msgs/lib:/home/aimane/mavros_ws/install/mavros_extras/lib:/home/aimane/mavros_ws/install/mavros/lib:/home/aimane/mavros_ws/install/mavros_msgs/lib:/home/aimane/mavros_ws/install/libmavconn/lib:/home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/lib:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PS1=(lab4_venv) \[[01;32m\]\u@\h\[[00m\]:\[[01;34m\]\w\[[00m\]$ VIRTUAL_ENV_PROMPT=(lab4_venv) /usr/bin/cmake --build /home/aimane/vnav23/labs/lab4/build/mav_planning_msgs -- -j8 -l8
+[0.665s] [  0%] Built target mav_planning_msgs__cpp
+[0.847s] [  0%] Built target ament_cmake_python_symlink_mav_planning_msgs
+[1.084s] [ 12%] Built target mav_planning_msgs__rosidl_typesupport_introspection_cpp
+[1.914s] running egg_info
+[1.962s] writing mav_planning_msgs.egg-info/PKG-INFO
+[1.963s] writing dependency_links to mav_planning_msgs.egg-info/dependency_links.txt
+[1.964s] writing top-level names to mav_planning_msgs.egg-info/top_level.txt
+[2.112s] reading manifest file 'mav_planning_msgs.egg-info/SOURCES.txt'
+[2.132s] writing manifest file 'mav_planning_msgs.egg-info/SOURCES.txt'
+[2.208s] [ 12%] Built target ament_cmake_python_build_mav_planning_msgs_egg
+[2.337s] [ 23%] Built target mav_planning_msgs__rosidl_typesupport_fastrtps_cpp
+[2.549s] [ 35%] Built target mav_planning_msgs__rosidl_typesupport_cpp
+[2.705s] [ 47%] Built target mav_planning_msgs__rosidl_generator_c
+[2.858s] [ 59%] Built target mav_planning_msgs__rosidl_typesupport_fastrtps_c
+[2.940s] [ 71%] Built target mav_planning_msgs__rosidl_typesupport_c
+[3.045s] [ 83%] Built target mav_planning_msgs__rosidl_typesupport_introspection_c
+[3.133s] [ 83%] Built target mav_planning_msgs
+[3.283s] [ 84%] Built target mav_planning_msgs__py
+[3.763s] [ 95%] Built target mav_planning_msgs__rosidl_generator_py
+[3.908s] [ 97%] Built target mav_planning_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.978s] [ 98%] Built target mav_planning_msgs__rosidl_typesupport_c__pyext
+[4.058s] [100%] Built target mav_planning_msgs__rosidl_typesupport_introspection_c__pyext
+[4.086s] Invoked command in '/home/aimane/vnav23/labs/lab4/build/mav_planning_msgs' returned '0': CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/install/mav_msgs:/home/aimane/mavros_ws/install/mavros_extras:/home/aimane/mavros_ws/install/mavros_examples:/home/aimane/mavros_ws/install/mavros:/home/aimane/mavros_ws/install/mavros_msgs:/home/aimane/mavros_ws/install/libmavconn:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg LD_LIBRARY_PATH=/home/aimane/vnav23/labs/lab4/install/mav_msgs/lib:/home/aimane/mavros_ws/install/mavros_extras/lib:/home/aimane/mavros_ws/install/mavros/lib:/home/aimane/mavros_ws/install/mavros_msgs/lib:/home/aimane/mavros_ws/install/libmavconn/lib:/home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/lib:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PS1=(lab4_venv) \[[01;32m\]\u@\h\[[00m\]:\[[01;34m\]\w\[[00m\]$ VIRTUAL_ENV_PROMPT=(lab4_venv) /usr/bin/cmake --build /home/aimane/vnav23/labs/lab4/build/mav_planning_msgs -- -j8 -l8
+[4.130s] Invoking command in '/home/aimane/vnav23/labs/lab4/build/mav_planning_msgs': CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/install/mav_msgs:/home/aimane/mavros_ws/install/mavros_extras:/home/aimane/mavros_ws/install/mavros_examples:/home/aimane/mavros_ws/install/mavros:/home/aimane/mavros_ws/install/mavros_msgs:/home/aimane/mavros_ws/install/libmavconn:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg LD_LIBRARY_PATH=/home/aimane/vnav23/labs/lab4/install/mav_msgs/lib:/home/aimane/mavros_ws/install/mavros_extras/lib:/home/aimane/mavros_ws/install/mavros/lib:/home/aimane/mavros_ws/install/mavros_msgs/lib:/home/aimane/mavros_ws/install/libmavconn/lib:/home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/lib:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PS1=(lab4_venv) \[[01;32m\]\u@\h\[[00m\]:\[[01;34m\]\w\[[00m\]$ VIRTUAL_ENV_PROMPT=(lab4_venv) /usr/bin/cmake --install /home/aimane/vnav23/labs/lab4/build/mav_planning_msgs
+[4.154s] -- Install configuration: ""
+[4.166s] -- Execute custom install script
+[4.167s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/ament_index/resource_index/rosidl_interfaces/mav_planning_msgs
+[4.177s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__functions.h
+[4.180s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__struct.h
+[4.181s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__type_support.h
+[4.181s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__functions.h
+[4.181s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__struct.h
+[4.181s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__type_support.h
+[4.181s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__functions.h
+[4.182s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__struct.h
+[4.182s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__type_support.h
+[4.182s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__functions.h
+[4.182s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__struct.h
+[4.182s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__type_support.h
+[4.183s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__functions.h
+[4.183s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__struct.h
+[4.184s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__type_support.h
+[4.184s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__functions.h
+[4.184s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__struct.h
+[4.185s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__type_support.h
+[4.185s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__functions.h
+[4.186s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__struct.h
+[4.186s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__type_support.h
+[4.186s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__functions.h
+[4.187s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__struct.h
+[4.187s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__type_support.h
+[4.188s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__functions.h
+[4.188s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__struct.h
+[4.188s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__type_support.h
+[4.189s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/point2_d.h
+[4.189s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/point_cloud_with_pose.h
+[4.190s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polygon2_d.h
+[4.191s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polygon_with_holes.h
+[4.194s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polygon_with_holes_stamped.h
+[4.195s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polynomial_segment.h
+[4.195s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polynomial_segment4_d.h
+[4.195s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polynomial_trajectory.h
+[4.196s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polynomial_trajectory4_d.h
+[4.196s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.196s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/change_name_service.h
+[4.197s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__functions.h
+[4.197s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__struct.h
+[4.197s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__type_support.h
+[4.198s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__functions.h
+[4.198s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__struct.h
+[4.199s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__type_support.h
+[4.199s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__functions.h
+[4.200s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__struct.h
+[4.200s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__type_support.h
+[4.200s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/planner_service.h
+[4.200s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/polygon_service.h
+[4.201s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/environment/library_path.sh
+[4.201s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/environment/library_path.dsv
+[4.203s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h
+[4.204s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__rosidl_typesupport_fastrtps_c.h
+[4.205s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__rosidl_typesupport_fastrtps_c.h
+[4.206s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__rosidl_typesupport_fastrtps_c.h
+[4.206s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__rosidl_typesupport_fastrtps_c.h
+[4.206s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__rosidl_typesupport_fastrtps_c.h
+[4.207s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__rosidl_typesupport_fastrtps_c.h
+[4.207s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__rosidl_typesupport_fastrtps_c.h
+[4.207s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_fastrtps_c.h
+[4.209s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.209s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__rosidl_typesupport_fastrtps_c.h
+[4.210s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__rosidl_typesupport_fastrtps_c.h
+[4.210s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__rosidl_typesupport_fastrtps_c.h
+[4.212s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_c.h
+[4.213s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__rosidl_typesupport_introspection_c.h
+[4.213s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__rosidl_typesupport_introspection_c.h
+[4.213s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__rosidl_typesupport_introspection_c.h
+[4.214s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__rosidl_typesupport_introspection_c.h
+[4.215s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__rosidl_typesupport_introspection_c.h
+[4.215s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__rosidl_typesupport_introspection_c.h
+[4.215s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__rosidl_typesupport_introspection_c.h
+[4.216s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_introspection_c.h
+[4.219s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.219s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__rosidl_typesupport_introspection_c.h
+[4.220s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__rosidl_typesupport_introspection_c.h
+[4.220s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__rosidl_typesupport_introspection_c.h
+[4.226s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__builder.hpp
+[4.226s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__struct.hpp
+[4.227s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__traits.hpp
+[4.230s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__type_support.hpp
+[4.230s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__builder.hpp
+[4.231s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__struct.hpp
+[4.231s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__traits.hpp
+[4.231s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__type_support.hpp
+[4.231s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__builder.hpp
+[4.232s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__struct.hpp
+[4.232s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__traits.hpp
+[4.232s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__type_support.hpp
+[4.233s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__builder.hpp
+[4.234s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__struct.hpp
+[4.235s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__traits.hpp
+[4.236s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__type_support.hpp
+[4.236s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__builder.hpp
+[4.237s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__struct.hpp
+[4.238s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__traits.hpp
+[4.239s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__type_support.hpp
+[4.241s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__builder.hpp
+[4.242s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__struct.hpp
+[4.243s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__traits.hpp
+[4.243s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__type_support.hpp
+[4.244s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__builder.hpp
+[4.245s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__struct.hpp
+[4.247s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__traits.hpp
+[4.247s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__type_support.hpp
+[4.247s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__builder.hpp
+[4.248s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__struct.hpp
+[4.248s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__traits.hpp
+[4.250s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__type_support.hpp
+[4.252s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__builder.hpp
+[4.252s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__struct.hpp
+[4.253s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__traits.hpp
+[4.253s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__type_support.hpp
+[4.254s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/point2_d.hpp
+[4.254s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/point_cloud_with_pose.hpp
+[4.255s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polygon2_d.hpp
+[4.256s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polygon_with_holes.hpp
+[4.256s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polygon_with_holes_stamped.hpp
+[4.257s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polynomial_segment.hpp
+[4.257s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polynomial_segment4_d.hpp
+[4.258s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polynomial_trajectory.hpp
+[4.258s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polynomial_trajectory4_d.hpp
+[4.261s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.261s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/change_name_service.hpp
+[4.262s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__builder.hpp
+[4.262s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__struct.hpp
+[4.262s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__traits.hpp
+[4.263s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__type_support.hpp
+[4.263s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__builder.hpp
+[4.263s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__struct.hpp
+[4.264s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__traits.hpp
+[4.264s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__type_support.hpp
+[4.267s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__builder.hpp
+[4.267s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__struct.hpp
+[4.268s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__traits.hpp
+[4.268s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__type_support.hpp
+[4.268s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/planner_service.hpp
+[4.268s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/polygon_service.hpp
+[4.273s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[4.275s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[4.275s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[4.277s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__rosidl_typesupport_fastrtps_cpp.hpp
+[4.278s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[4.281s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__rosidl_typesupport_fastrtps_cpp.hpp
+[4.281s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__rosidl_typesupport_fastrtps_cpp.hpp
+[4.282s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__rosidl_typesupport_fastrtps_cpp.hpp
+[4.282s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[4.282s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.283s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__rosidl_typesupport_fastrtps_cpp.hpp
+[4.284s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__rosidl_typesupport_fastrtps_cpp.hpp
+[4.285s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__rosidl_typesupport_fastrtps_cpp.hpp
+[4.288s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp
+[4.290s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__rosidl_typesupport_introspection_cpp.hpp
+[4.290s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__rosidl_typesupport_introspection_cpp.hpp
+[4.291s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__rosidl_typesupport_introspection_cpp.hpp
+[4.293s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__rosidl_typesupport_introspection_cpp.hpp
+[4.293s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__rosidl_typesupport_introspection_cpp.hpp
+[4.299s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__rosidl_typesupport_introspection_cpp.hpp
+[4.299s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__rosidl_typesupport_introspection_cpp.hpp
+[4.300s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[4.300s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__rosidl_typesupport_introspection_cpp.hpp
+[4.300s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__rosidl_typesupport_introspection_cpp.hpp
+[4.300s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__rosidl_typesupport_introspection_cpp.hpp
+[4.301s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/environment/pythonpath.sh
+[4.302s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/environment/pythonpath.dsv
+[4.303s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs-3.3.3-py3.10.egg-info/PKG-INFO
+[4.305s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs-3.3.3-py3.10.egg-info/SOURCES.txt
+[4.305s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs-3.3.3-py3.10.egg-info/dependency_links.txt
+[4.306s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs-3.3.3-py3.10.egg-info/top_level.txt
+[4.314s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/__init__.py
+[4.316s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/_mav_planning_msgs_s.ep.rosidl_typesupport_c.c
+[4.318s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/_mav_planning_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.320s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/_mav_planning_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.321s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/libmav_planning_msgs__rosidl_generator_py.so
+[4.321s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/mav_planning_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.321s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/mav_planning_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.321s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/mav_planning_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.322s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/__init__.py
+[4.323s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_point2_d.py
+[4.324s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_point2_d_s.c
+[4.324s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_point_cloud_with_pose.py
+[4.326s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_point_cloud_with_pose_s.c
+[4.327s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polygon2_d.py
+[4.330s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polygon2_d_s.c
+[4.331s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polygon_with_holes.py
+[4.332s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polygon_with_holes_s.c
+[4.332s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polygon_with_holes_stamped.py
+[4.333s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polygon_with_holes_stamped_s.c
+[4.333s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polynomial_segment.py
+[4.334s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polynomial_segment4_d.py
+[4.335s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polynomial_segment4_d_s.c
+[4.335s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polynomial_segment_s.c
+[4.337s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polynomial_trajectory.py
+[4.338s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polynomial_trajectory4_d.py
+[4.340s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polynomial_trajectory4_d_s.c
+[4.340s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polynomial_trajectory_s.c
+[4.340s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/srv/__init__.py
+[4.341s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/srv/_change_name_service.py
+[4.342s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/srv/_change_name_service_s.c
+[4.343s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/srv/_planner_service.py
+[4.343s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/srv/_planner_service_s.c
+[4.344s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/srv/_polygon_service.py
+[4.345s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/srv/_polygon_service_s.c
+[4.349s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/mav_planning_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.350s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/mav_planning_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.354s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/mav_planning_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.354s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/msg/Point2D.idl
+[4.355s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/msg/PointCloudWithPose.idl
+[4.356s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/msg/Polygon2D.idl
+[4.356s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolygonWithHoles.idl
+[4.357s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolygonWithHolesStamped.idl
+[4.361s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolynomialSegment.idl
+[4.361s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolynomialSegment4D.idl
+[4.362s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolynomialTrajectory.idl
+[4.362s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolynomialTrajectory4D.idl
+[4.363s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/srv/PlannerService.idl
+[4.363s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/srv/PolygonService.idl
+[4.367s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/srv/ChangeNameService.idl
+[4.368s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/msg/Point2D.msg
+[4.368s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/msg/PointCloudWithPose.msg
+[4.369s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/msg/Polygon2D.msg
+[4.370s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolygonWithHoles.msg
+[4.372s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolygonWithHolesStamped.msg
+[4.374s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolynomialSegment.msg
+[4.374s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolynomialSegment4D.msg
+[4.374s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolynomialTrajectory.msg
+[4.374s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolynomialTrajectory4D.msg
+[4.375s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/srv/PlannerService.srv
+[4.379s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/srv/PlannerService_Request.msg
+[4.379s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/srv/PlannerService_Response.msg
+[4.380s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/srv/PolygonService.srv
+[4.382s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/srv/PolygonService_Request.msg
+[4.382s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/srv/PolygonService_Response.msg
+[4.383s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/srv/ChangeNameService.srv
+[4.384s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/srv/ChangeNameService_Request.msg
+[4.385s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/srv/ChangeNameService_Response.msg
+[4.387s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/ament_index/resource_index/package_run_dependencies/mav_planning_msgs
+[4.387s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/ament_index/resource_index/parent_prefix_path/mav_planning_msgs
+[4.391s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/environment/ament_prefix_path.sh
+[4.392s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/environment/ament_prefix_path.dsv
+[4.392s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/environment/path.sh
+[4.395s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/environment/path.dsv
+[4.396s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/local_setup.bash
+[4.396s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/local_setup.sh
+[4.398s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/local_setup.zsh
+[4.402s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/local_setup.dsv
+[4.402s] -- Symlinking: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/package.dsv
+[4.429s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/ament_index/resource_index/packages/mav_planning_msgs
+[4.430s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/rosidl_cmake-extras.cmake
+[4.432s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.433s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.434s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.438s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.439s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.439s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.439s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgsConfig.cmake
+[4.440s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgsConfig-version.cmake
+[4.440s] -- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/package.xml
+[4.460s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib/libmav_planning_msgs__rosidl_generator_c.so
+[4.466s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib/libmav_planning_msgs__rosidl_typesupport_fastrtps_c.so
+[4.472s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib/libmav_planning_msgs__rosidl_typesupport_introspection_c.so
+[4.486s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib/libmav_planning_msgs__rosidl_typesupport_c.so
+[4.490s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib/libmav_planning_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.511s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib/libmav_planning_msgs__rosidl_typesupport_introspection_cpp.so
+[4.515s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib/libmav_planning_msgs__rosidl_typesupport_cpp.so
+[4.625s] Listing '/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs'...
+[4.626s] Listing '/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg'...
+[4.626s] Listing '/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/srv'...
+[4.661s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib/libmav_planning_msgs__rosidl_generator_py.so
+[4.661s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs
+[4.662s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/conversions.hpp
+[4.662s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/conversions_deprecated.hpp
+[4.662s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/include/mav_planning_msgs/eigen_planning_msgs.hpp
+[4.663s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/export_mav_planning_msgs__rosidl_generator_cExport.cmake
+[4.663s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/export_mav_planning_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.666s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/export_mav_planning_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.666s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/export_mav_planning_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.667s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.667s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.668s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgs__rosidl_typesupport_cExport.cmake
+[4.668s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.669s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/export_mav_planning_msgs__rosidl_generator_cppExport.cmake
+[4.670s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/export_mav_planning_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.671s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/export_mav_planning_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.671s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.672s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.677s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgs__rosidl_typesupport_cppExport.cmake
+[4.677s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.678s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/export_mav_planning_msgs__rosidl_generator_pyExport.cmake
+[4.678s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/share/mav_planning_msgs/cmake/export_mav_planning_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.685s] Invoked command in '/home/aimane/vnav23/labs/lab4/build/mav_planning_msgs' returned '0': CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/install/mav_msgs:/home/aimane/mavros_ws/install/mavros_extras:/home/aimane/mavros_ws/install/mavros_examples:/home/aimane/mavros_ws/install/mavros:/home/aimane/mavros_ws/install/mavros_msgs:/home/aimane/mavros_ws/install/libmavconn:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg LD_LIBRARY_PATH=/home/aimane/vnav23/labs/lab4/install/mav_msgs/lib:/home/aimane/mavros_ws/install/mavros_extras/lib:/home/aimane/mavros_ws/install/mavros/lib:/home/aimane/mavros_ws/install/mavros_msgs/lib:/home/aimane/mavros_ws/install/libmavconn/lib:/home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/lib:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PS1=(lab4_venv) \[[01;32m\]\u@\h\[[00m\]:\[[01;34m\]\w\[[00m\]$ VIRTUAL_ENV_PROMPT=(lab4_venv) /usr/bin/cmake --install /home/aimane/vnav23/labs/lab4/build/mav_planning_msgs

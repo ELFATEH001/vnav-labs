@@ -55,7 +55,7 @@ private:
     //   3. Publish the desired MultiDOFJointTrajectoryPoint
     //   4. Create and publish TF transform of the desired pose
     // ~~~~ begin solution
-    const auto&
+    // const auto& traj_msg->poses[0]
     geometry_msgs::msg::Transform transform;
     geometry_msgs::msg::TransformStamped transformStamped;
     geometry_msgs::msg::Twist accelerations;
