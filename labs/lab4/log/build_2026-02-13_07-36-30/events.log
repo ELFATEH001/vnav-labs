@@ -1,0 +1,211 @@
+[0.000000] (-) TimerEvent: {}
+[0.000740] (-) JobUnselected: {'identifier': 'controller_pkg'}
+[0.001089] (-) JobUnselected: {'identifier': 'mav_comm'}
+[0.001191] (-) JobUnselected: {'identifier': 'mav_msgs'}
+[0.001239] (-) JobUnselected: {'identifier': 'mav_planning_msgs'}
+[0.001382] (-) JobUnselected: {'identifier': 'mav_state_machine_msgs'}
+[0.001461] (-) JobUnselected: {'identifier': 'mav_system_msgs'}
+[0.001512] (-) JobUnselected: {'identifier': 'mav_trajectory_generation'}
+[0.001578] (-) JobUnselected: {'identifier': 'mav_visualization'}
+[0.001638] (-) JobUnselected: {'identifier': 'planner_pkg'}
+[0.001697] (-) JobUnselected: {'identifier': 'tesse'}
+[0.001745] (-) JobUnselected: {'identifier': 'tesse_msgs'}
+[0.001805] (-) JobUnselected: {'identifier': 'tesse_ros_bridge'}
+[0.002137] (trajectory_generation) JobQueued: {'identifier': 'trajectory_generation', 'dependencies': OrderedDict([('mav_msgs', '/home/aimane/vnav23/labs/lab4/install/mav_msgs'), ('mav_visualization', '/home/aimane/vnav23/labs/lab4/install/mav_visualization'), ('mav_planning_msgs', '/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs'), ('mav_trajectory_generation', '/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation')])}
+[0.002243] (trajectory_generation) JobStarted: {'identifier': 'trajectory_generation'}
+[0.042094] (trajectory_generation) JobProgress: {'identifier': 'trajectory_generation', 'progress': 'cmake'}
+[0.043540] (trajectory_generation) JobProgress: {'identifier': 'trajectory_generation', 'progress': 'build'}
+[0.045343] (trajectory_generation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aimane/vnav23/labs/lab4/build/trajectory_generation', '--', '-j8', '-l8'], 'cwd': '/home/aimane/vnav23/labs/lab4/build/trajectory_generation', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/aimane/gz_ws/src/ardupilot_gazebo/build:'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/aimane/gz_ws/src/ardupilot_gazebo/models:/home/aimane/gz_ws/src/ardupilot_gazebo/worlds:'), ('HOSTNAME', 'aimane'), ('ROS_PACKAGE_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_visualization/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_msgs/lib:/home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/lib:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib:/home/aimane/mavros_ws/install/mavros_extras/lib:/home/aimane/mavros_ws/install/mavros/lib:/home/aimane/mavros_ws/install/mavros_msgs/lib:/home/aimane/mavros_ws/install/libmavconn/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aimane'), ('OLDPWD', '/home/aimane'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/tmp/.ros'), ('COLCON_PREFIX_PATH', '/home/aimane/mavros_ws/install:/home/aimane/vnav23/labs/lab4/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_visualization/lib/x86_64-linux-gnu/pkgconfig:/home/aimane/vnav23/labs/lab4/install/mav_visualization/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/usr/lib/ccache:/usr/lib/ccache:/home/aimane/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/aimane/ardupilot/Tools/autotest:/home/aimane/.local/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs:/home/aimane/mavros_ws/install/mavros_extras:/home/aimane/mavros_ws/install/mavros_examples:/home/aimane/mavros_ws/install/mavros:/home/aimane/mavros_ws/install/mavros_msgs:/home/aimane/mavros_ws/install/libmavconn:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aimane/vnav23/labs/lab4/build/trajectory_generation'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages:/home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages:/home/aimane/vnav23/labs/lab4/install/tesse/lib/python3.10/site-packages:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/aimane/vnav23/labs/lab4/install/mav_msgs/local/lib/python3.10/dist-packages:/home/aimane/mavros_ws/install/mavros_examples/local/lib/python3.10/dist-packages:/home/aimane/mavros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/aimane/mavros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/aimane/ardupilot/Tools/autotest'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_msgs:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/mavros_ws/install/mavros_extras:/home/aimane/mavros_ws/install/mavros_examples:/home/aimane/mavros_ws/install/mavros:/home/aimane/mavros_ws/install/mavros_msgs:/home/aimane/mavros_ws/install/libmavconn')]), 'shell': False}
+[0.099159] (-) TimerEvent: {}
+[0.168327] (trajectory_generation) StdoutLine: {'line': b'[ 50%] Built target spiral_pose_publisher_node\n'}
+[0.180220] (trajectory_generation) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_generation_node.dir/src/trajectory_generation_node.cpp.o\x1b[0m\n'}
+[0.199288] (-) TimerEvent: {}
+[0.299642] (-) TimerEvent: {}
+[0.400011] (-) TimerEvent: {}
+[0.500397] (-) TimerEvent: {}
+[0.600854] (-) TimerEvent: {}
+[0.701279] (-) TimerEvent: {}
+[0.801733] (-) TimerEvent: {}
+[0.902278] (-) TimerEvent: {}
+[1.002721] (-) TimerEvent: {}
+[1.103139] (-) TimerEvent: {}
+[1.203514] (-) TimerEvent: {}
+[1.303871] (-) TimerEvent: {}
+[1.404173] (-) TimerEvent: {}
+[1.504540] (-) TimerEvent: {}
+[1.604915] (-) TimerEvent: {}
+[1.705304] (-) TimerEvent: {}
+[1.805646] (-) TimerEvent: {}
+[1.905994] (-) TimerEvent: {}
+[2.006368] (-) TimerEvent: {}
+[2.106729] (-) TimerEvent: {}
+[2.207190] (-) TimerEvent: {}
+[2.307631] (-) TimerEvent: {}
+[2.408071] (-) TimerEvent: {}
+[2.508554] (-) TimerEvent: {}
+[2.608971] (-) TimerEvent: {}
+[2.709432] (-) TimerEvent: {}
+[2.809887] (-) TimerEvent: {}
+[2.910261] (-) TimerEvent: {}
+[3.010630] (-) TimerEvent: {}
+[3.111009] (-) TimerEvent: {}
+[3.211445] (-) TimerEvent: {}
+[3.311886] (-) TimerEvent: {}
+[3.412245] (-) TimerEvent: {}
+[3.512613] (-) TimerEvent: {}
+[3.612962] (-) TimerEvent: {}
+[3.713339] (-) TimerEvent: {}
+[3.813779] (-) TimerEvent: {}
+[3.914156] (-) TimerEvent: {}
+[4.015215] (-) TimerEvent: {}
+[4.115945] (-) TimerEvent: {}
+[4.216308] (-) TimerEvent: {}
+[4.316766] (-) TimerEvent: {}
+[4.417154] (-) TimerEvent: {}
+[4.517537] (-) TimerEvent: {}
+[4.617930] (-) TimerEvent: {}
+[4.718256] (-) TimerEvent: {}
+[4.818617] (-) TimerEvent: {}
+[4.918985] (-) TimerEvent: {}
+[5.019394] (-) TimerEvent: {}
+[5.119826] (-) TimerEvent: {}
+[5.220226] (-) TimerEvent: {}
+[5.320604] (-) TimerEvent: {}
+[5.421029] (-) TimerEvent: {}
+[5.521381] (-) TimerEvent: {}
+[5.621696] (-) TimerEvent: {}
+[5.722030] (-) TimerEvent: {}
+[5.822449] (-) TimerEvent: {}
+[5.922763] (-) TimerEvent: {}
+[6.023121] (-) TimerEvent: {}
+[6.123510] (-) TimerEvent: {}
+[6.223865] (-) TimerEvent: {}
+[6.324285] (-) TimerEvent: {}
+[6.424641] (-) TimerEvent: {}
+[6.524993] (-) TimerEvent: {}
+[6.625361] (-) TimerEvent: {}
+[6.725745] (-) TimerEvent: {}
+[6.826146] (-) TimerEvent: {}
+[6.926539] (-) TimerEvent: {}
+[6.945942] (trajectory_generation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/trajectory_generation_pkg/src/trajectory_generation_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid WaypointFollower::publishDesiredState()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.946329] (trajectory_generation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/trajectory_generation_pkg/src/trajectory_generation_node.cpp:280:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KraceStartTime\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krace_time\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.946559] (trajectory_generation) StderrLine: {'line': b'  280 |             double race_time = (now() - \x1b[01;31m\x1b[KraceStartTime\x1b[m\x1b[K).seconds();\n'}
+[6.946740] (trajectory_generation) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.946849] (trajectory_generation) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[Krace_time\x1b[m\x1b[K\n'}
+[7.026675] (-) TimerEvent: {}
+[7.127091] (-) TimerEvent: {}
+[7.227491] (-) TimerEvent: {}
+[7.327870] (-) TimerEvent: {}
+[7.428237] (-) TimerEvent: {}
+[7.528586] (-) TimerEvent: {}
+[7.628958] (-) TimerEvent: {}
+[7.729372] (-) TimerEvent: {}
+[7.829798] (-) TimerEvent: {}
+[7.930175] (-) TimerEvent: {}
+[8.030580] (-) TimerEvent: {}
+[8.131037] (-) TimerEvent: {}
+[8.231456] (-) TimerEvent: {}
+[8.332267] (-) TimerEvent: {}
+[8.432888] (-) TimerEvent: {}
+[8.533425] (-) TimerEvent: {}
+[8.633842] (-) TimerEvent: {}
+[8.734270] (-) TimerEvent: {}
+[8.834688] (-) TimerEvent: {}
+[8.935086] (-) TimerEvent: {}
+[9.035526] (-) TimerEvent: {}
+[9.135939] (-) TimerEvent: {}
+[9.236366] (-) TimerEvent: {}
+[9.336757] (-) TimerEvent: {}
+[9.437163] (-) TimerEvent: {}
+[9.537613] (-) TimerEvent: {}
+[9.638013] (-) TimerEvent: {}
+[9.738410] (-) TimerEvent: {}
+[9.838813] (-) TimerEvent: {}
+[9.939221] (-) TimerEvent: {}
+[10.039622] (-) TimerEvent: {}
+[10.140024] (-) TimerEvent: {}
+[10.240371] (-) TimerEvent: {}
+[10.340722] (-) TimerEvent: {}
+[10.441085] (-) TimerEvent: {}
+[10.541441] (-) TimerEvent: {}
+[10.641750] (-) TimerEvent: {}
+[10.742059] (-) TimerEvent: {}
+[10.842399] (-) TimerEvent: {}
+[10.942730] (-) TimerEvent: {}
+[11.043084] (-) TimerEvent: {}
+[11.143405] (-) TimerEvent: {}
+[11.243787] (-) TimerEvent: {}
+[11.344149] (-) TimerEvent: {}
+[11.444532] (-) TimerEvent: {}
+[11.544924] (-) TimerEvent: {}
+[11.645284] (-) TimerEvent: {}
+[11.745656] (-) TimerEvent: {}
+[11.846056] (-) TimerEvent: {}
+[11.946451] (-) TimerEvent: {}
+[12.046838] (-) TimerEvent: {}
+[12.147276] (-) TimerEvent: {}
+[12.247641] (-) TimerEvent: {}
+[12.347997] (-) TimerEvent: {}
+[12.448561] (-) TimerEvent: {}
+[12.548951] (-) TimerEvent: {}
+[12.649318] (-) TimerEvent: {}
+[12.749719] (-) TimerEvent: {}
+[12.850265] (-) TimerEvent: {}
+[12.950761] (-) TimerEvent: {}
+[13.051386] (-) TimerEvent: {}
+[13.151867] (-) TimerEvent: {}
+[13.252344] (-) TimerEvent: {}
+[13.352786] (-) TimerEvent: {}
+[13.453136] (-) TimerEvent: {}
+[13.553513] (-) TimerEvent: {}
+[13.653864] (-) TimerEvent: {}
+[13.754358] (-) TimerEvent: {}
+[13.854742] (-) TimerEvent: {}
+[13.955135] (-) TimerEvent: {}
+[14.055575] (-) TimerEvent: {}
+[14.155919] (-) TimerEvent: {}
+[14.256293] (-) TimerEvent: {}
+[14.356619] (-) TimerEvent: {}
+[14.456972] (-) TimerEvent: {}
+[14.557325] (-) TimerEvent: {}
+[14.657627] (-) TimerEvent: {}
+[14.757931] (-) TimerEvent: {}
+[14.858281] (-) TimerEvent: {}
+[14.958687] (-) TimerEvent: {}
+[15.059034] (-) TimerEvent: {}
+[15.159359] (-) TimerEvent: {}
+[15.259739] (-) TimerEvent: {}
+[15.360049] (-) TimerEvent: {}
+[15.460374] (-) TimerEvent: {}
+[15.560713] (-) TimerEvent: {}
+[15.661069] (-) TimerEvent: {}
+[15.761450] (-) TimerEvent: {}
+[15.861877] (-) TimerEvent: {}
+[15.962283] (-) TimerEvent: {}
+[16.062654] (-) TimerEvent: {}
+[16.163093] (-) TimerEvent: {}
+[16.263553] (-) TimerEvent: {}
+[16.364001] (-) TimerEvent: {}
+[16.464344] (-) TimerEvent: {}
+[16.564695] (-) TimerEvent: {}
+[16.665036] (-) TimerEvent: {}
+[16.765467] (-) TimerEvent: {}
+[16.865836] (-) TimerEvent: {}
+[16.966198] (-) TimerEvent: {}
+[17.066572] (-) TimerEvent: {}
+[17.166955] (-) TimerEvent: {}
+[17.267426] (-) TimerEvent: {}
+[17.367857] (-) TimerEvent: {}
+[17.468276] (-) TimerEvent: {}
+[17.568679] (-) TimerEvent: {}
+[17.669064] (-) TimerEvent: {}
+[17.769425] (-) TimerEvent: {}
+[17.869828] (-) TimerEvent: {}
+[17.970219] (-) TimerEvent: {}
+[18.070589] (-) TimerEvent: {}
+[18.123206] (trajectory_generation) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/trajectory_generation_node.dir/build.make:76: CMakeFiles/trajectory_generation_node.dir/src/trajectory_generation_node.cpp.o] Error 1\n'}
+[18.123574] (trajectory_generation) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/trajectory_generation_node.dir/all] Error 2\n'}
+[18.123901] (trajectory_generation) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[18.127016] (trajectory_generation) CommandEnded: {'returncode': 2}
+[18.155666] (trajectory_generation) JobEnded: {'identifier': 'trajectory_generation', 'rc': 2}
+[18.166700] (-) EventReactorShutdown: {}

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-01a2889a1c895718c064.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "trajectory_generation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "spiral_pose_publisher_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spiral_pose_publisher_node-b47db97ea6909ac1c86d.json",
+					"name" : "spiral_pose_publisher_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_generation_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_generation_node-7b666702333efa690f56.json",
+					"name" : "trajectory_generation_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_generation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_generation_uninstall-152fbf1b35cbf71ca259.json",
+					"name" : "trajectory_generation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bd4188cfd3e3aa5e8a8c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aimane/vnav23/labs/lab4/build/trajectory_generation",
+		"source" : "/home/aimane/vnav23/labs/lab4/src/trajectory_generation_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

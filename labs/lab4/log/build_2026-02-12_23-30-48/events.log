@@ -1,0 +1,15 @@
+[0.000000] (-) TimerEvent: {}
+[0.002016] (-) JobUnselected: {'identifier': 'controller_pkg'}
+[0.002122] (-) JobUnselected: {'identifier': 'mav_comm'}
+[0.002191] (-) JobUnselected: {'identifier': 'mav_msgs'}
+[0.002242] (-) JobUnselected: {'identifier': 'mav_planning_msgs'}
+[0.002304] (-) JobUnselected: {'identifier': 'mav_state_machine_msgs'}
+[0.002368] (-) JobUnselected: {'identifier': 'mav_system_msgs'}
+[0.002430] (-) JobUnselected: {'identifier': 'mav_trajectory_generation'}
+[0.002489] (-) JobUnselected: {'identifier': 'mav_visualization'}
+[0.002569] (-) JobUnselected: {'identifier': 'planner_pkg'}
+[0.002639] (-) JobUnselected: {'identifier': 'tesse'}
+[0.002689] (-) JobUnselected: {'identifier': 'tesse_msgs'}
+[0.002745] (-) JobUnselected: {'identifier': 'tesse_ros_bridge'}
+[0.002801] (-) JobUnselected: {'identifier': 'trajectory_generation'}
+[0.002850] (-) EventReactorShutdown: {}

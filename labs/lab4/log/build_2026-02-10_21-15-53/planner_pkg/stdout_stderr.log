@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_traj_planner[0m
+[ 50%] Built target traj_vertices_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/simple_traj_planner.dir/src/simple_traj_planner.cpp.o[0m
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:[m[K In member function ‘[01m[Kvoid SimpleTrajPlanner::trajCB(geometry_msgs::msg::PoseArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:82:24:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformStamped[m[K’ was not declared in this scope; did you mean ‘[01m[Ktransform_stamped[m[K’?
+   82 |     br_->sendTransform([01;31m[KtransformStamped[m[K);
+      |                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                        [32m[Ktransform_stamped[m[K
+gmake[2]: *** [CMakeFiles/simple_traj_planner.dir/build.make:76: CMakeFiles/simple_traj_planner.dir/src/simple_traj_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_traj_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

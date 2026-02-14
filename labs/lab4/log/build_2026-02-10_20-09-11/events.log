@@ -1,0 +1,254 @@
+[0.000000] (-) TimerEvent: {}
+[0.000242] (-) JobUnselected: {'identifier': 'controller_pkg'}
+[0.000313] (-) JobUnselected: {'identifier': 'mav_comm'}
+[0.000367] (-) JobUnselected: {'identifier': 'mav_msgs'}
+[0.000412] (-) JobUnselected: {'identifier': 'mav_planning_msgs'}
+[0.000476] (-) JobUnselected: {'identifier': 'mav_state_machine_msgs'}
+[0.000523] (-) JobUnselected: {'identifier': 'mav_system_msgs'}
+[0.000587] (-) JobUnselected: {'identifier': 'mav_trajectory_generation'}
+[0.000912] (-) JobUnselected: {'identifier': 'mav_visualization'}
+[0.001049] (-) JobUnselected: {'identifier': 'tesse'}
+[0.001125] (-) JobUnselected: {'identifier': 'tesse_msgs'}
+[0.001168] (-) JobUnselected: {'identifier': 'tesse_ros_bridge'}
+[0.001236] (-) JobUnselected: {'identifier': 'trajectory_generation'}
+[0.001270] (planner_pkg) JobQueued: {'identifier': 'planner_pkg', 'dependencies': OrderedDict([('mav_msgs', '/home/aimane/vnav23/labs/lab4/install/mav_msgs')])}
+[0.001321] (planner_pkg) JobStarted: {'identifier': 'planner_pkg'}
+[0.025240] (planner_pkg) JobProgress: {'identifier': 'planner_pkg', 'progress': 'cmake'}
+[0.026361] (planner_pkg) JobProgress: {'identifier': 'planner_pkg', 'progress': 'build'}
+[0.027697] (planner_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aimane/vnav23/labs/lab4/build/planner_pkg', '--', '-j8', '-l8'], 'cwd': '/home/aimane/vnav23/labs/lab4/build/planner_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aimane'), ('ROS_PACKAGE_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_visualization/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_msgs/lib:/home/aimane/mavros_ws/install/mavros_extras/lib:/home/aimane/mavros_ws/install/mavros/lib:/home/aimane/mavros_ws/install/mavros_msgs/lib:/home/aimane/mavros_ws/install/libmavconn/lib:/home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/lib:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aimane'), ('OLDPWD', '/home/aimane/vnav23'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/tmp/.ros'), ('COLCON_PREFIX_PATH', '/home/aimane/mavros_ws/install:/home/aimane/vnav23/labs/lab4/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_visualization/lib/x86_64-linux-gnu/pkgconfig:/home/aimane/vnav23/labs/lab4/install/mav_visualization/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/usr/lib/ccache:/usr/lib/ccache:/home/aimane/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/usr/lib/ccache:/usr/lib/ccache:/home/aimane/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/aimane/ardupilot/Tools/autotest:/home/aimane/.local/bin:/home/aimane/ardupilot/Tools/autotest:/home/aimane/.local/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/aimane/mavros_ws/install/mavros_extras:/home/aimane/mavros_ws/install/mavros_examples:/home/aimane/mavros_ws/install/mavros:/home/aimane/mavros_ws/install/mavros_msgs:/home/aimane/mavros_ws/install/libmavconn:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aimane/vnav23/labs/lab4/build/planner_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/aimane/mavros_ws/install/mavros_examples/local/lib/python3.10/dist-packages:/home/aimane/mavros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/aimane/mavros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages:/home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages:/home/aimane/vnav23/labs/lab4/install/tesse/lib/python3.10/site-packages:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/aimane/vnav23/labs/lab4/install/mav_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/aimane/ardupilot/Tools/autotest:/home/aimane/ardupilot/Tools/autotest'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_msgs:/home/aimane/mavros_ws/install/mavros_extras:/home/aimane/mavros_ws/install/mavros_examples:/home/aimane/mavros_ws/install/mavros:/home/aimane/mavros_ws/install/mavros_msgs:/home/aimane/mavros_ws/install/libmavconn:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg')]), 'shell': False}
+[0.098952] (-) TimerEvent: {}
+[0.112281] (planner_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target simple_traj_planner\x1b[0m\n'}
+[0.140644] (planner_pkg) StdoutLine: {'line': b'[ 50%] Built target traj_vertices_publisher\n'}
+[0.151572] (planner_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/simple_traj_planner.dir/src/simple_traj_planner.cpp.o\x1b[0m\n'}
+[0.199056] (-) TimerEvent: {}
+[0.299426] (-) TimerEvent: {}
+[0.399801] (-) TimerEvent: {}
+[0.500126] (-) TimerEvent: {}
+[0.600492] (-) TimerEvent: {}
+[0.700853] (-) TimerEvent: {}
+[0.801221] (-) TimerEvent: {}
+[0.901584] (-) TimerEvent: {}
+[1.001947] (-) TimerEvent: {}
+[1.102287] (-) TimerEvent: {}
+[1.202641] (-) TimerEvent: {}
+[1.302974] (-) TimerEvent: {}
+[1.403424] (-) TimerEvent: {}
+[1.503751] (-) TimerEvent: {}
+[1.604080] (-) TimerEvent: {}
+[1.704394] (-) TimerEvent: {}
+[1.804703] (-) TimerEvent: {}
+[1.905068] (-) TimerEvent: {}
+[2.005411] (-) TimerEvent: {}
+[2.105758] (-) TimerEvent: {}
+[2.206110] (-) TimerEvent: {}
+[2.306461] (-) TimerEvent: {}
+[2.406818] (-) TimerEvent: {}
+[2.507213] (-) TimerEvent: {}
+[2.607668] (-) TimerEvent: {}
+[2.708000] (-) TimerEvent: {}
+[2.808275] (-) TimerEvent: {}
+[2.908607] (-) TimerEvent: {}
+[3.008949] (-) TimerEvent: {}
+[3.109233] (-) TimerEvent: {}
+[3.209529] (-) TimerEvent: {}
+[3.309855] (-) TimerEvent: {}
+[3.410199] (-) TimerEvent: {}
+[3.510517] (-) TimerEvent: {}
+[3.600153] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSimpleTrajPlanner::SimpleTrajPlanner()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.600392] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:28:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kindex\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[3.600493] (planner_pkg) StderrLine: {'line': b'   28 |     int \x1b[01;35m\x1b[Kindex\x1b[m\x1b[K = 0;\n'}
+[3.600575] (planner_pkg) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.604251] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SimpleTrajPlanner::trajCB(geometry_msgs::msg::PoseArray_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.605399] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:74:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseArray_<std::allocator<void> >::_poses_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.605975] (planner_pkg) StderrLine: {'line': b'   74 |     desired_pose.position.x = traj_msg->poses\x1b[01;31m\x1b[K[\x1b[m\x1b[Kindex].position.x;\n'}
+[3.606121] (planner_pkg) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.606261] (planner_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[3.606394] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[3.606521] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.606646] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.606771] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.606896] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp:7\x1b[m\x1b[K,\n'}
+[3.607024] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:1\x1b[m\x1b[K:\n'}
+[3.607149] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1043:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.607306] (planner_pkg) StderrLine: {'line': b' 1043 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K[](size_type __n) _GLIBCXX_NOEXCEPT\n'}
+[3.607437] (planner_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.607564] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1043:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.607699] (planner_pkg) StderrLine: {'line': b' 1043 |       operator[](\x1b[01;36m\x1b[Ksize_type __n\x1b[m\x1b[K) _GLIBCXX_NOEXCEPT\n'}
+[3.607826] (planner_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.607953] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1061:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.608087] (planner_pkg) StderrLine: {'line': b' 1061 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K[](size_type __n) const _GLIBCXX_NOEXCEPT\n'}
+[3.608217] (planner_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.608300] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1061:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.608394] (planner_pkg) StderrLine: {'line': b' 1061 |       operator[](\x1b[01;36m\x1b[Ksize_type __n\x1b[m\x1b[K) const _GLIBCXX_NOEXCEPT\n'}
+[3.608473] (planner_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.608549] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:75:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseArray_<std::allocator<void> >::_poses_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.608632] (planner_pkg) StderrLine: {'line': b'   75 |     desired_pose.position.y = traj_msg->poses\x1b[01;31m\x1b[K[\x1b[m\x1b[Kindex].position.y;\n'}
+[3.608715] (planner_pkg) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.608790] (planner_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[3.608867] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[3.608942] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.609018] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.609095] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.609170] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp:7\x1b[m\x1b[K,\n'}
+[3.609259] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:1\x1b[m\x1b[K:\n'}
+[3.609332] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1043:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.609425] (planner_pkg) StderrLine: {'line': b' 1043 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K[](size_type __n) _GLIBCXX_NOEXCEPT\n'}
+[3.609502] (planner_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.609579] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1043:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.609661] (planner_pkg) StderrLine: {'line': b' 1043 |       operator[](\x1b[01;36m\x1b[Ksize_type __n\x1b[m\x1b[K) _GLIBCXX_NOEXCEPT\n'}
+[3.609738] (planner_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.609814] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1061:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.609894] (planner_pkg) StderrLine: {'line': b' 1061 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K[](size_type __n) const _GLIBCXX_NOEXCEPT\n'}
+[3.609972] (planner_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.610047] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1061:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.610141] (planner_pkg) StderrLine: {'line': b' 1061 |       operator[](\x1b[01;36m\x1b[Ksize_type __n\x1b[m\x1b[K) const _GLIBCXX_NOEXCEPT\n'}
+[3.610273] (planner_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.610361] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:76:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseArray_<std::allocator<void> >::_poses_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.610460] (planner_pkg) StderrLine: {'line': b'   76 |     desired_pose.position.z = traj_msg->poses\x1b[01;31m\x1b[K[\x1b[m\x1b[Kindex].position.z;\n'}
+[3.610536] (-) TimerEvent: {}
+[3.610660] (planner_pkg) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.610839] (planner_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[3.610943] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[3.611026] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.611107] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.611207] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.611294] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp:7\x1b[m\x1b[K,\n'}
+[3.611379] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:1\x1b[m\x1b[K:\n'}
+[3.611477] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1043:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.611567] (planner_pkg) StderrLine: {'line': b' 1043 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K[](size_type __n) _GLIBCXX_NOEXCEPT\n'}
+[3.611656] (planner_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.611737] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1043:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.611835] (planner_pkg) StderrLine: {'line': b' 1043 |       operator[](\x1b[01;36m\x1b[Ksize_type __n\x1b[m\x1b[K) _GLIBCXX_NOEXCEPT\n'}
+[3.611916] (planner_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.611997] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1061:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.612084] (planner_pkg) StderrLine: {'line': b' 1061 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K[](size_type __n) const _GLIBCXX_NOEXCEPT\n'}
+[3.612165] (planner_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.612305] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1061:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.612442] (planner_pkg) StderrLine: {'line': b' 1061 |       operator[](\x1b[01;36m\x1b[Ksize_type __n\x1b[m\x1b[K) const _GLIBCXX_NOEXCEPT\n'}
+[3.612585] (planner_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.612719] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:78:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseArray_<std::allocator<void> >::_poses_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.612872] (planner_pkg) StderrLine: {'line': b'   78 |     desired_pose.orientation.x = traj_msg->poses\x1b[01;31m\x1b[K[\x1b[m\x1b[Kindex].orientation.x;\n'}
+[3.613012] (planner_pkg) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.613147] (planner_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[3.613253] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[3.613345] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.613480] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.613607] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.613705] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp:7\x1b[m\x1b[K,\n'}
+[3.613851] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:1\x1b[m\x1b[K:\n'}
+[3.614057] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1043:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.614270] (planner_pkg) StderrLine: {'line': b' 1043 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K[](size_type __n) _GLIBCXX_NOEXCEPT\n'}
+[3.614413] (planner_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.614558] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1043:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.614719] (planner_pkg) StderrLine: {'line': b' 1043 |       operator[](\x1b[01;36m\x1b[Ksize_type __n\x1b[m\x1b[K) _GLIBCXX_NOEXCEPT\n'}
+[3.614807] (planner_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.614886] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1061:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.614980] (planner_pkg) StderrLine: {'line': b' 1061 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K[](size_type __n) const _GLIBCXX_NOEXCEPT\n'}
+[3.615060] (planner_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.615140] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1061:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.615241] (planner_pkg) StderrLine: {'line': b' 1061 |       operator[](\x1b[01;36m\x1b[Ksize_type __n\x1b[m\x1b[K) const _GLIBCXX_NOEXCEPT\n'}
+[3.615322] (planner_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.615402] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:79:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseArray_<std::allocator<void> >::_poses_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.615488] (planner_pkg) StderrLine: {'line': b'   79 |     desired_pose.orientation.y = traj_msg->poses\x1b[01;31m\x1b[K[\x1b[m\x1b[Kindex].orientation.y;\n'}
+[3.615574] (planner_pkg) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.615653] (planner_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[3.615757] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[3.615840] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.615921] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.616002] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.616090] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp:7\x1b[m\x1b[K,\n'}
+[3.616171] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:1\x1b[m\x1b[K:\n'}
+[3.616268] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1043:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.616355] (planner_pkg) StderrLine: {'line': b' 1043 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K[](size_type __n) _GLIBCXX_NOEXCEPT\n'}
+[3.616435] (planner_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.616513] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1043:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.616596] (planner_pkg) StderrLine: {'line': b' 1043 |       operator[](\x1b[01;36m\x1b[Ksize_type __n\x1b[m\x1b[K) _GLIBCXX_NOEXCEPT\n'}
+[3.616681] (planner_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.616775] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1061:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.616875] (planner_pkg) StderrLine: {'line': b' 1061 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K[](size_type __n) const _GLIBCXX_NOEXCEPT\n'}
+[3.616955] (planner_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.617034] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1061:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.617125] (planner_pkg) StderrLine: {'line': b' 1061 |       operator[](\x1b[01;36m\x1b[Ksize_type __n\x1b[m\x1b[K) const _GLIBCXX_NOEXCEPT\n'}
+[3.617237] (planner_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.617323] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:80:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseArray_<std::allocator<void> >::_poses_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.617448] (planner_pkg) StderrLine: {'line': b'   80 |     desired_pose.orientation.z = traj_msg->poses\x1b[01;31m\x1b[K[\x1b[m\x1b[Kindex].orientation.z;\n'}
+[3.617533] (planner_pkg) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.617612] (planner_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[3.617693] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[3.617774] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.617875] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.617955] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.618034] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp:7\x1b[m\x1b[K,\n'}
+[3.618113] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:1\x1b[m\x1b[K:\n'}
+[3.618200] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1043:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.618297] (planner_pkg) StderrLine: {'line': b' 1043 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K[](size_type __n) _GLIBCXX_NOEXCEPT\n'}
+[3.618375] (planner_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.618455] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1043:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.618544] (planner_pkg) StderrLine: {'line': b' 1043 |       operator[](\x1b[01;36m\x1b[Ksize_type __n\x1b[m\x1b[K) _GLIBCXX_NOEXCEPT\n'}
+[3.618623] (planner_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.618701] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1061:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.618788] (planner_pkg) StderrLine: {'line': b' 1061 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K[](size_type __n) const _GLIBCXX_NOEXCEPT\n'}
+[3.618870] (planner_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.618969] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1061:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.619054] (planner_pkg) StderrLine: {'line': b' 1061 |       operator[](\x1b[01;36m\x1b[Ksize_type __n\x1b[m\x1b[K) const _GLIBCXX_NOEXCEPT\n'}
+[3.619135] (planner_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.619234] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:81:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseArray_<std::allocator<void> >::_poses_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.619322] (planner_pkg) StderrLine: {'line': b'   81 |     desired_pose.orientation.w = traj_msg->poses\x1b[01;31m\x1b[K[\x1b[m\x1b[Kindex].orientation.w;\n'}
+[3.619402] (planner_pkg) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.619483] (planner_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[3.619561] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[3.619639] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.619861] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.619947] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.620047] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp:7\x1b[m\x1b[K,\n'}
+[3.620142] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:1\x1b[m\x1b[K:\n'}
+[3.620252] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1043:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.620348] (planner_pkg) StderrLine: {'line': b' 1043 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K[](size_type __n) _GLIBCXX_NOEXCEPT\n'}
+[3.620430] (planner_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.620516] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1043:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.620609] (planner_pkg) StderrLine: {'line': b' 1043 |       operator[](\x1b[01;36m\x1b[Ksize_type __n\x1b[m\x1b[K) _GLIBCXX_NOEXCEPT\n'}
+[3.620689] (planner_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.620769] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1061:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.620900] (planner_pkg) StderrLine: {'line': b' 1061 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K[](size_type __n) const _GLIBCXX_NOEXCEPT\n'}
+[3.620985] (planner_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.621108] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1061:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.621236] (planner_pkg) StderrLine: {'line': b' 1061 |       operator[](\x1b[01;36m\x1b[Ksize_type __n\x1b[m\x1b[K) const _GLIBCXX_NOEXCEPT\n'}
+[3.621326] (planner_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.710678] (-) TimerEvent: {}
+[3.810995] (-) TimerEvent: {}
+[3.911271] (-) TimerEvent: {}
+[4.011581] (-) TimerEvent: {}
+[4.111919] (-) TimerEvent: {}
+[4.212248] (-) TimerEvent: {}
+[4.312548] (-) TimerEvent: {}
+[4.412861] (-) TimerEvent: {}
+[4.513204] (-) TimerEvent: {}
+[4.613504] (-) TimerEvent: {}
+[4.713815] (-) TimerEvent: {}
+[4.814090] (-) TimerEvent: {}
+[4.914393] (-) TimerEvent: {}
+[5.014711] (-) TimerEvent: {}
+[5.115041] (-) TimerEvent: {}
+[5.215333] (-) TimerEvent: {}
+[5.315659] (-) TimerEvent: {}
+[5.416007] (-) TimerEvent: {}
+[5.516289] (-) TimerEvent: {}
+[5.616634] (-) TimerEvent: {}
+[5.716953] (-) TimerEvent: {}
+[5.817278] (-) TimerEvent: {}
+[5.917608] (-) TimerEvent: {}
+[6.017935] (-) TimerEvent: {}
+[6.118260] (-) TimerEvent: {}
+[6.218540] (-) TimerEvent: {}
+[6.318861] (-) TimerEvent: {}
+[6.419193] (-) TimerEvent: {}
+[6.519500] (-) TimerEvent: {}
+[6.619896] (-) TimerEvent: {}
+[6.720235] (-) TimerEvent: {}
+[6.820544] (-) TimerEvent: {}
+[6.858410] (planner_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/simple_traj_planner.dir/build.make:76: CMakeFiles/simple_traj_planner.dir/src/simple_traj_planner.cpp.o] Error 1\n'}
+[6.858701] (planner_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_traj_planner.dir/all] Error 2\n'}
+[6.859112] (planner_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.862164] (planner_pkg) CommandEnded: {'returncode': 2}
+[6.879032] (planner_pkg) JobEnded: {'identifier': 'planner_pkg', 'rc': 2}
+[6.889753] (-) EventReactorShutdown: {}

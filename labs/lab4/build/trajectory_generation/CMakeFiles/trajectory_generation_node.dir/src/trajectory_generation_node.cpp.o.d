@@ -949,25 +949,48 @@ CMakeFiles/trajectory_generation_node.dir/src/trajectory_generation_node.cpp.o: 
  /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include/mav_trajectory_generation/impl/polynomial_optimization_linear_impl.h \
  /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include/mav_trajectory_generation/convolution.h \
  /usr/include/eigen3/Eigen/Dense \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.hpp \
+ /usr/include/c++/11/math.h /usr/include/c++/11/cfloat \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.hpp \
+ /opt/ros/humble/include/tf2/tf2/visibility_control.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.hpp \
+ /opt/ros/humble/include/tf2/tf2/utils.h \
+ /opt/ros/humble/include/tf2/tf2/utils.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
+ /opt/ros/humble/include/tf2/tf2/impl/utils.hpp \
+ /opt/ros/humble/include/tf2/tf2/convert.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
+ /opt/ros/humble/include/tf2/tf2/exceptions.hpp \
+ /opt/ros/humble/include/tf2/tf2/impl/convert.hpp \
+ /opt/ros/humble/include/tf2/tf2/transform_datatypes.hpp \
+ /opt/ros/humble/include/tf2/tf2/time.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.hpp \
  /opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion_stamped.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__struct.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__builder.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__traits.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
@@ -1025,22 +1048,6 @@ CMakeFiles/trajectory_generation_node.dir/src/trajectory_generation_node.cpp.o: 
  /usr/include/kdl/frames.hpp /usr/include/kdl/utilities/kdl-config.h \
  /usr/include/kdl/utilities/utility.h \
  /usr/include/kdl/utilities/kdl-config.h /usr/include/kdl/frames.inl \
- /opt/ros/humble/include/tf2/tf2/convert.hpp \
- /opt/ros/humble/include/tf2/tf2/exceptions.hpp \
- /opt/ros/humble/include/tf2/tf2/visibility_control.h \
- /opt/ros/humble/include/tf2/tf2/impl/convert.hpp \
- /opt/ros/humble/include/tf2/tf2/transform_datatypes.hpp \
- /opt/ros/humble/include/tf2/tf2/time.hpp \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.hpp \
- /usr/include/c++/11/math.h /usr/include/c++/11/cfloat \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.hpp \
- /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.hpp \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.hpp \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
  /opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.hpp \
  /opt/ros/humble/include/tf2_ros/tf2_ros/visibility_control.hpp

@@ -1,0 +1,238 @@
+[0.000000] (-) TimerEvent: {}
+[0.000412] (-) JobUnselected: {'identifier': 'controller_pkg'}
+[0.000731] (-) JobUnselected: {'identifier': 'mav_comm'}
+[0.000886] (-) JobUnselected: {'identifier': 'mav_msgs'}
+[0.001081] (-) JobUnselected: {'identifier': 'mav_planning_msgs'}
+[0.001147] (-) JobUnselected: {'identifier': 'mav_state_machine_msgs'}
+[0.001242] (-) JobUnselected: {'identifier': 'mav_system_msgs'}
+[0.001300] (-) JobUnselected: {'identifier': 'mav_trajectory_generation'}
+[0.001340] (-) JobUnselected: {'identifier': 'mav_visualization'}
+[0.001390] (-) JobUnselected: {'identifier': 'tesse'}
+[0.001438] (-) JobUnselected: {'identifier': 'tesse_msgs'}
+[0.001478] (-) JobUnselected: {'identifier': 'tesse_ros_bridge'}
+[0.001516] (-) JobUnselected: {'identifier': 'trajectory_generation'}
+[0.001571] (planner_pkg) JobQueued: {'identifier': 'planner_pkg', 'dependencies': OrderedDict([('mav_msgs', '/home/aimane/vnav23/labs/lab4/install/mav_msgs')])}
+[0.001775] (planner_pkg) JobStarted: {'identifier': 'planner_pkg'}
+[0.022304] (planner_pkg) JobProgress: {'identifier': 'planner_pkg', 'progress': 'cmake'}
+[0.023093] (planner_pkg) JobProgress: {'identifier': 'planner_pkg', 'progress': 'build'}
+[0.023935] (planner_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aimane/vnav23/labs/lab4/build/planner_pkg', '--', '-j8', '-l8'], 'cwd': '/home/aimane/vnav23/labs/lab4/build/planner_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aimane'), ('ROS_PACKAGE_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_visualization/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_msgs/lib:/home/aimane/mavros_ws/install/mavros_extras/lib:/home/aimane/mavros_ws/install/mavros/lib:/home/aimane/mavros_ws/install/mavros_msgs/lib:/home/aimane/mavros_ws/install/libmavconn/lib:/home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/lib:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aimane'), ('OLDPWD', '/home/aimane/vnav23'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/tmp/.ros'), ('COLCON_PREFIX_PATH', '/home/aimane/mavros_ws/install:/home/aimane/vnav23/labs/lab4/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_visualization/lib/x86_64-linux-gnu/pkgconfig:/home/aimane/vnav23/labs/lab4/install/mav_visualization/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/usr/lib/ccache:/usr/lib/ccache:/home/aimane/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/usr/lib/ccache:/usr/lib/ccache:/home/aimane/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/aimane/ardupilot/Tools/autotest:/home/aimane/.local/bin:/home/aimane/ardupilot/Tools/autotest:/home/aimane/.local/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/aimane/mavros_ws/install/mavros_extras:/home/aimane/mavros_ws/install/mavros_examples:/home/aimane/mavros_ws/install/mavros:/home/aimane/mavros_ws/install/mavros_msgs:/home/aimane/mavros_ws/install/libmavconn:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aimane/vnav23/labs/lab4/build/planner_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/aimane/mavros_ws/install/mavros_examples/local/lib/python3.10/dist-packages:/home/aimane/mavros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/aimane/mavros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages:/home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages:/home/aimane/vnav23/labs/lab4/install/tesse/lib/python3.10/site-packages:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/aimane/vnav23/labs/lab4/install/mav_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/aimane/ardupilot/Tools/autotest:/home/aimane/ardupilot/Tools/autotest'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_msgs:/home/aimane/mavros_ws/install/mavros_extras:/home/aimane/mavros_ws/install/mavros_examples:/home/aimane/mavros_ws/install/mavros:/home/aimane/mavros_ws/install/mavros_msgs:/home/aimane/mavros_ws/install/libmavconn:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg')]), 'shell': False}
+[0.094067] (planner_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target simple_traj_planner\x1b[0m\n'}
+[0.099689] (-) TimerEvent: {}
+[0.116434] (planner_pkg) StdoutLine: {'line': b'[ 50%] Built target traj_vertices_publisher\n'}
+[0.124652] (planner_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/simple_traj_planner.dir/src/simple_traj_planner.cpp.o\x1b[0m\n'}
+[0.199790] (-) TimerEvent: {}
+[0.300159] (-) TimerEvent: {}
+[0.400480] (-) TimerEvent: {}
+[0.500801] (-) TimerEvent: {}
+[0.601101] (-) TimerEvent: {}
+[0.701439] (-) TimerEvent: {}
+[0.801768] (-) TimerEvent: {}
+[0.902099] (-) TimerEvent: {}
+[1.002428] (-) TimerEvent: {}
+[1.102757] (-) TimerEvent: {}
+[1.203083] (-) TimerEvent: {}
+[1.303441] (-) TimerEvent: {}
+[1.403777] (-) TimerEvent: {}
+[1.504112] (-) TimerEvent: {}
+[1.604446] (-) TimerEvent: {}
+[1.704773] (-) TimerEvent: {}
+[1.805095] (-) TimerEvent: {}
+[1.905437] (-) TimerEvent: {}
+[2.005768] (-) TimerEvent: {}
+[2.106070] (-) TimerEvent: {}
+[2.206407] (-) TimerEvent: {}
+[2.306759] (-) TimerEvent: {}
+[2.407100] (-) TimerEvent: {}
+[2.507462] (-) TimerEvent: {}
+[2.607853] (-) TimerEvent: {}
+[2.708262] (-) TimerEvent: {}
+[2.808636] (-) TimerEvent: {}
+[2.908971] (-) TimerEvent: {}
+[3.009299] (-) TimerEvent: {}
+[3.052142] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SimpleTrajPlanner::trajCB(geometry_msgs::msg::PoseArray_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.052359] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:62:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KTransform\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.052459] (planner_pkg) StderrLine: {'line': b'   62 |     geometry_msgs::msg:: \x1b[01;31m\x1b[Ktransform\x1b[m\x1b[K;\n'}
+[3.052536] (planner_pkg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.052610] (planner_pkg) StderrLine: {'line': b'      |                          \x1b[32m\x1b[KTransform\x1b[m\x1b[K\n'}
+[3.091937] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:68:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform_stamped\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KtransformStamped\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.092127] (planner_pkg) StderrLine: {'line': b'   68 |     \x1b[01;31m\x1b[Ktransform_stamped\x1b[m\x1b[K.transform.translation.x = target_pose.position.x;\n'}
+[3.092202] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.092271] (planner_pkg) StderrLine: {'line': b'      |     \x1b[32m\x1b[KtransformStamped\x1b[m\x1b[K\n'}
+[3.093091] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:84:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::transform\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.093211] (planner_pkg) StderrLine: {'line': b'   84 |     \x1b[01;31m\x1b[Ktransform\x1b[m\x1b[K = transform_stamped.transform;\n'}
+[3.093290] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.093361] (planner_pkg) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kstd::transform\x1b[m\x1b[K\n'}
+[3.093429] (planner_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.093497] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.093566] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp:7\x1b[m\x1b[K,\n'}
+[3.093634] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:1\x1b[m\x1b[K:\n'}
+[3.093700] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:162:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::transform\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.093784] (planner_pkg) StderrLine: {'line': b'  162 | \x1b[01;36m\x1b[Ktransform\x1b[m\x1b[K(_ExecutionPolicy&& __exec, _ForwardIterator1 __first1, _ForwardIterator1 __last1, _ForwardIterator2 __first2,\n'}
+[3.093851] (planner_pkg) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.097726] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.097885] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:111:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.097967] (planner_pkg) StderrLine: {'line': b'  111 |     \x1b[01;31m\x1b[Kif\x1b[m\x1b[K (traj_msg->poses.empty()) {\n'}
+[3.098045] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.100558] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:139:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KtransformStamped\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.100689] (planner_pkg) StderrLine: {'line': b'  139 |     \x1b[01;31m\x1b[KtransformStamped\x1b[m\x1b[K.header.stamp = this->get_clock()->now();\n'}
+[3.100768] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.103019] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:140:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KtransformStamped\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.103147] (planner_pkg) StderrLine: {'line': b'  140 |     \x1b[01;31m\x1b[KtransformStamped\x1b[m\x1b[K.header.frame_id = "world";\n'}
+[3.103226] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.105389] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:141:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KtransformStamped\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.105519] (planner_pkg) StderrLine: {'line': b'  141 |     \x1b[01;31m\x1b[KtransformStamped\x1b[m\x1b[K.child_frame_id = "desired_pose";\n'}
+[3.105598] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.107036] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:145:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdesired_pose\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.107187] (planner_pkg) StderrLine: {'line': b'  145 |     \x1b[01;31m\x1b[Kdesired_pose\x1b[m\x1b[K.position.x = traj_msg->poses[1].position.x;\n'}
+[3.107306] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.108721] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:146:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdesired_pose\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.108851] (planner_pkg) StderrLine: {'line': b'  146 |     \x1b[01;31m\x1b[Kdesired_pose\x1b[m\x1b[K.position.y = traj_msg->poses[1].position.y;\n'}
+[3.108930] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.109400] (-) TimerEvent: {}
+[3.110421] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:147:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdesired_pose\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.110648] (planner_pkg) StderrLine: {'line': b'  147 |     \x1b[01;31m\x1b[Kdesired_pose\x1b[m\x1b[K.position.z = traj_msg->poses[1].position.z;\n'}
+[3.110791] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.112812] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:149:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdesired_pose\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.113038] (planner_pkg) StderrLine: {'line': b'  149 |     \x1b[01;31m\x1b[Kdesired_pose\x1b[m\x1b[K.orientation.x = traj_msg->poses[1].orientation.x;\n'}
+[3.113159] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.114727] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:150:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdesired_pose\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.114864] (planner_pkg) StderrLine: {'line': b'  150 |     \x1b[01;31m\x1b[Kdesired_pose\x1b[m\x1b[K.orientation.y = traj_msg->poses[1].orientation.y;\n'}
+[3.114943] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.116910] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:151:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdesired_pose\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.117070] (planner_pkg) StderrLine: {'line': b'  151 |     \x1b[01;31m\x1b[Kdesired_pose\x1b[m\x1b[K.orientation.z = traj_msg->poses[1].orientation.z;\n'}
+[3.117155] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.118806] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:152:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdesired_pose\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.118935] (planner_pkg) StderrLine: {'line': b'  152 |     \x1b[01;31m\x1b[Kdesired_pose\x1b[m\x1b[K.orientation.w = traj_msg->poses[1].orientation.w;\n'}
+[3.119037] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.120116] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:154:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.120251] (planner_pkg) StderrLine: {'line': b'  154 |     \x1b[01;31m\x1b[Ktransform\x1b[m\x1b[K.translation.x = desired_pose.position.x;\n'}
+[3.120333] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.121406] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:155:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.121532] (planner_pkg) StderrLine: {'line': b'  155 |     \x1b[01;31m\x1b[Ktransform\x1b[m\x1b[K.translation.y = desired_pose.position.y;\n'}
+[3.121613] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.122700] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:156:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.122828] (planner_pkg) StderrLine: {'line': b'  156 |     \x1b[01;31m\x1b[Ktransform\x1b[m\x1b[K.translation.z = desired_pose.position.z;\n'}
+[3.122909] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.124031] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:158:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.124168] (planner_pkg) StderrLine: {'line': b'  158 |     \x1b[01;31m\x1b[Ktransform\x1b[m\x1b[K.rotation.w = desired_pose.orientation.w;\n'}
+[3.124251] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.125327] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:159:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.125451] (planner_pkg) StderrLine: {'line': b'  159 |     \x1b[01;31m\x1b[Ktransform\x1b[m\x1b[K.rotation.x = desired_pose.orientation.x;\n'}
+[3.125532] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.126639] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:160:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.126761] (planner_pkg) StderrLine: {'line': b'  160 |     \x1b[01;31m\x1b[Ktransform\x1b[m\x1b[K.rotation.y = desired_pose.orientation.y;\n'}
+[3.126840] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.127923] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:161:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.128063] (planner_pkg) StderrLine: {'line': b'  161 |     \x1b[01;31m\x1b[Ktransform\x1b[m\x1b[K.rotation.z = desired_pose.orientation.z;\n'}
+[3.128159] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.129417] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:164:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvelocities\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.129536] (planner_pkg) StderrLine: {'line': b'  164 |     \x1b[01;31m\x1b[Kvelocities\x1b[m\x1b[K.linear.x = 0;\n'}
+[3.129615] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.130834] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:165:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvelocities\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.130959] (planner_pkg) StderrLine: {'line': b'  165 |     \x1b[01;31m\x1b[Kvelocities\x1b[m\x1b[K.linear.y = 0;\n'}
+[3.131047] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.132244] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:166:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvelocities\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.132375] (planner_pkg) StderrLine: {'line': b'  166 |     \x1b[01;31m\x1b[Kvelocities\x1b[m\x1b[K.linear.z = 0;\n'}
+[3.132453] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.133784] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:167:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvelocities\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.133909] (planner_pkg) StderrLine: {'line': b'  167 |     \x1b[01;31m\x1b[Kvelocities\x1b[m\x1b[K.angular.x = 0;\n'}
+[3.134012] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.135249] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:168:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvelocities\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.135375] (planner_pkg) StderrLine: {'line': b'  168 |     \x1b[01;31m\x1b[Kvelocities\x1b[m\x1b[K.angular.y = 0;\n'}
+[3.135452] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.136682] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:169:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvelocities\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.136799] (planner_pkg) StderrLine: {'line': b'  169 |     \x1b[01;31m\x1b[Kvelocities\x1b[m\x1b[K.angular.z = 0;\n'}
+[3.136876] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.138352] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:171:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaccelerations\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.138474] (planner_pkg) StderrLine: {'line': b'  171 |     \x1b[01;31m\x1b[Kaccelerations\x1b[m\x1b[K.linear.x = 0;\n'}
+[3.138552] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.139961] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:172:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaccelerations\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.140130] (planner_pkg) StderrLine: {'line': b'  172 |     \x1b[01;31m\x1b[Kaccelerations\x1b[m\x1b[K.linear.y = 0;\n'}
+[3.140213] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.141715] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:173:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaccelerations\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.141833] (planner_pkg) StderrLine: {'line': b'  173 |     \x1b[01;31m\x1b[Kaccelerations\x1b[m\x1b[K.linear.z = 0;\n'}
+[3.141911] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.143416] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:174:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaccelerations\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.143537] (planner_pkg) StderrLine: {'line': b'  174 |     \x1b[01;31m\x1b[Kaccelerations\x1b[m\x1b[K.angular.x = 0;\n'}
+[3.143613] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.145098] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:175:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaccelerations\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.145220] (planner_pkg) StderrLine: {'line': b'  175 |     \x1b[01;31m\x1b[Kaccelerations\x1b[m\x1b[K.angular.y = 0;\n'}
+[3.145297] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.146776] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:176:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaccelerations\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.146896] (planner_pkg) StderrLine: {'line': b'  176 |     \x1b[01;31m\x1b[Kaccelerations\x1b[m\x1b[K.angular.z = 0;\n'}
+[3.146982] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.148480] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:179:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdesired_MDOF\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.148606] (planner_pkg) StderrLine: {'line': b'  179 |     \x1b[01;31m\x1b[Kdesired_MDOF\x1b[m\x1b[K.time_from_start = rclcpp::Duration(0, 0);\n'}
+[3.148684] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.150292] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:180:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdesired_MDOF\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.150410] (planner_pkg) StderrLine: {'line': b'  180 |     \x1b[01;31m\x1b[Kdesired_MDOF\x1b[m\x1b[K.transforms.push_back(transform);\n'}
+[3.150488] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.151988] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:181:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdesired_MDOF\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.152106] (planner_pkg) StderrLine: {'line': b'  181 |     \x1b[01;31m\x1b[Kdesired_MDOF\x1b[m\x1b[K.velocities.push_back(velocities);\n'}
+[3.152185] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.153646] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:182:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdesired_MDOF\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.153761] (planner_pkg) StderrLine: {'line': b'  182 |     \x1b[01;31m\x1b[Kdesired_MDOF\x1b[m\x1b[K.accelerations.push_back(accelerations);\n'}
+[3.153838] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.156317] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:185:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdesired_state_pub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.156443] (planner_pkg) StderrLine: {'line': b'  185 |     \x1b[01;31m\x1b[Kdesired_state_pub_\x1b[m\x1b[K->publish(desired_MDOF);\n'}
+[3.156529] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.158689] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:187:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KtransformStamped\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.158810] (planner_pkg) StderrLine: {'line': b'  187 |     \x1b[01;31m\x1b[KtransformStamped\x1b[m\x1b[K.transform = transform;\n'}
+[3.158889] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.159434] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:188:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbr_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.159552] (planner_pkg) StderrLine: {'line': b'  188 |     \x1b[01;31m\x1b[Kbr_\x1b[m\x1b[K->sendTransform(transformStamped);\n'}
+[3.159626] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.160206] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:197:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kss\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.160319] (planner_pkg) StderrLine: {'line': b'  197 |     \x1b[01;31m\x1b[Kss\x1b[m\x1b[K << "Trajectory Position"\n'}
+[3.160395] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.160464] (planner_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:27\x1b[m\x1b[K,\n'}
+[3.160545] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp:25\x1b[m\x1b[K,\n'}
+[3.160612] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:31\x1b[m\x1b[K,\n'}
+[3.160676] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:35\x1b[m\x1b[K,\n'}
+[3.160741] (planner_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:4\x1b[m\x1b[K:\n'}
+[3.160805] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:200:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kdo\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.160872] (planner_pkg) StderrLine: {'line': b'  200 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "%s", ss.str().c_str());\n'}
+[3.160937] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.161012] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:200:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kwhile\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.161078] (planner_pkg) StderrLine: {'line': b'  200 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "%s", ss.str().c_str());\n'}
+[3.161142] (planner_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.161206] (planner_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:201:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.161271] (planner_pkg) StderrLine: {'line': b'  201 |   \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[3.161336] (planner_pkg) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.209545] (-) TimerEvent: {}
+[3.309853] (-) TimerEvent: {}
+[3.410169] (-) TimerEvent: {}
+[3.510474] (-) TimerEvent: {}
+[3.610785] (-) TimerEvent: {}
+[3.711104] (-) TimerEvent: {}
+[3.811421] (-) TimerEvent: {}
+[3.911732] (-) TimerEvent: {}
+[4.012045] (-) TimerEvent: {}
+[4.112369] (-) TimerEvent: {}
+[4.212714] (-) TimerEvent: {}
+[4.313053] (-) TimerEvent: {}
+[4.413367] (-) TimerEvent: {}
+[4.513700] (-) TimerEvent: {}
+[4.614024] (-) TimerEvent: {}
+[4.714356] (-) TimerEvent: {}
+[4.814706] (-) TimerEvent: {}
+[4.915074] (-) TimerEvent: {}
+[5.015442] (-) TimerEvent: {}
+[5.115831] (-) TimerEvent: {}
+[5.216221] (-) TimerEvent: {}
+[5.316555] (-) TimerEvent: {}
+[5.416888] (-) TimerEvent: {}
+[5.517223] (-) TimerEvent: {}
+[5.617534] (-) TimerEvent: {}
+[5.717840] (-) TimerEvent: {}
+[5.818107] (-) TimerEvent: {}
+[5.918426] (-) TimerEvent: {}
+[6.018746] (-) TimerEvent: {}
+[6.119059] (-) TimerEvent: {}
+[6.198080] (planner_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/simple_traj_planner.dir/build.make:76: CMakeFiles/simple_traj_planner.dir/src/simple_traj_planner.cpp.o] Error 1\n'}
+[6.198382] (planner_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_traj_planner.dir/all] Error 2\n'}
+[6.198626] (planner_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.201259] (planner_pkg) CommandEnded: {'returncode': 2}
+[6.217492] (planner_pkg) JobEnded: {'identifier': 'planner_pkg', 'rc': 2}
+[6.219139] (-) TimerEvent: {}
+[6.228263] (-) EventReactorShutdown: {}

@@ -1,0 +1,21 @@
+[0.245s] Invoking command in '/home/aimane/vnav23/labs/lab4/build/mav_visualization': /usr/bin/cmake --build /home/aimane/vnav23/labs/lab4/build/mav_visualization -- -j8 -l8
+[6.454s] [100%] Built target mav_visualization
+[6.469s] Invoked command in '/home/aimane/vnav23/labs/lab4/build/mav_visualization' returned '0': /usr/bin/cmake --build /home/aimane/vnav23/labs/lab4/build/mav_visualization -- -j8 -l8
+[6.538s] Invoking command in '/home/aimane/vnav23/labs/lab4/build/mav_visualization': /usr/bin/cmake --install /home/aimane/vnav23/labs/lab4/build/mav_visualization
+[6.548s] -- Install configuration: ""
+[6.548s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/ament_index/resource_index/package_run_dependencies/mav_visualization
+[6.549s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/ament_index/resource_index/parent_prefix_path/mav_visualization
+[6.549s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/environment/ament_prefix_path.sh
+[6.549s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/environment/ament_prefix_path.dsv
+[6.549s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/environment/path.sh
+[6.549s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/environment/path.dsv
+[6.549s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/local_setup.bash
+[6.549s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/local_setup.sh
+[6.550s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/local_setup.zsh
+[6.550s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/local_setup.dsv
+[6.550s] -- Installing: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/package.dsv
+[6.619s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/ament_index/resource_index/packages/mav_visualization
+[6.619s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/cmake/mav_visualizationConfig.cmake
+[6.619s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/cmake/mav_visualizationConfig-version.cmake
+[6.619s] -- Up-to-date: /home/aimane/vnav23/labs/lab4/install/mav_visualization/share/mav_visualization/package.xml
+[6.627s] Invoked command in '/home/aimane/vnav23/labs/lab4/build/mav_visualization' returned '0': /usr/bin/cmake --install /home/aimane/vnav23/labs/lab4/build/mav_visualization

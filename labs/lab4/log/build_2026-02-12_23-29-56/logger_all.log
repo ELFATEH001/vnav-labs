@@ -1,0 +1,541 @@
+[0.311s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'trajectory_generation_pkg']
+[0.311s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['trajectory_generation_pkg'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7000a6776f50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7000a6930580>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7000a6930580>>, mixin_verb=('build',))
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.450s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aimane/vnav23/labs/lab4'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_pkg) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_pkg) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_pkg) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_pkg) by extension 'colcon_pkg'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_pkg) by extensions ['colcon_meta']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_pkg) by extension 'colcon_meta'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_pkg) by extensions ['ros']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_pkg) by extension 'ros'
+[0.520s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controller_pkg' with type 'ros.ament_cmake' and name 'controller_pkg'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extension 'ignore_ament_install'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extensions ['colcon_pkg']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extension 'colcon_pkg'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extensions ['colcon_meta']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extension 'ros'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extensions ['cmake', 'python']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extension 'cmake'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extension 'python'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extensions ['python_setup_py']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extension 'python_setup_py'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_comm) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_comm) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_comm) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_comm) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_comm) by extension 'colcon_pkg'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_comm) by extensions ['colcon_meta']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_comm) by extension 'colcon_meta'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_comm) by extensions ['ros']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_comm) by extension 'ros'
+[0.533s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mav_comm/mav_comm' with type 'ros.ament_cmake' and name 'mav_comm'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_msgs) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_msgs) by extension 'ignore_ament_install'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_msgs) by extensions ['colcon_pkg']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_msgs) by extension 'colcon_pkg'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_msgs) by extensions ['colcon_meta']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_msgs) by extension 'colcon_meta'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_msgs) by extensions ['ros']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_msgs) by extension 'ros'
+[0.538s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mav_comm/mav_msgs' with type 'ros.ament_cmake' and name 'mav_msgs'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_planning_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_planning_msgs) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_planning_msgs) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_planning_msgs) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_planning_msgs) by extension 'colcon_pkg'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_planning_msgs) by extensions ['colcon_meta']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_planning_msgs) by extension 'colcon_meta'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_planning_msgs) by extensions ['ros']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_planning_msgs) by extension 'ros'
+[0.545s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mav_comm/mav_planning_msgs' with type 'ros.ament_cmake' and name 'mav_planning_msgs'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_state_machine_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_state_machine_msgs) by extension 'ignore'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_state_machine_msgs) by extension 'ignore_ament_install'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_state_machine_msgs) by extensions ['colcon_pkg']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_state_machine_msgs) by extension 'colcon_pkg'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_state_machine_msgs) by extensions ['colcon_meta']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_state_machine_msgs) by extension 'colcon_meta'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_state_machine_msgs) by extensions ['ros']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_state_machine_msgs) by extension 'ros'
+[0.549s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mav_comm/mav_state_machine_msgs' with type 'ros.ament_cmake' and name 'mav_state_machine_msgs'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_system_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_system_msgs) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_system_msgs) by extension 'ignore_ament_install'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_system_msgs) by extensions ['colcon_pkg']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_system_msgs) by extension 'colcon_pkg'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_system_msgs) by extensions ['colcon_meta']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_system_msgs) by extension 'colcon_meta'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_system_msgs) by extensions ['ros']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_system_msgs) by extension 'ros'
+[0.553s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mav_comm/mav_system_msgs' with type 'ros.ament_cmake' and name 'mav_system_msgs'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation) by extension 'ignore'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation) by extension 'ignore_ament_install'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation) by extensions ['colcon_pkg']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation) by extension 'colcon_pkg'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation) by extensions ['colcon_meta']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation) by extension 'colcon_meta'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation) by extensions ['ros']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation) by extension 'ros'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation) by extensions ['cmake', 'python']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation) by extension 'cmake'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation) by extension 'python'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation) by extensions ['python_setup_py']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation) by extension 'python_setup_py'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/install) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/install) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/install) by extension 'ignore_ament_install'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/install) by extensions ['colcon_pkg']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/install) by extension 'colcon_pkg'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/install) by extensions ['colcon_meta']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/install) by extension 'colcon_meta'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/install) by extensions ['ros']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/install) by extension 'ros'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/install) by extensions ['cmake', 'python']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/install) by extension 'cmake'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/install) by extension 'python'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/install) by extensions ['python_setup_py']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/install) by extension 'python_setup_py'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab) by extension 'ignore'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab) by extensions ['colcon_pkg']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab) by extension 'colcon_pkg'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab) by extensions ['colcon_meta']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab) by extension 'colcon_meta'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab) by extensions ['ros']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab) by extension 'ros'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab) by extensions ['cmake', 'python']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab) by extension 'cmake'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab) by extension 'python'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab) by extensions ['python_setup_py']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab) by extension 'python_setup_py'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab/functions) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab/functions) by extension 'ignore'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab/functions) by extension 'ignore_ament_install'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab/functions) by extensions ['colcon_pkg']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab/functions) by extension 'colcon_pkg'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab/functions) by extensions ['colcon_meta']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab/functions) by extension 'colcon_meta'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab/functions) by extensions ['ros']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab/functions) by extension 'ros'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab/functions) by extensions ['cmake', 'python']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab/functions) by extension 'cmake'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab/functions) by extension 'python'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab/functions) by extensions ['python_setup_py']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/matlab/functions) by extension 'python_setup_py'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/mav_trajectory_generation) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/mav_trajectory_generation) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/mav_trajectory_generation) by extension 'ignore_ament_install'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/mav_trajectory_generation) by extensions ['colcon_pkg']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/mav_trajectory_generation) by extension 'colcon_pkg'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/mav_trajectory_generation) by extensions ['colcon_meta']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/mav_trajectory_generation) by extension 'colcon_meta'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/mav_trajectory_generation) by extensions ['ros']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/mav_trajectory_generation) by extension 'ros'
+[0.568s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mav_trajectory_generation/mav_trajectory_generation' with type 'ros.ament_cmake' and name 'mav_trajectory_generation'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/mav_visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/mav_visualization) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/mav_visualization) by extension 'ignore_ament_install'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/mav_visualization) by extensions ['colcon_pkg']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/mav_visualization) by extension 'colcon_pkg'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/mav_visualization) by extensions ['colcon_meta']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/mav_visualization) by extension 'colcon_meta'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/mav_visualization) by extensions ['ros']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_trajectory_generation/mav_visualization) by extension 'ros'
+[0.572s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mav_trajectory_generation/mav_visualization' with type 'ros.catkin' and name 'mav_visualization'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_pkg) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_pkg) by extension 'ignore_ament_install'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_pkg) by extensions ['colcon_pkg']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_pkg) by extension 'colcon_pkg'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_pkg) by extensions ['colcon_meta']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_pkg) by extension 'colcon_meta'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_pkg) by extensions ['ros']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_pkg) by extension 'ros'
+[0.575s] DEBUG:colcon.colcon_core.package_identification:Package 'src/planner_pkg' with type 'ros.ament_cmake' and name 'planner_pkg'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse) by extension 'ignore_ament_install'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse) by extensions ['colcon_pkg']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse) by extension 'colcon_pkg'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse) by extensions ['colcon_meta']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse) by extension 'colcon_meta'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse) by extensions ['ros']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse) by extension 'ros'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse) by extensions ['cmake', 'python']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse) by extension 'cmake'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse) by extension 'python'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse) by extensions ['python_setup_py']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse) by extension 'python_setup_py'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data) by extension 'ignore_ament_install'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data) by extensions ['colcon_meta']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data) by extension 'colcon_meta'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data) by extensions ['ros']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data) by extension 'ros'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data) by extensions ['cmake', 'python']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data) by extension 'cmake'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data) by extension 'python'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data) by extensions ['python_setup_py']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data) by extension 'python_setup_py'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Managed) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Managed) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Managed) by extension 'ignore_ament_install'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Managed) by extensions ['colcon_pkg']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Managed) by extension 'colcon_pkg'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Managed) by extensions ['colcon_meta']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Managed) by extension 'colcon_meta'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Managed) by extensions ['ros']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Managed) by extension 'ros'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Managed) by extensions ['cmake', 'python']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Managed) by extension 'cmake'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Managed) by extension 'python'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Managed) by extensions ['python_setup_py']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Managed) by extension 'python_setup_py'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge) by extensions ['ignore', 'ignore_ament_install']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge) by extension 'ignore'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge) by extension 'ignore_ament_install'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge) by extensions ['colcon_pkg']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge) by extension 'colcon_pkg'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge) by extensions ['colcon_meta']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge) by extension 'colcon_meta'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge) by extensions ['ros']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge) by extension 'ros'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge) by extensions ['cmake', 'python']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge) by extension 'cmake'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge) by extension 'python'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge) by extensions ['python_setup_py']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge) by extension 'python_setup_py'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc) by extension 'ignore'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc) by extension 'ignore_ament_install'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc) by extensions ['colcon_pkg']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc) by extension 'colcon_pkg'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc) by extensions ['colcon_meta']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc) by extension 'colcon_meta'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc) by extension 'ros'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc) by extensions ['cmake', 'python']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc) by extension 'cmake'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc) by extension 'python'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc) by extensions ['python_setup_py']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc) by extension 'python_setup_py'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono) by extensions ['ignore', 'ignore_ament_install']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono) by extension 'ignore'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono) by extension 'ignore_ament_install'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono) by extensions ['colcon_pkg']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono) by extension 'colcon_pkg'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono) by extensions ['colcon_meta']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono) by extension 'colcon_meta'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono) by extensions ['ros']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono) by extension 'ros'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono) by extensions ['cmake', 'python']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono) by extension 'cmake'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono) by extension 'python'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono) by extensions ['python_setup_py']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono) by extension 'python_setup_py'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0) by extension 'ignore_ament_install'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0) by extensions ['colcon_pkg']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0) by extension 'colcon_pkg'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0) by extension 'ros'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0) by extensions ['cmake', 'python']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0) by extension 'cmake'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0) by extension 'python'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0) by extensions ['python_setup_py']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0) by extension 'python_setup_py'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extension 'ignore_ament_install'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extensions ['colcon_pkg']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extension 'colcon_pkg'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extensions ['colcon_meta']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extension 'colcon_meta'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extensions ['ros']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extension 'ros'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extensions ['cmake', 'python']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extension 'cmake'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extension 'python'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extensions ['python_setup_py']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extension 'python_setup_py'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0) by extension 'ignore_ament_install'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0) by extensions ['colcon_pkg']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0) by extension 'colcon_pkg'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0) by extensions ['colcon_meta']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0) by extension 'colcon_meta'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0) by extensions ['ros']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0) by extension 'ros'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0) by extensions ['cmake', 'python']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0) by extension 'cmake'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0) by extension 'python'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0) by extensions ['python_setup_py']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0) by extension 'python_setup_py'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extension 'ignore_ament_install'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extensions ['colcon_pkg']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extension 'colcon_pkg'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extensions ['colcon_meta']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extension 'colcon_meta'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extensions ['ros']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extension 'ros'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extensions ['cmake', 'python']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extension 'cmake'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extension 'python'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extensions ['python_setup_py']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extension 'python_setup_py'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5) by extensions ['ignore', 'ignore_ament_install']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5) by extension 'ignore'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5) by extension 'ignore_ament_install'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5) by extensions ['colcon_pkg']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5) by extension 'colcon_pkg'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5) by extensions ['colcon_meta']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5) by extension 'colcon_meta'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5) by extensions ['ros']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5) by extension 'ros'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5) by extensions ['cmake', 'python']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5) by extension 'cmake'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5) by extension 'python'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5) by extensions ['python_setup_py']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5) by extension 'python_setup_py'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extension 'ignore_ament_install'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extensions ['colcon_pkg']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extension 'colcon_pkg'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extensions ['colcon_meta']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extension 'colcon_meta'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extensions ['ros']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extension 'ros'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extensions ['cmake', 'python']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extension 'cmake'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extension 'python'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extensions ['python_setup_py']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extension 'python_setup_py'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/mconfig) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/mconfig) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/mconfig) by extension 'ignore_ament_install'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/mconfig) by extensions ['colcon_pkg']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/mconfig) by extension 'colcon_pkg'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/mconfig) by extensions ['colcon_meta']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/mconfig) by extension 'colcon_meta'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/mconfig) by extensions ['ros']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/mconfig) by extension 'ros'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/mconfig) by extensions ['cmake', 'python']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/mconfig) by extension 'cmake'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/mconfig) by extension 'python'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/mconfig) by extensions ['python_setup_py']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/mconfig) by extension 'python_setup_py'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/registry) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/registry) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/registry) by extension 'ignore_ament_install'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/registry) by extensions ['colcon_pkg']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/registry) by extension 'colcon_pkg'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/registry) by extensions ['colcon_meta']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/registry) by extension 'colcon_meta'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/registry) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/registry) by extension 'ros'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/registry) by extensions ['cmake', 'python']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/registry) by extension 'cmake'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/registry) by extension 'python'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/registry) by extensions ['python_setup_py']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/etc/mono/registry) by extension 'python_setup_py'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/x86_64) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/x86_64) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/x86_64) by extension 'ignore_ament_install'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/x86_64) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/x86_64) by extension 'colcon_pkg'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/x86_64) by extensions ['colcon_meta']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/x86_64) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/x86_64) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/x86_64) by extension 'ros'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/x86_64) by extensions ['cmake', 'python']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/x86_64) by extension 'cmake'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/x86_64) by extension 'python'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/x86_64) by extensions ['python_setup_py']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/MonoBleedingEdge/x86_64) by extension 'python_setup_py'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Resources) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Resources) by extension 'ignore'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Resources) by extension 'ignore_ament_install'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Resources) by extensions ['colcon_pkg']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Resources) by extension 'colcon_pkg'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Resources) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Resources) by extension 'colcon_meta'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Resources) by extensions ['ros']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Resources) by extension 'ros'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Resources) by extensions ['cmake', 'python']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Resources) by extension 'cmake'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Resources) by extension 'python'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Resources) by extensions ['python_setup_py']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/Resources) by extension 'python_setup_py'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/StreamingAssets) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/StreamingAssets) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/StreamingAssets) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/StreamingAssets) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/StreamingAssets) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/StreamingAssets) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/StreamingAssets) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/StreamingAssets) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/StreamingAssets) by extension 'ros'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/StreamingAssets) by extensions ['cmake', 'python']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/StreamingAssets) by extension 'cmake'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/StreamingAssets) by extension 'python'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/StreamingAssets) by extensions ['python_setup_py']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse/lab4_Data/StreamingAssets) by extension 'python_setup_py'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse-interface) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse-interface) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse-interface) by extension 'ignore_ament_install'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse-interface) by extensions ['colcon_pkg']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse-interface) by extension 'colcon_pkg'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse-interface) by extensions ['colcon_meta']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse-interface) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse-interface) by extensions ['ros']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse-interface) by extension 'ros'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse-interface) by extensions ['cmake', 'python']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse-interface) by extension 'cmake'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse-interface) by extension 'python'
+[0.624s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/tesse-interface' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse-interface) by extensions ['python_setup_py']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse-interface) by extension 'python_setup_py'
+[1.299s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tesse-interface' with type 'python' and name 'tesse'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse_msgs) by extension 'ignore'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse_msgs) by extension 'ignore_ament_install'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse_msgs) by extensions ['colcon_pkg']
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse_msgs) by extension 'colcon_pkg'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse_msgs) by extensions ['colcon_meta']
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse_msgs) by extension 'colcon_meta'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse_msgs) by extensions ['ros']
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse_msgs) by extension 'ros'
+[1.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tesse_msgs' with type 'ros.ament_cmake' and name 'tesse_msgs'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse_ros_bridge) by extensions ['ignore', 'ignore_ament_install']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse_ros_bridge) by extension 'ignore'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse_ros_bridge) by extension 'ignore_ament_install'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse_ros_bridge) by extensions ['colcon_pkg']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse_ros_bridge) by extension 'colcon_pkg'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse_ros_bridge) by extensions ['colcon_meta']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse_ros_bridge) by extension 'colcon_meta'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse_ros_bridge) by extensions ['ros']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesse_ros_bridge) by extension 'ros'
+[1.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tesse_ros_bridge' with type 'ros.ament_python' and name 'tesse_ros_bridge'
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generation_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generation_pkg) by extension 'ignore'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generation_pkg) by extension 'ignore_ament_install'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generation_pkg) by extensions ['colcon_pkg']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generation_pkg) by extension 'colcon_pkg'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generation_pkg) by extensions ['colcon_meta']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generation_pkg) by extension 'colcon_meta'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generation_pkg) by extensions ['ros']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generation_pkg) by extension 'ros'
+[1.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trajectory_generation_pkg' with type 'ros.ament_cmake' and name 'trajectory_generation'
+[1.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.308s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'trajectory_generation_pkg' in --packages-select
+[1.371s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mav_msgs' in 'src/mav_comm/mav_msgs'
+[1.372s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mav_state_machine_msgs' in 'src/mav_comm/mav_state_machine_msgs'
+[1.372s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mav_system_msgs' in 'src/mav_comm/mav_system_msgs'
+[1.372s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mav_visualization' in 'src/mav_trajectory_generation/mav_visualization'
+[1.372s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tesse' in 'src/tesse-interface'
+[1.372s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tesse_msgs' in 'src/tesse_msgs'
+[1.372s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tesse_ros_bridge' in 'src/tesse_ros_bridge'
+[1.372s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'controller_pkg' in 'src/controller_pkg'
+[1.373s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mav_planning_msgs' in 'src/mav_comm/mav_planning_msgs'
+[1.373s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mav_trajectory_generation' in 'src/mav_trajectory_generation/mav_trajectory_generation'
+[1.373s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'planner_pkg' in 'src/planner_pkg'
+[1.373s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mav_comm' in 'src/mav_comm/mav_comm'
+[1.373s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'trajectory_generation' in 'src/trajectory_generation_pkg'
+[1.373s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.376s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.376s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.376s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.376s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.376s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.394s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.394s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.395s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.395s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.428s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[1.429s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.442s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aimane/vnav23/labs/lab4/install/local_setup.ps1'
+[1.447s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aimane/vnav23/labs/lab4/install/_local_setup_util_ps1.py'
+[1.451s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aimane/vnav23/labs/lab4/install/setup.ps1'
+[1.458s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aimane/vnav23/labs/lab4/install/local_setup.sh'
+[1.459s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aimane/vnav23/labs/lab4/install/_local_setup_util_sh.py'
+[1.460s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aimane/vnav23/labs/lab4/install/setup.sh'
+[1.466s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aimane/vnav23/labs/lab4/install/local_setup.bash'
+[1.467s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aimane/vnav23/labs/lab4/install/setup.bash'
+[1.473s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aimane/vnav23/labs/lab4/install/local_setup.zsh'
+[1.477s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aimane/vnav23/labs/lab4/install/setup.zsh'

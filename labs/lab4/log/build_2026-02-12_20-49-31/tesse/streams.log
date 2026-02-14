@@ -1,0 +1,23 @@
+[2.607s] Invoking command in '/home/aimane/vnav23/labs/lab4/src/tesse-interface': PYTHONPATH=/home/aimane/vnav23/labs/lab4/build/tesse/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aimane/vnav23/labs/lab4/install/tesse/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../lab4/build/tesse build --build-base /home/aimane/vnav23/labs/lab4/build/tesse/build install --record /home/aimane/vnav23/labs/lab4/build/tesse/install.log --single-version-externally-managed
+[3.496s] running egg_info
+[3.602s] writing ../../lab4/build/tesse/tesse.egg-info/PKG-INFO
+[3.602s] writing dependency_links to ../../lab4/build/tesse/tesse.egg-info/dependency_links.txt
+[3.605s] writing requirements to ../../lab4/build/tesse/tesse.egg-info/requires.txt
+[3.605s] writing top-level names to ../../lab4/build/tesse/tesse.egg-info/top_level.txt
+[3.861s] reading manifest file '../../lab4/build/tesse/tesse.egg-info/SOURCES.txt'
+[3.861s] adding license file 'LICENSE'
+[3.862s] writing manifest file '../../lab4/build/tesse/tesse.egg-info/SOURCES.txt'
+[3.863s] running build
+[3.863s] running build_py
+[3.863s] copying src/tesse/msgs.py -> /home/aimane/vnav23/labs/lab4/build/tesse/build/lib/tesse
+[3.864s] copying src/tesse/__init__.py -> /home/aimane/vnav23/labs/lab4/build/tesse/build/lib/tesse
+[3.873s] copying src/tesse/env.py -> /home/aimane/vnav23/labs/lab4/build/tesse/build/lib/tesse
+[3.874s] copying src/tesse/utils.py -> /home/aimane/vnav23/labs/lab4/build/tesse/build/lib/tesse
+[3.874s] running install
+[3.896s] running install_lib
+[3.995s] running install_egg_info
+[4.044s] removing '/home/aimane/vnav23/labs/lab4/install/tesse/lib/python3.10/site-packages/tesse-0.1.2-py3.10.egg-info' (and everything under it)
+[4.045s] Copying ../../lab4/build/tesse/tesse.egg-info to /home/aimane/vnav23/labs/lab4/install/tesse/lib/python3.10/site-packages/tesse-0.1.2-py3.10.egg-info
+[4.048s] running install_scripts
+[4.186s] writing list of installed files to '/home/aimane/vnav23/labs/lab4/build/tesse/install.log'
+[4.279s] Invoked command in '/home/aimane/vnav23/labs/lab4/src/tesse-interface' returned '0': PYTHONPATH=/home/aimane/vnav23/labs/lab4/build/tesse/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aimane/vnav23/labs/lab4/install/tesse/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../lab4/build/tesse build --build-base /home/aimane/vnav23/labs/lab4/build/tesse/build install --record /home/aimane/vnav23/labs/lab4/build/tesse/install.log --single-version-externally-managed

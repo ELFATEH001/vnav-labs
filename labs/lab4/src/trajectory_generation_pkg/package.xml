@@ -86,6 +86,10 @@
   <exec_depend>nav_msgs</exec_depend>
   <exec_depend>trajectory_msgs</exec_depend>
   <exec_depend>eigen_conversions</exec_depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_eigen</depend>
+  <depend>tf2_geometry_msgs</depend>
 
   <build_depend>rosidl_default_generators</build_depend>
   <exec_depend>rosidl_default_runtime</exec_depend>

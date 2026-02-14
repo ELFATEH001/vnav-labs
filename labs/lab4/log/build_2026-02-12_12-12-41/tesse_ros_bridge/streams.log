@@ -1,0 +1,44 @@
+[4.492s] Invoking command in '/home/aimane/vnav23/labs/lab4/src/tesse_ros_bridge': PYTHONPATH=/home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../lab4/build/tesse_ros_bridge build --build-base /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build install --record /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/install.log --single-version-externally-managed install_data
+[5.104s] /home/aimane/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[5.104s]   warnings.warn(msg)
+[5.405s] running egg_info
+[5.451s] writing ../../lab4/build/tesse_ros_bridge/tesse_ros_bridge.egg-info/PKG-INFO
+[5.466s] writing dependency_links to ../../lab4/build/tesse_ros_bridge/tesse_ros_bridge.egg-info/dependency_links.txt
+[5.467s] writing entry points to ../../lab4/build/tesse_ros_bridge/tesse_ros_bridge.egg-info/entry_points.txt
+[5.467s] writing requirements to ../../lab4/build/tesse_ros_bridge/tesse_ros_bridge.egg-info/requires.txt
+[5.470s] writing top-level names to ../../lab4/build/tesse_ros_bridge/tesse_ros_bridge.egg-info/top_level.txt
+[5.658s] reading manifest file '../../lab4/build/tesse_ros_bridge/tesse_ros_bridge.egg-info/SOURCES.txt'
+[5.671s] writing manifest file '../../lab4/build/tesse_ros_bridge/tesse_ros_bridge.egg-info/SOURCES.txt'
+[5.672s] running build
+[5.672s] running build_py
+[5.692s] copying tesse_ros_bridge/tesse_ros_node.py -> /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge
+[5.771s] copying tesse_ros_bridge/quadrotor_control_interface.py -> /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge
+[5.774s] copying tesse_ros_bridge/__init__.py -> /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge
+[5.774s] copying tesse_ros_bridge/noise_simulator.py -> /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge
+[5.774s] copying tesse_ros_bridge/utils.py -> /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge
+[5.775s] copying tesse_ros_bridge/consts.py -> /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/tesse_ros_bridge
+[5.777s] copying key_teleop/__init__.py -> /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/key_teleop
+[5.777s] copying key_teleop/key_teleop.py -> /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/key_teleop
+[5.778s] copying key_teleop/alternative_key_teleop.py -> /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build/lib/key_teleop
+[5.781s] running install
+[5.789s] running install_lib
+[5.837s] running install_data
+[5.840s] copying resource/tesse_ros_bridge -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/ament_index/resource_index/packages
+[5.841s] copying package.xml -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/tesse_ros_bridge
+[5.842s] copying launch/tesse_quadrotor_bridge.launch.yaml -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/tesse_ros_bridge/launch
+[5.863s] copying config/tesse_agent_params.yaml -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/tesse_ros_bridge/config
+[5.864s] copying config/lidar_params.yaml -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/tesse_ros_bridge/config
+[5.866s] copying config/camera_params.yaml -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/tesse_ros_bridge/config
+[5.868s] copying config/params.yaml -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/tesse_ros_bridge/config
+[5.868s] copying config/object_spawn_params.yaml -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/tesse_ros_bridge/config
+[5.869s] copying config/map_tfs.yaml -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/tesse_ros_bridge/config
+[5.871s] copying config/noise_model.yaml -> /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/share/tesse_ros_bridge/config
+[5.872s] running install_egg_info
+[5.918s] removing '/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse_ros_bridge-0.0.0-py3.10.egg-info' (and everything under it)
+[5.919s] Copying ../../lab4/build/tesse_ros_bridge/tesse_ros_bridge.egg-info to /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse_ros_bridge-0.0.0-py3.10.egg-info
+[5.933s] running install_scripts
+[6.019s] Installing key_teleop script to /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/tesse_ros_bridge
+[6.024s] Installing quadrotor_control_interface script to /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/tesse_ros_bridge
+[6.026s] Installing tesse_ros_node script to /home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/tesse_ros_bridge
+[6.027s] writing list of installed files to '/home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/install.log'
+[6.099s] Invoked command in '/home/aimane/vnav23/labs/lab4/src/tesse_ros_bridge' returned '0': PYTHONPATH=/home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../lab4/build/tesse_ros_bridge build --build-base /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/build install --record /home/aimane/vnav23/labs/lab4/build/tesse_ros_bridge/install.log --single-version-externally-managed install_data

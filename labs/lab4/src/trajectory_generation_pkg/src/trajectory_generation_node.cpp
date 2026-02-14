@@ -9,7 +9,11 @@
 #include <mav_trajectory_generation/trajectory.h>
 
 #include <eigen3/Eigen/Dense>
+#include <tf2/LinearMath/Quaternion.h>
+#include <tf2/utils.h>
 #include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
+
+using namespace mav_trajectory_generation::derivative_order;
 
 class WaypointFollower : public rclcpp::Node {
 
@@ -25,6 +29,7 @@ class WaypointFollower : public rclcpp::Node {
   rclcpp::TimerBase::SharedPtr desiredStateTimer;
 
   rclcpp::Time trajectoryStartTime;
+  bool raceFinished = false;
   mav_trajectory_generation::Trajectory trajectory;
   mav_trajectory_generation::Trajectory yaw_trajectory;
 
@@ -38,7 +43,10 @@ class WaypointFollower : public rclcpp::Node {
     //  UAV
     // ~~~~ begin solution
 
-
+    x[0] = cur_state.pose.pose.position.x;
+    x[1] = cur_state.pose.pose.position.y;
+    x[2] = cur_state.pose.pose.position.z;
+        
 
     // ~~~~ end solution
     // ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
@@ -91,11 +99,73 @@ class WaypointFollower : public rclcpp::Node {
     // ~~~~ begin solution
 
     // for access to SNAP
-    using namespace mav_trajectory_generation::derivative_order;
+    // using namespace mav_trajectory_generation::derivative_order;
     
     const int D = 3; // dimension of each vertex in the trajectory
+    const int YAW_DIM = 1;
+    const int derivative_to_optimize_pos = SNAP;
+    const int derivative_to_optimize_ori = SNAP;
+
     mav_trajectory_generation::Vertex::Vector vertices;
     mav_trajectory_generation::Vertex::Vector yaw_vertices;
+    double prev_yaw_unwrapped = 0.0;
+
+    for (size_t i = 0; i < poseArray.poses.size(); ++i) {
+      
+      auto& pose = poseArray.poses[i];
+
+      // POSITION VERTEX
+      mav_trajectory_generation::Vertex pos_vertex(D);
+      Eigen::Vector3d position(
+        pose.position.x,
+        pose.position.y,
+        pose.position.z
+      );
+
+      
+
+      if (i == 0) {
+          // First waypoint
+          pos_vertex.makeStartOrEnd(position, derivative_to_optimize_pos);
+          
+      }
+      else if (i == poseArray.poses.size() - 1) {
+          // Last waypoint
+          pos_vertex.makeStartOrEnd(position, derivative_to_optimize_pos);
+      }
+      else {
+          // Middle waypoints
+          pos_vertex.addConstraint(POSITION, position);
+      }
+
+      vertices.push_back(pos_vertex);
+
+      // YAW VERTEX
+      mav_trajectory_generation::Vertex yaw_vertex(YAW_DIM);
+      double yaw = tf2::getYaw(pose.orientation);
+
+      // Angle wrapping
+      if (i > 0) {
+        // Unwrap to prevent large jumps
+        while (yaw - prev_yaw_unwrapped > M_PI) yaw -= 2*M_PI;
+        // 300 - 20 = 280 --> 280 - 360 = -80
+        while (yaw - prev_yaw_unwrapped < -M_PI) yaw += 2*M_PI;
+      }
+      prev_yaw_unwrapped = yaw;
+
+      if (i == 0 || i == poseArray.poses.size() - 1){
+        yaw_vertex.makeStartOrEnd(yaw, derivative_to_optimize_ori);
+      }
+      else{
+        yaw_vertex.addConstraint(ORIENTATION, yaw);
+      }
+      
+      yaw_vertices.push_back(yaw_vertex);
+
+    }
+
+    
+    
 
     // ~~~~ end solution
     // ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
@@ -134,6 +204,7 @@ class WaypointFollower : public rclcpp::Node {
     opt.getTrajectory(&trajectory);
     yaw_opt.getTrajectory(&yaw_trajectory);
     trajectoryStartTime = now();
+    raceFinished = false;
 
     RCLCPP_INFO(get_logger(),
                 "Generated optimizes trajectory from %zu waypoints",
@@ -156,14 +227,68 @@ class WaypointFollower : public rclcpp::Node {
     //
     // ~~~~ begin solution
 
+    // current goal
+
+    const int D = 3; // dimension of each vertex in the trajectory
+    const int YAW_DIM = 1;
+    double elapsed_time = (now() - trajectoryStartTime).seconds();
+    double total_trajectory_time = trajectory.getMaxTime();
+    // const int derivative_to_optimize_pos = SNAP;
+    // const int derivative_to_optimize_ori = SNAP;
+
+    trajectory_msgs::msg::MultiDOFJointTrajectoryPoint next_point;
+    Eigen::VectorXd p, v, a;
+    Eigen::VectorXd yaw;
+    mav_trajectory_generation::Vertex pos_vertex(D);
+    mav_trajectory_generation::Vertex yaw_vertex(YAW_DIM);
+
+    pos_vertex = trajectory.getVertexAtTime(elapsed_time, ACCELERATION);
+    pos_vertex.getConstraint(POSITION, &p);
+    pos_vertex.getConstraint(VELOCITY, &v);
+    pos_vertex.getConstraint(ACCELERATION, &a);
+
+    // resizing vectors
+    next_point.transforms.resize(1);
+    next_point.velocities.resize(1);
+    next_point.accelerations.resize(1);
+
+    next_point.transforms[0].translation.x = p[0];
+    next_point.transforms[0].translation.y = p[1];
+    next_point.transforms[0].translation.z = p[2];
+
+    next_point.velocities[0].linear.x = v[0];
+    next_point.velocities[0].linear.y = v[1];
+    next_point.velocities[0].linear.z = v[2];
+
+    next_point.accelerations[0].linear.x = a[0];
+    next_point.accelerations[0].linear.y = a[1];
+    next_point.accelerations[0].linear.z = a[2];
 
 
+    yaw_vertex = yaw_trajectory.getVertexAtTime(elapsed_time, ACCELERATION);
+    yaw_vertex.getConstraint(POSITION, &yaw);
+    
+    tf2::Quaternion q;
+    q.setRPY(0, 0, yaw[0]);
+    next_point.transforms[0].rotation = tf2::toMsg(q);
+
+    next_point.time_from_start = rclcpp::Duration::from_seconds(elapsed_time);
+
+    desiredStatePub->publish(next_point);
+
+    if (elapsed_time >= total_trajectory_time && !raceFinished) {
+            raceFinished = true;
+            double race_time = (now() - trajectoryStartTime).seconds();
+            RCLCPP_INFO(get_logger(), "🏁 RACE FINISHED! Time: %.2f seconds", race_time);
+    }
+    
     // ~~~~ end solution
     // ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
     // ~
     //                                 end part 1.3
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   }
+  
 
 public:
   explicit WaypointFollower() : Node("waypoint_follower_node") {

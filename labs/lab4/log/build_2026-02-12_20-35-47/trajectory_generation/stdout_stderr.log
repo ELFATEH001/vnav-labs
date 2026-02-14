@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target trajectory_generation_node[0m
+[ 50%] Built target spiral_pose_publisher_node
+[ 75%] [32mBuilding CXX object CMakeFiles/trajectory_generation_node.dir/src/trajectory_generation_node.cpp.o[0m
+[01m[K/home/aimane/vnav23/labs/lab4/src/trajectory_generation_pkg/src/trajectory_generation_node.cpp:[m[K In member function ‘[01m[Kvoid WaypointFollower::publishDesiredState()[m[K’:
+[01m[K/home/aimane/vnav23/labs/lab4/src/trajectory_generation_pkg/src/trajectory_generation_node.cpp:243:40:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KEigen::Vector3d*[m[K’ {aka ‘[01m[KEigen::Matrix<double, 3, 1>*[m[K’} to ‘[01m[KEigen::VectorXd*[m[K’ {aka ‘[01m[KEigen::Matrix<double, -1, 1>*[m[K’}
+  243 |     pos_vertex.getConstraint(POSITION, [01;31m[K&p[m[K)
+      |                                        [01;31m[K^~[m[K
+      |                                        [01;31m[K|[m[K
+      |                                        [01;31m[KEigen::Vector3d* {aka Eigen::Matrix<double, 3, 1>*}[m[K
+In file included from [01m[K/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include/mav_trajectory_generation/trajectory.h:26[m[K,
+                 from [01m[K/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include/mav_trajectory_generation/polynomial_optimization_linear.h:32[m[K,
+                 from [01m[K/home/aimane/vnav23/labs/lab4/src/trajectory_generation_pkg/src/trajectory_generation_node.cpp:8[m[K:
+[01m[K/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include/mav_trajectory_generation/vertex.h:86:61:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kbool mav_trajectory_generation::Vertex::getConstraint(int, Eigen::VectorXd*) const[m[K’
+   86 |   bool getConstraint(int derivative_order, [01;36m[KEigen::VectorXd* constraint[m[K) const;
+      |                                            [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/trajectory_generation_pkg/src/trajectory_generation_node.cpp:261:40:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble[m[K’ to ‘[01m[KEigen::VectorXd*[m[K’ {aka ‘[01m[KEigen::Matrix<double, -1, 1>*[m[K’}
+  261 |     yaw_vertex.getConstraint(POSITION, [01;31m[Kyaw[m[K);
+      |                                        [01;31m[K^~~[m[K
+      |                                        [01;31m[K|[m[K
+      |                                        [01;31m[Kdouble[m[K
+In file included from [01m[K/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include/mav_trajectory_generation/trajectory.h:26[m[K,
+                 from [01m[K/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include/mav_trajectory_generation/polynomial_optimization_linear.h:32[m[K,
+                 from [01m[K/home/aimane/vnav23/labs/lab4/src/trajectory_generation_pkg/src/trajectory_generation_node.cpp:8[m[K:
+[01m[K/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/include/mav_trajectory_generation/vertex.h:86:61:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kbool mav_trajectory_generation::Vertex::getConstraint(int, Eigen::VectorXd*) const[m[K’
+   86 |   bool getConstraint(int derivative_order, [01;36m[KEigen::VectorXd* constraint[m[K) const;
+      |                                            [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/trajectory_generation_pkg/src/trajectory_generation_node.cpp:263:46:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateQuaternionMsgFromYaw[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+  263 |     next_point.transforms[0].rotation = tf2::[01;31m[KcreateQuaternionMsgFromYaw[m[K(yaw);
+      |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/trajectory_generation_node.dir/build.make:76: CMakeFiles/trajectory_generation_node.dir/src/trajectory_generation_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/trajectory_generation_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

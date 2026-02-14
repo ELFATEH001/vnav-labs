@@ -99,6 +99,7 @@ trajectory_generation_node: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_types
 trajectory_generation_node: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so
 trajectory_generation_node: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_generator_py.so
 trajectory_generation_node: /home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/lib/mav_trajectory_generation/libmav_trajectory_generation.a
+trajectory_generation_node: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 trajectory_generation_node: /usr/lib/x86_64-linux-gnu/libglog.so.0.4.0
 trajectory_generation_node: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_c.so
 trajectory_generation_node: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_generator_c.so

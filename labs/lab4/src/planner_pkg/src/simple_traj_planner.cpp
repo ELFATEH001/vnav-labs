@@ -127,6 +127,7 @@ private:
        << " z:" << transform.translation.z;
     RCLCPP_INFO(get_logger(), "%s", ss.str().c_str());
   }
+
 };
 
 int main(int argc, char **argv) {
@@ -135,3 +136,70 @@ int main(int argc, char **argv) {
   rclcpp::shutdown();
   return 0;
 }
+
+
+
+
+  // void trajCB(const geometry_msgs::msg::PoseArray::SharedPtr traj_msg) {
+  //   // Sanity check for traj_msg size
+  //   if (traj_msg->poses.empty()) {
+  //     RCLCPP_ERROR_THROTTLE(get_logger(), *get_clock(), 1000,
+  //                           "Empty trajectory vertices msg.");
+  //     return;
+  //   }
+
+
+  //   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  //   //  PART 0 |  16.485 - Fall 2020  - Lab 4 coding assignment  (10 pts)
+  //   // ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+  //   //
+  //   //  As a simple warm up exercise before we get to the actual 'real deal',
+  //   //  let's just make our quadcopter fly to the first gate in the course.
+  //   //  In this section:
+  //   //   1. Extract the first vertex of the trajectory
+  //   //   2. Set the acceleration and velocities to zero
+  //   //   3. Publish the desired MultiDOFJointTrajectoryPoint
+  //   //   4. Create and publish TF transform of the desired pose
+  //   // ~~~~ begin solution
+  //   const auto& target_pose = traj_msg->poses[0];
+  //   auto now = this->get_clock()->now();
+
+  //   // Create transform
+  //   geometry_msgs::msg::TransformStamped transform_stamped;
+  //   geometry_msgs::msg::Transform transform;
+  //   transform_stamped.header.stamp = now;
+  //   transform_stamped.header.frame_id = "world";
+  //   transform_stamped.child_frame_id = "desired_pose";
+    
+  //   transform_stamped.transform.translation.x = target_pose.position.x;
+  //   transform_stamped.transform.translation.y = target_pose.position.y;
+  //   transform_stamped.transform.translation.z = target_pose.position.z;
+  //   transform_stamped.transform.rotation = target_pose.orientation;
+
+  //   // Create desired state with zero velocities/accelerations
+  //   trajectory_msgs::msg::MultiDOFJointTrajectoryPoint desired_state;
+  //   desired_state.transforms.push_back(transform_stamped.transform);
+  //   desired_state.velocities.push_back(geometry_msgs::msg::Twist());  // Zero-initialized
+  //   desired_state.accelerations.push_back(geometry_msgs::msg::Twist());
+  //   desired_state.time_from_start = rclcpp::Duration(0, 0);
+
+  //   // Publish
+  //   desired_state_pub_->publish(desired_state);
+  //   br_->sendTransform(transform_stamped);
+
+  //   transform = transform_stamped.transform;
+
+
+
+  //   // ~~~~ end solution
+  //   // ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+  //   //                                 end part 0
+  //   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  //   // Logging to terminal
+  //   std::stringstream ss;
+  //   ss << "Trajectory Position"
+  //      << " x:" << transform.translation.x << " y:" << transform.translation.y
+  //      << " z:" << transform.translation.z;
+  //   RCLCPP_INFO(get_logger(), "%s", ss.str().c_str());
+  // }

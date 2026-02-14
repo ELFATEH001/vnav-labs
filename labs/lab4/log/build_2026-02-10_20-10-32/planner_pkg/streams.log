@@ -1,0 +1,167 @@
+[0.032s] Invoking command in '/home/aimane/vnav23/labs/lab4/build/planner_pkg': CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/install/mav_msgs:/home/aimane/mavros_ws/install/mavros_extras:/home/aimane/mavros_ws/install/mavros_examples:/home/aimane/mavros_ws/install/mavros:/home/aimane/mavros_ws/install/mavros_msgs:/home/aimane/mavros_ws/install/libmavconn:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg LD_LIBRARY_PATH=/home/aimane/vnav23/labs/lab4/install/mav_msgs/lib:/home/aimane/mavros_ws/install/mavros_extras/lib:/home/aimane/mavros_ws/install/mavros/lib:/home/aimane/mavros_ws/install/mavros_msgs/lib:/home/aimane/mavros_ws/install/libmavconn/lib:/home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/lib:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aimane/vnav23/labs/lab4/build/planner_pkg -- -j8 -l8
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target simple_traj_planner[0m
+[0.151s] [ 50%] Built target traj_vertices_publisher
+[0.164s] [ 75%] [32mBuilding CXX object CMakeFiles/simple_traj_planner.dir/src/simple_traj_planner.cpp.o[0m
+[4.165s] [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:[m[K In constructor ‘[01m[KSimpleTrajPlanner::SimpleTrajPlanner()[m[K’:
+[4.166s] [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:28:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kindex[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[4.166s]    28 |     long unsigned int [01;35m[Kindex[m[K = 0;
+[4.166s]       |                       [01;35m[K^~~~~[m[K
+[4.170s] [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:[m[K In member function ‘[01m[Kvoid SimpleTrajPlanner::trajCB(geometry_msgs::msg::PoseArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.171s] [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:74:46:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::PoseArray_<std::allocator<void> >::_poses_type[m[K’ {aka ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >[m[K’} and ‘[01m[K<unresolved overloaded function type>[m[K’)
+[4.171s]    74 |     desired_pose.position.x = traj_msg->poses[01;31m[K[[m[Kindex].position.x;
+[4.172s]       |                                              [01;31m[K^[m[K
+[4.172s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[4.173s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[4.173s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[4.173s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[4.173s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp:8[m[K,
+[4.173s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp:7[m[K,
+[4.173s]                  from [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:1[m[K:
+[4.174s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1043:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int][m[K’
+[4.174s]  1043 |       [01;36m[Koperator[m[K[](size_type __n) _GLIBCXX_NOEXCEPT
+[4.174s]       |       [01;36m[K^~~~~~~~[m[K
+[4.174s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1043:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+[4.174s]  1043 |       operator[]([01;36m[Ksize_type __n[m[K) _GLIBCXX_NOEXCEPT
+[4.174s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[4.175s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1061:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int][m[K’
+[4.175s]  1061 |       [01;36m[Koperator[m[K[](size_type __n) const _GLIBCXX_NOEXCEPT
+[4.175s]       |       [01;36m[K^~~~~~~~[m[K
+[4.175s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1061:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+[4.175s]  1061 |       operator[]([01;36m[Ksize_type __n[m[K) const _GLIBCXX_NOEXCEPT
+[4.175s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[4.175s] [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:75:46:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::PoseArray_<std::allocator<void> >::_poses_type[m[K’ {aka ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >[m[K’} and ‘[01m[K<unresolved overloaded function type>[m[K’)
+[4.176s]    75 |     desired_pose.position.y = traj_msg->poses[01;31m[K[[m[Kindex].position.y;
+[4.176s]       |                                              [01;31m[K^[m[K
+[4.176s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[4.176s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[4.176s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[4.176s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[4.176s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp:8[m[K,
+[4.177s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp:7[m[K,
+[4.177s]                  from [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:1[m[K:
+[4.177s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1043:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int][m[K’
+[4.177s]  1043 |       [01;36m[Koperator[m[K[](size_type __n) _GLIBCXX_NOEXCEPT
+[4.177s]       |       [01;36m[K^~~~~~~~[m[K
+[4.177s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1043:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+[4.177s]  1043 |       operator[]([01;36m[Ksize_type __n[m[K) _GLIBCXX_NOEXCEPT
+[4.177s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[4.177s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1061:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int][m[K’
+[4.177s]  1061 |       [01;36m[Koperator[m[K[](size_type __n) const _GLIBCXX_NOEXCEPT
+[4.178s]       |       [01;36m[K^~~~~~~~[m[K
+[4.178s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1061:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+[4.178s]  1061 |       operator[]([01;36m[Ksize_type __n[m[K) const _GLIBCXX_NOEXCEPT
+[4.178s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[4.178s] [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:76:46:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::PoseArray_<std::allocator<void> >::_poses_type[m[K’ {aka ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >[m[K’} and ‘[01m[K<unresolved overloaded function type>[m[K’)
+[4.178s]    76 |     desired_pose.position.z = traj_msg->poses[01;31m[K[[m[Kindex].position.z;
+[4.178s]       |                                              [01;31m[K^[m[K
+[4.178s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[4.178s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[4.178s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[4.178s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[4.179s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp:8[m[K,
+[4.179s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp:7[m[K,
+[4.179s]                  from [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:1[m[K:
+[4.179s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1043:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int][m[K’
+[4.179s]  1043 |       [01;36m[Koperator[m[K[](size_type __n) _GLIBCXX_NOEXCEPT
+[4.179s]       |       [01;36m[K^~~~~~~~[m[K
+[4.179s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1043:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+[4.179s]  1043 |       operator[]([01;36m[Ksize_type __n[m[K) _GLIBCXX_NOEXCEPT
+[4.179s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[4.179s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1061:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int][m[K’
+[4.179s]  1061 |       [01;36m[Koperator[m[K[](size_type __n) const _GLIBCXX_NOEXCEPT
+[4.180s]       |       [01;36m[K^~~~~~~~[m[K
+[4.180s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1061:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+[4.180s]  1061 |       operator[]([01;36m[Ksize_type __n[m[K) const _GLIBCXX_NOEXCEPT
+[4.180s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[4.180s] [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:78:49:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::PoseArray_<std::allocator<void> >::_poses_type[m[K’ {aka ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >[m[K’} and ‘[01m[K<unresolved overloaded function type>[m[K’)
+[4.180s]    78 |     desired_pose.orientation.x = traj_msg->poses[01;31m[K[[m[Kindex].orientation.x;
+[4.180s]       |                                                 [01;31m[K^[m[K
+[4.180s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[4.180s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[4.180s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[4.181s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[4.181s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp:8[m[K,
+[4.181s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp:7[m[K,
+[4.181s]                  from [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:1[m[K:
+[4.181s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1043:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int][m[K’
+[4.181s]  1043 |       [01;36m[Koperator[m[K[](size_type __n) _GLIBCXX_NOEXCEPT
+[4.182s]       |       [01;36m[K^~~~~~~~[m[K
+[4.182s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1043:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+[4.182s]  1043 |       operator[]([01;36m[Ksize_type __n[m[K) _GLIBCXX_NOEXCEPT
+[4.182s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[4.182s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1061:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int][m[K’
+[4.182s]  1061 |       [01;36m[Koperator[m[K[](size_type __n) const _GLIBCXX_NOEXCEPT
+[4.182s]       |       [01;36m[K^~~~~~~~[m[K
+[4.183s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1061:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+[4.183s]  1061 |       operator[]([01;36m[Ksize_type __n[m[K) const _GLIBCXX_NOEXCEPT
+[4.183s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[4.183s] [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:79:49:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::PoseArray_<std::allocator<void> >::_poses_type[m[K’ {aka ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >[m[K’} and ‘[01m[K<unresolved overloaded function type>[m[K’)
+[4.183s]    79 |     desired_pose.orientation.y = traj_msg->poses[01;31m[K[[m[Kindex].orientation.y;
+[4.183s]       |                                                 [01;31m[K^[m[K
+[4.183s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[4.183s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[4.183s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[4.183s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[4.184s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp:8[m[K,
+[4.184s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp:7[m[K,
+[4.184s]                  from [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:1[m[K:
+[4.184s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1043:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int][m[K’
+[4.184s]  1043 |       [01;36m[Koperator[m[K[](size_type __n) _GLIBCXX_NOEXCEPT
+[4.184s]       |       [01;36m[K^~~~~~~~[m[K
+[4.184s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1043:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+[4.184s]  1043 |       operator[]([01;36m[Ksize_type __n[m[K) _GLIBCXX_NOEXCEPT
+[4.184s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[4.184s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1061:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int][m[K’
+[4.185s]  1061 |       [01;36m[Koperator[m[K[](size_type __n) const _GLIBCXX_NOEXCEPT
+[4.185s]       |       [01;36m[K^~~~~~~~[m[K
+[4.185s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1061:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+[4.185s]  1061 |       operator[]([01;36m[Ksize_type __n[m[K) const _GLIBCXX_NOEXCEPT
+[4.185s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[4.185s] [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:80:49:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::PoseArray_<std::allocator<void> >::_poses_type[m[K’ {aka ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >[m[K’} and ‘[01m[K<unresolved overloaded function type>[m[K’)
+[4.185s]    80 |     desired_pose.orientation.z = traj_msg->poses[01;31m[K[[m[Kindex].orientation.z;
+[4.185s]       |                                                 [01;31m[K^[m[K
+[4.185s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[4.186s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[4.186s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[4.186s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[4.186s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp:8[m[K,
+[4.186s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp:7[m[K,
+[4.186s]                  from [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:1[m[K:
+[4.186s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1043:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int][m[K’
+[4.186s]  1043 |       [01;36m[Koperator[m[K[](size_type __n) _GLIBCXX_NOEXCEPT
+[4.186s]       |       [01;36m[K^~~~~~~~[m[K
+[4.186s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1043:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+[4.187s]  1043 |       operator[]([01;36m[Ksize_type __n[m[K) _GLIBCXX_NOEXCEPT
+[4.187s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[4.187s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1061:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int][m[K’
+[4.187s]  1061 |       [01;36m[Koperator[m[K[](size_type __n) const _GLIBCXX_NOEXCEPT
+[4.187s]       |       [01;36m[K^~~~~~~~[m[K
+[4.187s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1061:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+[4.187s]  1061 |       operator[]([01;36m[Ksize_type __n[m[K) const _GLIBCXX_NOEXCEPT
+[4.187s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[4.187s] [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:81:49:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::PoseArray_<std::allocator<void> >::_poses_type[m[K’ {aka ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >[m[K’} and ‘[01m[K<unresolved overloaded function type>[m[K’)
+[4.188s]    81 |     desired_pose.orientation.w = traj_msg->poses[01;31m[K[[m[Kindex].orientation.w;
+[4.188s]       |                                                 [01;31m[K^[m[K
+[4.188s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[4.188s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[4.188s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[4.188s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[4.188s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp:8[m[K,
+[4.188s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp:7[m[K,
+[4.188s]                  from [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:1[m[K:
+[4.188s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1043:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int][m[K’
+[4.189s]  1043 |       [01;36m[Koperator[m[K[](size_type __n) _GLIBCXX_NOEXCEPT
+[4.189s]       |       [01;36m[K^~~~~~~~[m[K
+[4.189s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1043:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+[4.189s]  1043 |       operator[]([01;36m[Ksize_type __n[m[K) _GLIBCXX_NOEXCEPT
+[4.189s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[4.189s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1061:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = geometry_msgs::msg::Pose_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const geometry_msgs::msg::Pose_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int][m[K’
+[4.189s]  1061 |       [01;36m[Koperator[m[K[](size_type __n) const _GLIBCXX_NOEXCEPT
+[4.189s]       |       [01;36m[K^~~~~~~~[m[K
+[4.190s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1061:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+[4.190s]  1061 |       operator[]([01;36m[Ksize_type __n[m[K) const _GLIBCXX_NOEXCEPT
+[4.190s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[7.853s] gmake[2]: *** [CMakeFiles/simple_traj_planner.dir/build.make:76: CMakeFiles/simple_traj_planner.dir/src/simple_traj_planner.cpp.o] Error 1
+[7.853s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_traj_planner.dir/all] Error 2
+[7.854s] gmake: *** [Makefile:146: all] Error 2
+[7.857s] Invoked command in '/home/aimane/vnav23/labs/lab4/build/planner_pkg' returned '2': CMAKE_PREFIX_PATH=/home/aimane/vnav23/labs/lab4/install/mav_msgs:/home/aimane/mavros_ws/install/mavros_extras:/home/aimane/mavros_ws/install/mavros_examples:/home/aimane/mavros_ws/install/mavros:/home/aimane/mavros_ws/install/mavros_msgs:/home/aimane/mavros_ws/install/libmavconn:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg LD_LIBRARY_PATH=/home/aimane/vnav23/labs/lab4/install/mav_msgs/lib:/home/aimane/mavros_ws/install/mavros_extras/lib:/home/aimane/mavros_ws/install/mavros/lib:/home/aimane/mavros_ws/install/mavros_msgs/lib:/home/aimane/mavros_ws/install/libmavconn/lib:/home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/lib:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aimane/vnav23/labs/lab4/build/planner_pkg -- -j8 -l8

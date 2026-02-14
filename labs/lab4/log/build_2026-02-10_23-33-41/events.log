@@ -1,0 +1,402 @@
+[0.000000] (-) TimerEvent: {}
+[0.007715] (-) JobUnselected: {'identifier': 'controller_pkg'}
+[0.007881] (-) JobUnselected: {'identifier': 'mav_comm'}
+[0.007974] (-) JobUnselected: {'identifier': 'mav_msgs'}
+[0.008060] (-) JobUnselected: {'identifier': 'mav_planning_msgs'}
+[0.008142] (-) JobUnselected: {'identifier': 'mav_state_machine_msgs'}
+[0.008226] (-) JobUnselected: {'identifier': 'mav_system_msgs'}
+[0.008307] (-) JobUnselected: {'identifier': 'mav_trajectory_generation'}
+[0.008387] (-) JobUnselected: {'identifier': 'mav_visualization'}
+[0.008468] (-) JobUnselected: {'identifier': 'tesse'}
+[0.008569] (-) JobUnselected: {'identifier': 'tesse_msgs'}
+[0.008662] (-) JobUnselected: {'identifier': 'tesse_ros_bridge'}
+[0.008743] (-) JobUnselected: {'identifier': 'trajectory_generation'}
+[0.008835] (planner_pkg) JobQueued: {'identifier': 'planner_pkg', 'dependencies': OrderedDict([('mav_msgs', '/home/aimane/vnav23/labs/lab4/install/mav_msgs')])}
+[0.011146] (planner_pkg) JobStarted: {'identifier': 'planner_pkg'}
+[0.076211] (planner_pkg) JobProgress: {'identifier': 'planner_pkg', 'progress': 'cmake'}
+[0.079188] (planner_pkg) JobProgress: {'identifier': 'planner_pkg', 'progress': 'build'}
+[0.081395] (planner_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aimane/vnav23/labs/lab4/build/planner_pkg', '--', '-j8', '-l8'], 'cwd': '/home/aimane/vnav23/labs/lab4/build/planner_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aimane'), ('ROS_PACKAGE_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_visualization/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_msgs/lib:/home/aimane/mavros_ws/install/mavros_extras/lib:/home/aimane/mavros_ws/install/mavros/lib:/home/aimane/mavros_ws/install/mavros_msgs/lib:/home/aimane/mavros_ws/install/libmavconn/lib:/home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/lib:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aimane'), ('OLDPWD', '/home/aimane/vnav23'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/tmp/.ros'), ('COLCON_PREFIX_PATH', '/home/aimane/mavros_ws/install:/home/aimane/vnav23/labs/lab4/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_visualization/lib/x86_64-linux-gnu/pkgconfig:/home/aimane/vnav23/labs/lab4/install/mav_visualization/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/usr/lib/ccache:/usr/lib/ccache:/home/aimane/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/usr/lib/ccache:/usr/lib/ccache:/home/aimane/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/aimane/ardupilot/Tools/autotest:/home/aimane/.local/bin:/home/aimane/ardupilot/Tools/autotest:/home/aimane/.local/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/aimane/mavros_ws/install/mavros_extras:/home/aimane/mavros_ws/install/mavros_examples:/home/aimane/mavros_ws/install/mavros:/home/aimane/mavros_ws/install/mavros_msgs:/home/aimane/mavros_ws/install/libmavconn:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aimane/vnav23/labs/lab4/build/planner_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/aimane/mavros_ws/install/mavros_examples/local/lib/python3.10/dist-packages:/home/aimane/mavros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/aimane/mavros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages:/home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages:/home/aimane/vnav23/labs/lab4/install/tesse/lib/python3.10/site-packages:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/aimane/vnav23/labs/lab4/install/mav_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/aimane/ardupilot/Tools/autotest:/home/aimane/ardupilot/Tools/autotest'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_msgs:/home/aimane/mavros_ws/install/mavros_extras:/home/aimane/mavros_ws/install/mavros_examples:/home/aimane/mavros_ws/install/mavros:/home/aimane/mavros_ws/install/mavros_msgs:/home/aimane/mavros_ws/install/libmavconn:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg')]), 'shell': False}
+[0.099801] (-) TimerEvent: {}
+[0.201605] (-) TimerEvent: {}
+[0.302046] (-) TimerEvent: {}
+[0.313572] (planner_pkg) StdoutLine: {'line': b'[ 50%] Built target traj_vertices_publisher\n'}
+[0.359152] (planner_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target simple_traj_planner\x1b[0m\n'}
+[0.403450] (-) TimerEvent: {}
+[0.430642] (planner_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/simple_traj_planner.dir/src/simple_traj_planner.cpp.o\x1b[0m\n'}
+[0.504065] (-) TimerEvent: {}
+[0.604512] (-) TimerEvent: {}
+[0.705998] (-) TimerEvent: {}
+[0.806881] (-) TimerEvent: {}
+[0.907393] (-) TimerEvent: {}
+[1.009573] (-) TimerEvent: {}
+[1.112322] (-) TimerEvent: {}
+[1.213283] (-) TimerEvent: {}
+[1.314479] (-) TimerEvent: {}
+[1.416930] (-) TimerEvent: {}
+[1.517612] (-) TimerEvent: {}
+[1.622175] (-) TimerEvent: {}
+[1.723570] (-) TimerEvent: {}
+[1.824014] (-) TimerEvent: {}
+[1.925088] (-) TimerEvent: {}
+[2.027001] (-) TimerEvent: {}
+[2.130214] (-) TimerEvent: {}
+[2.230858] (-) TimerEvent: {}
+[2.332577] (-) TimerEvent: {}
+[2.433113] (-) TimerEvent: {}
+[2.534691] (-) TimerEvent: {}
+[2.638606] (-) TimerEvent: {}
+[2.739403] (-) TimerEvent: {}
+[2.840257] (-) TimerEvent: {}
+[2.941117] (-) TimerEvent: {}
+[3.041562] (-) TimerEvent: {}
+[3.142566] (-) TimerEvent: {}
+[3.242961] (-) TimerEvent: {}
+[3.343408] (-) TimerEvent: {}
+[3.444741] (-) TimerEvent: {}
+[3.545603] (-) TimerEvent: {}
+[3.648558] (-) TimerEvent: {}
+[3.749007] (-) TimerEvent: {}
+[3.849426] (-) TimerEvent: {}
+[3.951863] (-) TimerEvent: {}
+[4.052353] (-) TimerEvent: {}
+[4.152910] (-) TimerEvent: {}
+[4.254344] (-) TimerEvent: {}
+[4.357832] (-) TimerEvent: {}
+[4.460463] (-) TimerEvent: {}
+[4.562596] (-) TimerEvent: {}
+[4.663565] (-) TimerEvent: {}
+[4.764914] (-) TimerEvent: {}
+[4.865326] (-) TimerEvent: {}
+[4.965894] (-) TimerEvent: {}
+[5.066720] (-) TimerEvent: {}
+[5.170216] (-) TimerEvent: {}
+[5.270771] (-) TimerEvent: {}
+[5.383961] (-) TimerEvent: {}
+[5.487763] (-) TimerEvent: {}
+[5.591565] (-) TimerEvent: {}
+[5.692574] (-) TimerEvent: {}
+[5.793543] (-) TimerEvent: {}
+[5.895034] (-) TimerEvent: {}
+[5.995549] (-) TimerEvent: {}
+[6.097324] (-) TimerEvent: {}
+[6.204569] (-) TimerEvent: {}
+[6.304993] (-) TimerEvent: {}
+[6.405567] (-) TimerEvent: {}
+[6.661480] (-) TimerEvent: {}
+[6.762389] (-) TimerEvent: {}
+[6.864375] (-) TimerEvent: {}
+[6.965217] (-) TimerEvent: {}
+[7.068259] (-) TimerEvent: {}
+[7.171633] (-) TimerEvent: {}
+[7.272133] (-) TimerEvent: {}
+[7.373563] (-) TimerEvent: {}
+[7.474198] (-) TimerEvent: {}
+[7.579458] (-) TimerEvent: {}
+[7.683407] (-) TimerEvent: {}
+[7.785935] (-) TimerEvent: {}
+[7.886398] (-) TimerEvent: {}
+[7.987168] (-) TimerEvent: {}
+[8.089561] (-) TimerEvent: {}
+[8.192445] (-) TimerEvent: {}
+[8.292921] (-) TimerEvent: {}
+[8.393647] (-) TimerEvent: {}
+[8.494611] (-) TimerEvent: {}
+[8.596173] (-) TimerEvent: {}
+[8.696584] (-) TimerEvent: {}
+[8.797121] (-) TimerEvent: {}
+[8.897569] (-) TimerEvent: {}
+[8.998560] (-) TimerEvent: {}
+[9.099075] (-) TimerEvent: {}
+[9.201895] (-) TimerEvent: {}
+[9.302577] (-) TimerEvent: {}
+[9.403706] (-) TimerEvent: {}
+[9.504638] (-) TimerEvent: {}
+[9.606502] (-) TimerEvent: {}
+[9.707002] (-) TimerEvent: {}
+[9.807897] (-) TimerEvent: {}
+[9.914702] (-) TimerEvent: {}
+[10.015839] (-) TimerEvent: {}
+[10.116612] (-) TimerEvent: {}
+[10.218227] (-) TimerEvent: {}
+[10.319714] (-) TimerEvent: {}
+[10.421062] (-) TimerEvent: {}
+[10.521667] (-) TimerEvent: {}
+[10.625855] (-) TimerEvent: {}
+[10.726310] (-) TimerEvent: {}
+[10.827338] (-) TimerEvent: {}
+[10.929569] (-) TimerEvent: {}
+[11.034563] (-) TimerEvent: {}
+[11.135092] (-) TimerEvent: {}
+[11.240552] (-) TimerEvent: {}
+[11.340950] (-) TimerEvent: {}
+[11.441558] (-) TimerEvent: {}
+[11.543862] (-) TimerEvent: {}
+[11.644562] (-) TimerEvent: {}
+[11.745132] (-) TimerEvent: {}
+[11.846569] (-) TimerEvent: {}
+[11.947329] (-) TimerEvent: {}
+[12.049557] (-) TimerEvent: {}
+[12.154558] (-) TimerEvent: {}
+[12.257562] (-) TimerEvent: {}
+[12.358036] (-) TimerEvent: {}
+[12.459113] (-) TimerEvent: {}
+[12.560803] (-) TimerEvent: {}
+[12.662563] (-) TimerEvent: {}
+[12.763010] (-) TimerEvent: {}
+[12.863576] (-) TimerEvent: {}
+[12.964305] (-) TimerEvent: {}
+[13.065157] (-) TimerEvent: {}
+[13.166305] (-) TimerEvent: {}
+[13.266706] (-) TimerEvent: {}
+[13.369548] (-) TimerEvent: {}
+[13.469969] (-) TimerEvent: {}
+[13.571874] (-) TimerEvent: {}
+[13.672276] (-) TimerEvent: {}
+[13.773730] (-) TimerEvent: {}
+[13.882407] (-) TimerEvent: {}
+[13.983517] (-) TimerEvent: {}
+[14.084041] (-) TimerEvent: {}
+[14.184471] (-) TimerEvent: {}
+[14.285584] (-) TimerEvent: {}
+[14.386191] (-) TimerEvent: {}
+[14.487257] (-) TimerEvent: {}
+[14.590871] (-) TimerEvent: {}
+[14.691912] (-) TimerEvent: {}
+[14.793325] (-) TimerEvent: {}
+[14.894186] (-) TimerEvent: {}
+[14.995561] (-) TimerEvent: {}
+[15.102568] (-) TimerEvent: {}
+[15.204336] (-) TimerEvent: {}
+[15.313561] (-) TimerEvent: {}
+[15.414034] (-) TimerEvent: {}
+[15.517863] (-) TimerEvent: {}
+[15.619553] (-) TimerEvent: {}
+[15.719994] (-) TimerEvent: {}
+[15.820397] (-) TimerEvent: {}
+[15.923585] (-) TimerEvent: {}
+[16.023984] (-) TimerEvent: {}
+[16.128762] (-) TimerEvent: {}
+[16.235755] (-) TimerEvent: {}
+[16.336753] (-) TimerEvent: {}
+[16.438944] (-) TimerEvent: {}
+[16.542205] (-) TimerEvent: {}
+[16.644575] (-) TimerEvent: {}
+[16.748169] (-) TimerEvent: {}
+[16.848668] (-) TimerEvent: {}
+[16.949605] (-) TimerEvent: {}
+[17.052056] (-) TimerEvent: {}
+[17.153565] (-) TimerEvent: {}
+[17.254006] (-) TimerEvent: {}
+[17.356725] (-) TimerEvent: {}
+[17.458653] (-) TimerEvent: {}
+[17.569556] (-) TimerEvent: {}
+[17.669972] (-) TimerEvent: {}
+[17.770522] (-) TimerEvent: {}
+[17.871007] (-) TimerEvent: {}
+[17.971929] (-) TimerEvent: {}
+[18.073556] (-) TimerEvent: {}
+[18.174252] (-) TimerEvent: {}
+[18.276469] (-) TimerEvent: {}
+[18.389588] (-) TimerEvent: {}
+[18.490358] (-) TimerEvent: {}
+[18.591044] (-) TimerEvent: {}
+[18.691640] (-) TimerEvent: {}
+[18.795326] (-) TimerEvent: {}
+[18.896562] (-) TimerEvent: {}
+[18.997651] (-) TimerEvent: {}
+[19.100564] (-) TimerEvent: {}
+[19.201084] (-) TimerEvent: {}
+[19.301503] (-) TimerEvent: {}
+[19.402348] (-) TimerEvent: {}
+[19.505931] (-) TimerEvent: {}
+[19.611578] (-) TimerEvent: {}
+[19.711972] (-) TimerEvent: {}
+[19.812386] (-) TimerEvent: {}
+[19.912858] (-) TimerEvent: {}
+[20.013305] (-) TimerEvent: {}
+[20.117731] (-) TimerEvent: {}
+[20.218560] (-) TimerEvent: {}
+[20.319360] (-) TimerEvent: {}
+[20.420448] (-) TimerEvent: {}
+[20.523552] (-) TimerEvent: {}
+[20.623934] (-) TimerEvent: {}
+[20.724391] (-) TimerEvent: {}
+[20.826373] (-) TimerEvent: {}
+[20.927103] (-) TimerEvent: {}
+[21.031573] (-) TimerEvent: {}
+[21.136635] (-) TimerEvent: {}
+[21.237613] (-) TimerEvent: {}
+[21.339157] (-) TimerEvent: {}
+[21.439851] (-) TimerEvent: {}
+[21.540564] (-) TimerEvent: {}
+[21.641368] (-) TimerEvent: {}
+[21.742515] (-) TimerEvent: {}
+[21.843220] (-) TimerEvent: {}
+[21.943981] (-) TimerEvent: {}
+[22.044595] (-) TimerEvent: {}
+[22.151556] (-) TimerEvent: {}
+[22.252050] (-) TimerEvent: {}
+[22.352779] (-) TimerEvent: {}
+[22.453549] (-) TimerEvent: {}
+[22.554111] (-) TimerEvent: {}
+[22.655986] (-) TimerEvent: {}
+[22.756592] (-) TimerEvent: {}
+[22.857456] (-) TimerEvent: {}
+[22.958126] (-) TimerEvent: {}
+[23.058588] (-) TimerEvent: {}
+[23.159935] (-) TimerEvent: {}
+[23.260544] (-) TimerEvent: {}
+[23.363923] (-) TimerEvent: {}
+[23.465571] (-) TimerEvent: {}
+[23.568588] (-) TimerEvent: {}
+[23.669134] (-) TimerEvent: {}
+[23.769809] (-) TimerEvent: {}
+[23.870554] (-) TimerEvent: {}
+[23.971638] (-) TimerEvent: {}
+[24.072238] (-) TimerEvent: {}
+[24.173070] (-) TimerEvent: {}
+[24.273523] (-) TimerEvent: {}
+[24.375229] (-) TimerEvent: {}
+[24.477539] (-) TimerEvent: {}
+[24.582568] (-) TimerEvent: {}
+[24.683568] (-) TimerEvent: {}
+[24.785179] (-) TimerEvent: {}
+[24.885653] (-) TimerEvent: {}
+[24.986042] (-) TimerEvent: {}
+[25.087904] (-) TimerEvent: {}
+[25.188312] (-) TimerEvent: {}
+[25.289122] (-) TimerEvent: {}
+[25.393991] (-) TimerEvent: {}
+[25.494580] (-) TimerEvent: {}
+[25.604552] (-) TimerEvent: {}
+[25.708555] (-) TimerEvent: {}
+[25.808960] (-) TimerEvent: {}
+[25.912565] (-) TimerEvent: {}
+[26.013212] (-) TimerEvent: {}
+[26.114241] (-) TimerEvent: {}
+[26.223744] (-) TimerEvent: {}
+[26.324212] (-) TimerEvent: {}
+[26.426853] (-) TimerEvent: {}
+[26.527571] (-) TimerEvent: {}
+[26.633556] (-) TimerEvent: {}
+[26.735070] (-) TimerEvent: {}
+[26.835880] (-) TimerEvent: {}
+[26.936357] (-) TimerEvent: {}
+[27.036794] (-) TimerEvent: {}
+[27.139039] (-) TimerEvent: {}
+[27.242460] (-) TimerEvent: {}
+[27.343732] (-) TimerEvent: {}
+[27.444802] (-) TimerEvent: {}
+[27.545429] (-) TimerEvent: {}
+[27.647049] (-) TimerEvent: {}
+[27.747456] (-) TimerEvent: {}
+[27.847900] (-) TimerEvent: {}
+[27.948403] (-) TimerEvent: {}
+[28.049035] (-) TimerEvent: {}
+[28.152006] (-) TimerEvent: {}
+[28.254040] (-) TimerEvent: {}
+[28.359349] (-) TimerEvent: {}
+[28.461579] (-) TimerEvent: {}
+[28.569416] (-) TimerEvent: {}
+[28.670202] (-) TimerEvent: {}
+[28.770910] (-) TimerEvent: {}
+[28.871559] (-) TimerEvent: {}
+[28.972230] (-) TimerEvent: {}
+[29.073818] (-) TimerEvent: {}
+[29.176606] (-) TimerEvent: {}
+[29.277107] (-) TimerEvent: {}
+[29.378004] (-) TimerEvent: {}
+[29.478889] (-) TimerEvent: {}
+[29.581065] (-) TimerEvent: {}
+[29.684358] (-) TimerEvent: {}
+[29.784867] (-) TimerEvent: {}
+[29.886136] (-) TimerEvent: {}
+[29.986584] (-) TimerEvent: {}
+[30.088861] (-) TimerEvent: {}
+[30.189270] (-) TimerEvent: {}
+[30.290064] (-) TimerEvent: {}
+[30.391115] (-) TimerEvent: {}
+[30.495641] (-) TimerEvent: {}
+[30.596805] (-) TimerEvent: {}
+[30.697462] (-) TimerEvent: {}
+[30.798216] (-) TimerEvent: {}
+[30.899576] (-) TimerEvent: {}
+[30.999994] (-) TimerEvent: {}
+[31.100660] (-) TimerEvent: {}
+[31.201106] (-) TimerEvent: {}
+[31.306580] (-) TimerEvent: {}
+[31.407573] (-) TimerEvent: {}
+[31.511550] (-) TimerEvent: {}
+[31.611937] (-) TimerEvent: {}
+[31.713417] (-) TimerEvent: {}
+[31.813877] (-) TimerEvent: {}
+[31.915722] (-) TimerEvent: {}
+[32.016298] (-) TimerEvent: {}
+[32.118145] (-) TimerEvent: {}
+[32.219326] (-) TimerEvent: {}
+[32.320172] (-) TimerEvent: {}
+[32.420585] (-) TimerEvent: {}
+[32.521275] (-) TimerEvent: {}
+[32.622161] (-) TimerEvent: {}
+[32.722809] (-) TimerEvent: {}
+[32.823683] (-) TimerEvent: {}
+[32.924991] (-) TimerEvent: {}
+[33.027071] (-) TimerEvent: {}
+[33.130555] (-) TimerEvent: {}
+[33.231451] (-) TimerEvent: {}
+[33.332558] (-) TimerEvent: {}
+[33.432951] (-) TimerEvent: {}
+[33.533347] (-) TimerEvent: {}
+[33.635003] (-) TimerEvent: {}
+[33.735533] (-) TimerEvent: {}
+[33.836018] (-) TimerEvent: {}
+[33.937742] (-) TimerEvent: {}
+[34.038505] (-) TimerEvent: {}
+[34.138937] (-) TimerEvent: {}
+[34.218453] (planner_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_traj_planner\x1b[0m\n'}
+[34.239069] (-) TimerEvent: {}
+[34.341563] (-) TimerEvent: {}
+[34.446007] (-) TimerEvent: {}
+[34.546617] (-) TimerEvent: {}
+[34.820335] (-) TimerEvent: {}
+[34.920756] (-) TimerEvent: {}
+[35.027569] (-) TimerEvent: {}
+[35.131687] (-) TimerEvent: {}
+[35.232581] (-) TimerEvent: {}
+[35.332994] (-) TimerEvent: {}
+[35.433594] (-) TimerEvent: {}
+[35.534217] (-) TimerEvent: {}
+[35.635566] (-) TimerEvent: {}
+[35.736008] (-) TimerEvent: {}
+[35.842164] (-) TimerEvent: {}
+[35.942580] (-) TimerEvent: {}
+[35.968707] (planner_pkg) StdoutLine: {'line': b'[100%] Built target simple_traj_planner\n'}
+[36.004637] (planner_pkg) CommandEnded: {'returncode': 0}
+[36.005292] (planner_pkg) JobProgress: {'identifier': 'planner_pkg', 'progress': 'install'}
+[36.026617] (planner_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aimane/vnav23/labs/lab4/build/planner_pkg'], 'cwd': '/home/aimane/vnav23/labs/lab4/build/planner_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aimane'), ('ROS_PACKAGE_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_visualization/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_msgs/lib:/home/aimane/mavros_ws/install/mavros_extras/lib:/home/aimane/mavros_ws/install/mavros/lib:/home/aimane/mavros_ws/install/mavros_msgs/lib:/home/aimane/mavros_ws/install/libmavconn/lib:/home/aimane/vnav23/labs/lab4/install/tesse_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation/lib:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs/lib:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aimane'), ('OLDPWD', '/home/aimane/vnav23'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/tmp/.ros'), ('COLCON_PREFIX_PATH', '/home/aimane/mavros_ws/install:/home/aimane/vnav23/labs/lab4/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_visualization/lib/x86_64-linux-gnu/pkgconfig:/home/aimane/vnav23/labs/lab4/install/mav_visualization/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/usr/lib/ccache:/usr/lib/ccache:/home/aimane/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/usr/lib/ccache:/usr/lib/ccache:/home/aimane/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/aimane/ardupilot/Tools/autotest:/home/aimane/.local/bin:/home/aimane/ardupilot/Tools/autotest:/home/aimane/.local/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/aimane/mavros_ws/install/mavros_extras:/home/aimane/mavros_ws/install/mavros_examples:/home/aimane/mavros_ws/install/mavros:/home/aimane/mavros_ws/install/mavros_msgs:/home/aimane/mavros_ws/install/libmavconn:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg:/home/aimane/vnav23/labs/lab4/install/mav_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aimane/vnav23/labs/lab4/build/planner_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/aimane/mavros_ws/install/mavros_examples/local/lib/python3.10/dist-packages:/home/aimane/mavros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/aimane/mavros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge/lib/python3.10/site-packages:/home/aimane/vnav23/labs/lab4/install/tesse_msgs/local/lib/python3.10/dist-packages:/home/aimane/vnav23/labs/lab4/install/tesse/lib/python3.10/site-packages:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/aimane/vnav23/labs/lab4/install/mav_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/aimane/ardupilot/Tools/autotest:/home/aimane/ardupilot/Tools/autotest'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/aimane/vnav23/labs/lab4/install/mav_msgs:/home/aimane/mavros_ws/install/mavros_extras:/home/aimane/mavros_ws/install/mavros_examples:/home/aimane/mavros_ws/install/mavros:/home/aimane/mavros_ws/install/mavros_msgs:/home/aimane/mavros_ws/install/libmavconn:/home/aimane/vnav23/labs/lab4/install/trajectory_generation:/home/aimane/vnav23/labs/lab4/install/tesse_msgs:/home/aimane/vnav23/labs/lab4/install/planner_pkg:/home/aimane/vnav23/labs/lab4/install/tesse_ros_bridge:/opt/ros/humble:/home/aimane/vnav23/labs/lab4/install/mav_visualization:/home/aimane/vnav23/labs/lab4/install/mav_trajectory_generation:/home/aimane/vnav23/labs/lab4/install/mav_comm:/home/aimane/vnav23/labs/lab4/install/mav_system_msgs:/home/aimane/vnav23/labs/lab4/install/mav_state_machine_msgs:/home/aimane/vnav23/labs/lab4/install/mav_planning_msgs:/home/aimane/vnav23/labs/lab4/install/controller_pkg')]), 'shell': False}
+[36.043549] (-) TimerEvent: {}
+[36.057362] (planner_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[36.065946] (planner_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[36.072837] (planner_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/planner_pkg/share/planner_pkg/launch/static_point_test.launch.py\n'}
+[36.073143] (planner_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/planner_pkg/share/planner_pkg/launch/traj_gen.launch.py\n'}
+[36.073322] (planner_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/planner_pkg/lib/planner_pkg/traj_vertices_publisher\n'}
+[36.073495] (planner_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/planner_pkg/lib/planner_pkg/simple_traj_planner\n'}
+[36.073683] (planner_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/planner_pkg/share/ament_index/resource_index/package_run_dependencies/planner_pkg\n'}
+[36.073846] (planner_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/planner_pkg/share/ament_index/resource_index/parent_prefix_path/planner_pkg\n'}
+[36.074005] (planner_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/planner_pkg/share/planner_pkg/environment/ament_prefix_path.sh\n'}
+[36.077801] (planner_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/planner_pkg/share/planner_pkg/environment/ament_prefix_path.dsv\n'}
+[36.078964] (planner_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/planner_pkg/share/planner_pkg/environment/path.sh\n'}
+[36.080565] (planner_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/planner_pkg/share/planner_pkg/environment/path.dsv\n'}
+[36.088309] (planner_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/planner_pkg/share/planner_pkg/local_setup.bash\n'}
+[36.089726] (planner_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/planner_pkg/share/planner_pkg/local_setup.sh\n'}
+[36.089944] (planner_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/planner_pkg/share/planner_pkg/local_setup.zsh\n'}
+[36.090116] (planner_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/planner_pkg/share/planner_pkg/local_setup.dsv\n'}
+[36.090281] (planner_pkg) StdoutLine: {'line': b'-- Symlinking: /home/aimane/vnav23/labs/lab4/install/planner_pkg/share/planner_pkg/package.dsv\n'}
+[36.129655] (planner_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/planner_pkg/share/ament_index/resource_index/packages/planner_pkg\n'}
+[36.131319] (planner_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/planner_pkg/share/planner_pkg/cmake/planner_pkgConfig.cmake\n'}
+[36.133852] (planner_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/planner_pkg/share/planner_pkg/cmake/planner_pkgConfig-version.cmake\n'}
+[36.134125] (planner_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aimane/vnav23/labs/lab4/install/planner_pkg/share/planner_pkg/package.xml\n'}
+[36.141824] (planner_pkg) CommandEnded: {'returncode': 0}
+[36.143680] (-) TimerEvent: {}
+[36.204580] (planner_pkg) JobEnded: {'identifier': 'planner_pkg', 'rc': 0}
+[36.206577] (-) EventReactorShutdown: {}

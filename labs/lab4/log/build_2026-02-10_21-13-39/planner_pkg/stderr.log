@@ -1,0 +1,152 @@
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:[m[K In member function ‘[01m[Kvoid SimpleTrajPlanner::trajCB(geometry_msgs::msg::PoseArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:62:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KTransform[m[K’?
+   62 |     geometry_msgs::msg:: [01;31m[Ktransform[m[K;
+      |                          [01;31m[K^~~~~~~~~[m[K
+      |                          [32m[KTransform[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:68:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform_stamped[m[K’ was not declared in this scope; did you mean ‘[01m[KtransformStamped[m[K’?
+   68 |     [01;31m[Ktransform_stamped[m[K.transform.translation.x = target_pose.position.x;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |     [32m[KtransformStamped[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:84:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::transform[m[K’?
+   84 |     [01;31m[Ktransform[m[K = transform_stamped.transform;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[Kstd::transform[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp:7[m[K,
+                 from [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:1[m[K:
+[01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:162:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::transform[m[K’ declared here
+  162 | [01;36m[Ktransform[m[K(_ExecutionPolicy&& __exec, _ForwardIterator1 __first1, _ForwardIterator1 __last1, _ForwardIterator2 __first2,
+      | [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:[m[K At global scope:
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:111:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  111 |     [01;31m[Kif[m[K (traj_msg->poses.empty()) {
+      |     [01;31m[K^~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:139:5:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformStamped[m[K’ does not name a type
+  139 |     [01;31m[KtransformStamped[m[K.header.stamp = this->get_clock()->now();
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:140:5:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformStamped[m[K’ does not name a type
+  140 |     [01;31m[KtransformStamped[m[K.header.frame_id = "world";
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:141:5:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformStamped[m[K’ does not name a type
+  141 |     [01;31m[KtransformStamped[m[K.child_frame_id = "desired_pose";
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:145:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_pose[m[K’ does not name a type
+  145 |     [01;31m[Kdesired_pose[m[K.position.x = traj_msg->poses[1].position.x;
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:146:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_pose[m[K’ does not name a type
+  146 |     [01;31m[Kdesired_pose[m[K.position.y = traj_msg->poses[1].position.y;
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:147:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_pose[m[K’ does not name a type
+  147 |     [01;31m[Kdesired_pose[m[K.position.z = traj_msg->poses[1].position.z;
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:149:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_pose[m[K’ does not name a type
+  149 |     [01;31m[Kdesired_pose[m[K.orientation.x = traj_msg->poses[1].orientation.x;
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:150:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_pose[m[K’ does not name a type
+  150 |     [01;31m[Kdesired_pose[m[K.orientation.y = traj_msg->poses[1].orientation.y;
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:151:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_pose[m[K’ does not name a type
+  151 |     [01;31m[Kdesired_pose[m[K.orientation.z = traj_msg->poses[1].orientation.z;
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:152:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_pose[m[K’ does not name a type
+  152 |     [01;31m[Kdesired_pose[m[K.orientation.w = traj_msg->poses[1].orientation.w;
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:154:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type
+  154 |     [01;31m[Ktransform[m[K.translation.x = desired_pose.position.x;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:155:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type
+  155 |     [01;31m[Ktransform[m[K.translation.y = desired_pose.position.y;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:156:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type
+  156 |     [01;31m[Ktransform[m[K.translation.z = desired_pose.position.z;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:158:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type
+  158 |     [01;31m[Ktransform[m[K.rotation.w = desired_pose.orientation.w;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:159:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type
+  159 |     [01;31m[Ktransform[m[K.rotation.x = desired_pose.orientation.x;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:160:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type
+  160 |     [01;31m[Ktransform[m[K.rotation.y = desired_pose.orientation.y;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:161:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type
+  161 |     [01;31m[Ktransform[m[K.rotation.z = desired_pose.orientation.z;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:164:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocities[m[K’ does not name a type
+  164 |     [01;31m[Kvelocities[m[K.linear.x = 0;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:165:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocities[m[K’ does not name a type
+  165 |     [01;31m[Kvelocities[m[K.linear.y = 0;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:166:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocities[m[K’ does not name a type
+  166 |     [01;31m[Kvelocities[m[K.linear.z = 0;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:167:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocities[m[K’ does not name a type
+  167 |     [01;31m[Kvelocities[m[K.angular.x = 0;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:168:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocities[m[K’ does not name a type
+  168 |     [01;31m[Kvelocities[m[K.angular.y = 0;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:169:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocities[m[K’ does not name a type
+  169 |     [01;31m[Kvelocities[m[K.angular.z = 0;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:171:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kaccelerations[m[K’ does not name a type
+  171 |     [01;31m[Kaccelerations[m[K.linear.x = 0;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:172:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kaccelerations[m[K’ does not name a type
+  172 |     [01;31m[Kaccelerations[m[K.linear.y = 0;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:173:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kaccelerations[m[K’ does not name a type
+  173 |     [01;31m[Kaccelerations[m[K.linear.z = 0;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:174:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kaccelerations[m[K’ does not name a type
+  174 |     [01;31m[Kaccelerations[m[K.angular.x = 0;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:175:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kaccelerations[m[K’ does not name a type
+  175 |     [01;31m[Kaccelerations[m[K.angular.y = 0;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:176:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kaccelerations[m[K’ does not name a type
+  176 |     [01;31m[Kaccelerations[m[K.angular.z = 0;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:179:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_MDOF[m[K’ does not name a type
+  179 |     [01;31m[Kdesired_MDOF[m[K.time_from_start = rclcpp::Duration(0, 0);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:180:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_MDOF[m[K’ does not name a type
+  180 |     [01;31m[Kdesired_MDOF[m[K.transforms.push_back(transform);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:181:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_MDOF[m[K’ does not name a type
+  181 |     [01;31m[Kdesired_MDOF[m[K.velocities.push_back(velocities);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:182:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_MDOF[m[K’ does not name a type
+  182 |     [01;31m[Kdesired_MDOF[m[K.accelerations.push_back(accelerations);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:185:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_state_pub_[m[K’ does not name a type
+  185 |     [01;31m[Kdesired_state_pub_[m[K->publish(desired_MDOF);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:187:5:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformStamped[m[K’ does not name a type
+  187 |     [01;31m[KtransformStamped[m[K.transform = transform;
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:188:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbr_[m[K’ does not name a type
+  188 |     [01;31m[Kbr_[m[K->sendTransform(transformStamped);
+      |     [01;31m[K^~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:197:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kss[m[K’ does not name a type
+  197 |     [01;31m[Kss[m[K << "Trajectory Position"
+      |     [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:27[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:35[m[K,
+                 from [01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:4[m[K:
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:200:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  200 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "%s", ss.str().c_str());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:200:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  200 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "%s", ss.str().c_str());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/aimane/vnav23/labs/lab4/src/planner_pkg/src/simple_traj_planner.cpp:201:3:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  201 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/simple_traj_planner.dir/build.make:76: CMakeFiles/simple_traj_planner.dir/src/simple_traj_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_traj_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
